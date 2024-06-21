@@ -1,0 +1,520 @@
+
+{%- assign section_identifier = '#shopify-section-' | append: section.id -%}
+  {%- assign  color_bg = section.settings.color_bg -%}
+  {%- assign  color_text = section.settings.color_text -%}
+
+  {%- assign  padding_top = section.settings.padding_top | append:'px' -%}
+  {%- assign  padding_bottom = section.settings.padding_bottom | append:'px' -%}
+
+{%- assign padding_mobile_top = section.settings.padding_top_mob | append: 'px' -%}
+{%- assign padding_mobile_bottom = section.settings.padding_bottom_mob | append: 'px' -%}
+
+<style>
+    /* New Adjustment Start */
+    {{ section_identifier }} .new_adjustment .imgprdct-prdct .imgprdct-title {
+      width: {{ section.settings.title_width  | append: '%' }};
+      margin: auto;
+    }
+     {{ section_identifier }} {
+      padding-top: {{padding_top}};
+      padding-bottom: {{padding_bottom}};
+    }
+    /* NEw */
+    @media only screen and (max-width: 1600px) {
+        {{ section_identifier }} .new_adjustment .imgprdct-prdct .imgprdct-title {
+          width: 85%;
+        }
+    }
+  @media only screen and (max-width: 1440px) {
+     {{ section_identifier }} .new_adjustment .imgprdct-prdct .imgprdct-title {
+      width: 100%;
+    }
+  }
+   @media only screen and (max-width: 430px) {
+      {{ section_identifier }} {
+        padding-top: {{ padding_mobile_top }};
+        padding-bottom: {{ padding_mobile_bottom }};
+      }
+    }
+
+  /* New Adjustment End */
+  
+  {{ section_identifier }} .promo_text {
+       color: {{ color_text }};
+    background: {{ color_bg }};
+  }
+
+.imgprdct-wrapper {
+ opacity: 0; 
+animation: fade-in1 2s ease-out forwards;
+}
+
+  .imgprdct-img{
+    flex:0 0 50%;
+ 
+  }
+@keyframes fade-in1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ .imgprdct-preview a,.imgprdct-quickadd .product-info__add-button button{
+          text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+       line-height: 21px;
+     letter-spacing:2px;
+       padding: 13.5px 0;
+ }
+  .imgprdct-quickadd .product-info__add-button button svg{
+    width:24px;
+    height:24px;
+        margin-right: 7px;
+  }
+  .imgprdct-title.text-center h5 {
+    color: #29425e;
+    text-transform: uppercase;
+    /* margin-bottom: 40px; */
+    /* font-size: 28px; */
+    /* New Adjustment */
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    line-height: 28.8px; /* 28.8px */
+    letter-spacing: 2px;
+}
+  .imgprdct-btns{
+    justify-content:center;
+  }
+.imgprdct-quickadd,.imgprdct-preview{
+  max-width:255.5px;
+
+}
+  .imgprdct-preview a{
+    line-height:1.5;
+    
+  }
+  .promo_text{
+        position: absolute;
+    right: 0;
+    /* color: white; */
+    /* background: #29425e; */
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 30px;
+    line-height: 21px;
+    top: -10px;
+    right: 5px;
+  }
+  .imgprdct-img img{
+    width:100%;
+  }
+  .imgprdct-prices.text-center{
+    font-size:22px;
+  }
+
+  @media (min-width:999px){
+  .flex-row .imgprdct-img{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+    .promo_text {
+    top: 0px;
+    right: 45px;
+
+  }
+    .imgprdct-media{
+        width: 25vw;
+    max-width: 100%;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    max-width: 403px;
+    max-height: 403px;
+  }
+    .imgprdct-details {
+    padding: 24px 0 24px;
+}
+  .flex-row-reverse .imgprdct-img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    overflow: hidden;
+}
+  .flex-row .imgprdct-img img,
+.flex-row-reverse .imgprdct-img img{
+  transition:.5s;
+}
+   .flex-row-reverse .imgprdct-img:hover img,
+  .flex-row .imgprdct-img:hover img{
+    transform:scale(1.1);
+  }
+  }
+  @media (max-width:1149px){
+    .imgprdct-prdct {
+    padding: 0 20px;
+}
+  }
+   @media (max-width:999px){
+      .imgprdct-wrapper {
+    flex-direction: column;
+}
+.imgprdct-img{
+  width:100%;
+}
+     .promo_text {
+    top: 0px;
+    right: 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+     .imgprdct-media {
+    max-width: 400px;
+       max-height:400px;
+    margin: auto;
+    width: 60vw;
+    height: 60vw;
+    display: flex;
+    align-items: center;
+}
+    .contained-heading{
+      padding:0;
+    }
+     .imgprdct-wrapper.flex.flex-row>div {
+    width: 100%;
+       max-width:100%;
+}
+     .imgprdct-prdct {
+    max-width: 100%;
+    }
+     .imgprdct-prdct{
+               padding: 24px;
+    }
+     .imgprdct-title.text-center h5 {
+        margin-bottom: 12px;
+        font-size: 18px;
+           line-height: 21.6px;
+    }
+     .imgprdct-img>img{
+    border-radius: 0!important;
+    max-height: 400px!important;
+    width: 100%!important;
+    object-fit: cover;
+           border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+           border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+     }
+     .imgprdct-details{
+      flex-wrap:wrap; 
+     }
+     .imgprdct-det{
+      flex:0 0 47%;
+       max-width:unset;
+     }
+     .imgprdct-det{
+       font-size: 14px;
+       line-height: 21px; 
+     }
+     .imgprdct-preview a, .imgprdct-quickadd .product-info__add-button button{
+       /* color: var(--White, #FFF); */
+       padding: 13.5px 36px;
+      text-align: center;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 21px; 
+      letter-spacing: 1px;
+      text-transform: uppercase;
+       border-radius: var(--Button-rounded, 15px);
+     }
+     .imgprdct-details {
+    padding: 24px 0 24px;
+}
+     .imgprdct-quickadd .product-info__add-button button svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+     span.imgprdct-preview {
+     padding-left: 0px; 
+}
+   }
+  @media only screen and (max-width: 430px) {
+    .imgprdct-preview a, .imgprdct-quickadd .product-info__add-button button {
+       padding: 10px 23px;
+       font-size: 12px;
+       line-height: 18px;
+      border-radius: var(--Button-mombile-rounded, 12px);
+    }
+  }
+  @media only screen and (max-width: 414px) {
+     .imgprdct-preview a, .imgprdct-quickadd .product-info__add-button button {
+       padding: 10px 23px;
+       font-size: 12px;
+       line-height: 18px;
+       border-radius: var(--Button-mombile-rounded, 12px);
+    }
+  }
+
+</style>
+
+<div class="imgprdct-width {{ section.settings.container_width }} {% if section.settings.new_adjustment %}new_adjustment{% endif %}">
+  <div class="imgprdct-wrapper flex {{ section.settings.imgpos }} items-center">
+    <div class="imgprdct-img">
+       {% if section.settings.img_link != blank %}
+      <a href='{{ section.settings.img_link}}'>
+        {% endif %}
+      <img class="visible-lg" src="{{ section.settings.img | img_url:'' }}">
+      <img class="small-show" src="{{ section.settings.mblimg | img_url:'' }}">
+      {% if section.settings.img_link != blank %}
+      </a>
+        {% endif %}
+    </div>
+    
+    <div class="imgprdct-prdct">
+      {% assign product = section.settings.product %}
+      <div class="imgprdct-title text-center">
+        <h5>{{ product.title }}</h5>
+      </div>
+      <div class="relative">
+   
+      <div class="imgprdct-media">
+         {% if section.settings.pr_img_link != blank %}
+              <a href='{{ section.settings.pr_img_link}}'>
+          {% endif %}
+             {% if section.settings.promo_text != blank %}
+        <div class="promo_text">
+         {{ section.settings.promo_text }}
+        </div>
+          {% endif %}
+            <img src="{{ product.featured_image | img_url:'' }}">
+         {% if section.settings.pr_img_link != blank %}
+            </a>
+         {% endif %}
+      </div>
+      </div>
+      <div class="imgprdct-details">
+        <div class="imgprdct-det">
+           {% if section.settings.img4_svg != blank %}
+            {{ section.settings.img1_svg }}
+          {% else %}
+          {% if section.settings.img1 != blank %}
+          <img src="{{ section.settings.img1 | img_url:''}}">
+          {% endif %}
+          {% endif %}
+          <div class="">{{ section.settings.txt1 }}</div>
+        </div>
+        
+        <div class="imgprdct-det">
+           {% if section.settings.img4_svg != blank %}
+            {{ section.settings.img2_svg }}
+          {% else %}
+          {% if section.settings.img2 != blank %}
+          <img src="{{ section.settings.img2 | img_url:''}}">
+            {% endif %}
+          {% endif %}
+          <div class="">{{ section.settings.txt2 }}</div>
+        </div>
+        
+        <div class="imgprdct-det">
+           {% if section.settings.img4_svg != blank %}
+            {{ section.settings.img3_svg }}
+          {% else %}
+          {% if section.settings.img3 != blank %}
+          <img src="{{ section.settings.img3 | img_url:''}}">
+            {% endif %}
+          {% endif %}
+          <div class="">{{ section.settings.txt3 }}</div>
+        </div>
+        
+        <div class="imgprdct-det">
+          {% if section.settings.img4_svg != blank %}
+            {{ section.settings.img4_svg }}
+          {% else %}
+          {% if section.settings.img4 != blank %}
+          <img src="{{ section.settings.img4 | img_url:''}}">
+            {% endif %}
+          {% endif %}
+          <div class="">{{ section.settings.txt4 }}</div>
+        </div>
+        
+      </div>
+
+      <div class="imgprdct-prices text-center">
+        <span class="orgnlprice">{{ product.price | money_without_trailing_zeros}}</span>
+        <span class="cmpreprice">{{ product.compare_at_price | money_without_trailing_zeros }}</span>
+      </div>
+
+      <div class="imgprdct-btns flex">
+        <span class="imgprdct-quickadd">
+          {% if product %}
+          {% assign product_form_id = 'product-form-' | append: section.id %}
+          <product-form>
+                {%- form 'product', product,
+                  class: 'js-product-form js-product-form-main',
+                  id: product_form_id
+                -%}
+                  <div class="alert mb-8 bg-error-bg text-error-text js-form-error text-start" role="alert" hidden></div>
+
+                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+                  <div class="product-info__add-to-cart flex{% if enable_dynamic_checkout %} qty-input--secondary-btn{% endif %}">
+                    <input type="hidden" name="quantity" value="1">
+                    <div class="product-info__add-button">
+                      {%- capture add_to_cart_text -%}
+                        {%- if product.template_suffix contains 'preorder' -%}
+                          {{- 'products.product.preorder' | t -}}
+                        {%- else -%}
+                          {{- 'products.product.add_to_cart' | t -}}
+                        {%- endif -%}
+                      {%- endcapture -%}
+
+                      <button type="submit" data-add-to-cart-text="{{ add_to_cart_text | escape }}" class="btn {% if enable_dynamic_checkout %}btn--secondary{% else %}btn--primary{% endif %} w-full" name="add"{% if product.available == false %} disabled{% endif %}>
+                        {%- if product.available -%}
+                          <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M21.9557 7.13179C21.7773 6.82259 21.5217 6.56492 21.214 6.38391C20.9063 6.20291 20.5569 6.10474 20.2 6.09899H6.98021L6.38118 3.76487C6.32066 3.53956 6.18564 3.34137 5.9981 3.20259C5.81056 3.06381 5.58155 2.99262 5.34839 3.00061H3.2828C3.00888 3.00061 2.74619 3.10942 2.5525 3.3031C2.35881 3.49679 2.25 3.75949 2.25 4.0334C2.25 4.30732 2.35881 4.57001 2.5525 4.7637C2.74619 4.95739 3.00888 5.0662 3.2828 5.0662H4.56346L7.41398 15.6627C7.4745 15.888 7.60953 16.0862 7.79707 16.225C7.98461 16.3637 8.21361 16.4349 8.44678 16.427H17.7419C17.9327 16.4264 18.1195 16.373 18.2817 16.2727C18.444 16.1725 18.5753 16.0292 18.6611 15.8589L22.0487 9.08377C22.1955 8.77602 22.2639 8.4367 22.2477 8.09609C22.2314 7.75549 22.1312 7.4242 21.9557 7.13179ZM17.1016 14.3614H9.2317L7.54824 8.16459H20.2L17.1016 14.3614Z" fill="white"/>
+                          <path d="M7.93005 21.5908C8.78565 21.5908 9.47925 20.8972 9.47925 20.0416C9.47925 19.186 8.78565 18.4924 7.93005 18.4924C7.07446 18.4924 6.38086 19.186 6.38086 20.0416C6.38086 20.8972 7.07446 21.5908 7.93005 21.5908Z" fill="white"/>
+                          <path d="M18.2582 21.5908C19.1138 21.5908 19.8074 20.8972 19.8074 20.0416C19.8074 19.186 19.1138 18.4924 18.2582 18.4924C17.4026 18.4924 16.709 19.186 16.709 20.0416C16.709 20.8972 17.4026 21.5908 18.2582 21.5908Z" fill="white"/>
+                          </svg>
+                          {{- add_to_cart_text -}}
+                        {%- else -%}
+                          {{- 'products.product.sold_out' | t -}}
+                        {%- endif -%}
+                      </button>
+                    </div>
+                  </div>
+                {%- endform -%}
+              </product-form>
+            {% endif %}
+        </span>
+        <span class="imgprdct-preview">
+          <a href="{{ product.url }}" class="w-full btn btn--secondary">SEE DETAILS</a>
+        </span>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Image Product",
+    "class" : "cc-image-product",
+    "presets":[{"name":"Image Product"}],
+    "settings": [
+      {
+      "type": "checkbox",
+      "id": "new_adjustment",
+      "label": "New Figma",
+      "info": "Enable this will follow the figma new adjustment it will be auto adjust the content.",
+      "default": false
+      },
+      {"type":"select","id":"container_width","label":"Container",
+        "options":[
+          {"label":"Full Width","value":"full-width"},
+          {"label":"Container","value":"container"}
+        ]
+      },
+      {
+        "type": "range",
+        "id": "title_width",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Title Width",
+        "default": 100
+      },
+      {"type":"select","id":"imgpos","label":"Image Position",
+        "options":[
+          {"label":"Image First","value":"flex-row"},
+          {"label":"Image After","value":"flex-row-reverse"}
+        ]
+      },
+      {"type":"image_picker","id":"img","label":"Desktop Image"},
+      {"type":"image_picker","id":"mblimg","label":"Mobile Image"},
+       {"type":"url","id":"img_link","label":"Image link"},
+      {"type":"text","id":"promo_text","label":"promo text","default":" UP TO 25% OFF"},
+      {
+        "type": "color",
+        "id": "color_bg",
+        "label": "Promo background Color",
+        "default": "#29425e"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Promo Text Color",
+        "default": "#FFFFFF"
+      },
+      {"type":"product","id":"product","label":"Product"},
+       {"type":"textarea","id":"img1_svg","label":"Spec svg"},
+      {"type":"image_picker","id":"img1","label":"Spec Image"},
+      {"type":"url","id":"pr_img_link","label":"product Image link"},
+      {"type":"text","id":"txt1","label":"Spec Title"},
+       {"type":"textarea","id":"img2_svg","label":"Spec svg"},
+      {"type":"image_picker","id":"img2","label":"Spec Image"},
+      {"type":"text","id":"txt2","label":"Spec Title"},
+       {"type":"textarea","id":"img3_svg","label":"Spec svg"},
+      {"type":"image_picker","id":"img3","label":"Spec Image"},
+      {"type":"text","id":"txt3","label":"Spec Title"},
+       {"type":"textarea","id":"img4_svg","label":"Spec svg"},
+      {"type":"image_picker","id":"img4","label":"Spec Image"},
+      {"type":"text","id":"txt4","label":"Spec Title"},
+      {
+        "type": "header",
+        "content": "Kikstart Spacing Settings"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "padding top",
+        "default": 48
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "padding Bottom",
+        "default": 48
+      },
+      {
+        "type": "range",
+        "id": "padding_top_mob",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "For Mobile padding top",
+        "default": 48
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom_mob",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "For Mobile padding Bottom",
+        "default": 48
+      }
+
+    ]
+    
+  }
+{% endschema %}

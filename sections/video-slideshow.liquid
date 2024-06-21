@@ -1,0 +1,92 @@
+<style>
+ .video-component{
+   position:absolute;
+   left:0;
+   top:0;
+   width:100%;
+ }
+  .videocontent-wrap{
+    margin:0 auto;
+  }
+  
+</style>
+
+
+<div class="video-container">
+  {% for block in section.blocks %}
+    {% style %}
+      .videocntnt-{{ block.id }}{
+      max-width:{{block.settings.width}}%;
+        height:500px;
+      }
+      @media (max-width:768px){
+        .videocntnt-{{ block.id }}{
+      max-width:{{block.settings.mblwidth}}%;
+      }
+      }
+    {% endstyle %}
+    <div class="videocontent-wrap videocntnt-{{ block.id }}">
+      <h2 class="">{{ block.settings.title | default:'Heading Title' }}</h2>
+      <div class="videocontent-btn">
+        <a class="btn btn--secondary" href="{{ block.settings.btnlink }}">{{ block.settings.btnlbl | default:'Button Label' }}</a>
+      </div>
+    </div>
+  {% liquid 
+    assign using_video_tag = false
+   if block.settings.video_shopify != blank
+      assign using_video_tag = true
+    endif
+  %}
+<div class="videowrap">
+  <video class="visible-lg" {% if block.settings.autoplay %}autoplay{% endif %} muted loop poster="{{ block.settings.poster | img_url:'' }}" width="100%">
+    <source src="{{ block.settings.video_shopify }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+  <video class="small-show" {% if block.settings.mblautoplay %}autoplay{% endif %} muted loop poster="{{ block.settings.mblposter | img_url:'' }}" width="100%">
+    <source src="{{ block.settings.mblvideo_shopify }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+  
+</div>
+    
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Video Slideshow",
+  "presets":[{"name":"Video Slideshow"}],
+  "settings": [],
+  "blocks":[
+    {
+      "type": "slide",
+      "name":"Video Slide",
+      "settings":[
+        {"type": "header","content": "Desktop"},
+        {"id":"video_shopify","type":"video","label":"Video Link"},
+        {"type":"image_picker","id":"poster","label":"Poster"},
+        {"type": "checkbox","id": "autoplay","label": "Autoplay"},
+        {"type": "range","id": "width","label": "Content Width","min": 30,"max": 90,"step": 1,"unit": "%","default":40},
+        {"type": "header","content": "Mobile"},
+        {"id":"mblvideo_shopify","type":"video","label":"Video Link"},
+        {"type":"image_picker","id":"mblposter","label":"Poster"},
+        {"type": "checkbox","id": "mblautoplay","label": "Autoplay"},
+        {"type": "range","id": "mblwidth","label": "Content Width","min": 30,"max": 90,"step": 1,"unit": "%","default":40},
+
+        {"type": "header","content": "Content Details"},
+        {
+          "type":"textarea","id":"title","label":"Heading Title"
+        },
+        {
+          "type":"text","id":"btnlbl","label":"Button Label"
+        },
+        {
+          "type":"url","id":"btnlink","label":"Button Link"
+        }
+      ]
+    }
+  ]
+    
+  
+}
+{% endschema %}

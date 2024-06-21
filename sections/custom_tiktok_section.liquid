@@ -1,0 +1,153 @@
+<style>
+  .custom-tiktok{
+    padding:96px 0;
+  }
+  .tiktok-conter{
+    max-width:100%;
+    padding:0 100px;
+  }
+ .custom-tiktok .section__heading{
+    font-size:32px;
+  }
+  .tiktok_items{
+    column-gap:24px;
+  }
+.tiktok_image{
+  flex:0 0 calc(25% - 24px);
+  position:relative;
+}
+  .tiktok_image img{
+    border-radius:30px;
+    width:100%;
+    object-fit:cover;
+  }
+.tiktok-cont .section__header{
+  margin-bottom:16px;
+}
+.tiktok-cont .reading-width--inline{
+  margin-bottom:32px;
+}
+  .eye_sec{
+    position:absolute;
+   right: 16px;
+    top: 17px;
+    padding:2px 8px;
+    column-gap:4px;
+    border-radius:20px;
+    background:#20202033;
+  }
+  .eye_sec svg{
+    height:18px;
+    width:18px;
+  }
+  .eye_sec p{
+    color:white;
+    margin:0;
+  }
+
+ 
+  @media (max-width:999px){
+    .tiktok_items{
+      flex-wrap:unset;
+      overflow:scroll;
+      padding-right:20px;
+    }
+    .custom-tiktok {
+    padding:48px 0;
+}
+    .tiktok_items::-webkit-scrollbar {
+  display: none;
+}
+    .tiktok_image{
+  flex:0 0 60%;
+    }
+/* Hide scrollbar for IE, Edge and Firefox */
+.tiktok_items {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+    .container.tiktok-conter{
+      padding-right:0;
+    } 
+     .custom-tiktok{
+    padding:48px 0;
+  }
+
+    .tiktok-cont .reading-width--inline {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+    .tiktok-conter{
+      padding-left:24px;
+    }
+      .custom-tiktok .section__heading {
+    font-size: 18px;
+    line-height: 26px;
+}
+  }
+</style>
+  <div class="container tiktok-cont">
+    <div class="section__header items-center flex flex-col text-center gap-x-theme cc-animate-init cc-animate-in" data-cc-animate="">
+      <h2 class="h2 section__heading mb-0 flex-auto text-center">{{ section.settings.heading }}</h2>
+    </div>
+    <div class="reading-width--inline md-down:px-gutter rte mx-auto text-center">
+          <p>{{ section.settings.subheading }}</p>
+    </div>
+</div>
+<div class="container tiktok-conter">
+<div class="flex justify-between flex-wrap gap-x-theme gap-y-12 md:gap-y-6 tiktok_items">
+  {% for block in section.blocks %}
+   <div class="cc-animate-init cc-animate-in tiktok_image">
+     <img src="{{ block.settings.image | img_url:'master' }}">
+     {% if block.settings.number != blank %}
+     <div class="eye_sec flex items-center">
+       {% render "icon_eye" %}
+       <p>{{ block.settings.number }}</p>
+     </div>
+       {% endif %}
+   </div>
+  {% endfor %}
+</div>
+</div>
+{% schema %}
+{
+  "name": "tiktok section",
+  "tag": "section",
+  "class":"custom-tiktok",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "heading"
+    },
+   {
+      "type": "text",
+      "id": "subheading",
+      "label": "box heading"
+   }
+  ],
+  "blocks": [
+    {
+      "type":"text_block",
+      "name":"text block",
+      "settings": [
+        {
+       "type": "image_picker",
+      "id": "image",
+      "label": "image"
+     },
+        {
+      "type": "text",
+      "id": "number",
+      "label": "number"
+    }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "tiktok section"
+    }
+  ]
+}
+{% endschema %}

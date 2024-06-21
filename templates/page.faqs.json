@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": false,
+        "heading_align": "text-center"
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "banner-heading-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frequently Asked Questions",
+            "heading_size": "h0",
+            "heading_h1": true
+          }
+        },
+        "banner-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Helping you answer general questions.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "banner-heading-0",
+        "banner-text-1"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/Pergola-_52.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 450,
+        "fixed_height_mobile": 400,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": true,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
+      }
+    },
+    "faqs": {
+      "type": "faq",
+      "blocks": {
+        "category_m4qGAD": {
+          "type": "category",
+          "settings": {
+            "text": "General"
+          }
+        },
+        "faq-question-1": {
+          "type": "question",
+          "settings": {
+            "icon": "truck",
+            "heading": "About AlunoTec",
+            "text": "<p>Hello there,<\/p><p>AlunoTec,established in 2013 from China,is a professional one-stop solution provider and trader of aluminium pergola engaged in providing Worry Free Service and High Quality Heavy Duty Pergola.<\/p><p><strong>As of 2024,AlunoTec have already achieved Backyard Dreams Life for customers from 150+ countries.<\/strong><\/p>"
+          }
+        },
+        "faq-question-2": {
+          "type": "question",
+          "settings": {
+            "icon": "map_pin",
+            "heading": "What is Aluminium Pergola?",
+            "text": "<p>An Aluminium Pergola is a garden or outdoor structure made primarily of aluminum, designed to provide a shaded walkway, passageway, or  outdoor leisure area. <\/p><p>These structures often consist of vertical posts that support cross-beams and a durable Louver Blades.<\/p><p>AlunoTec Aluminum Pergolas are favored for their strength, durability, and resistance to weather conditions, making them low maintenance. They are commonly used in residential and commercial outdoor spaces(Such as Patio\/Garden\/Swimming Pool\/Restaurant\/Hotel etc.) to enhance livability and aesthetic appeal, providing protection from the sun while allowing for air circulation<\/p>"
+          }
+        },
+        "faq-question-3": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "Are there any local cases that I can go to visit?",
+            "text": "<p>Yes! If you would like to experience AlunoTec's High-Quality Aluminum Gazebos for yourself, you can contact us for a recommendation of your nearest AlunoTec Showroom to see the <strong>physical product<\/strong> and get the <strong>truly comments from our truly customers.<\/strong><\/p>"
+          }
+        },
+        "faq-question-4": {
+          "type": "question",
+          "settings": {
+            "icon": "leather",
+            "heading": "Are this pergola easy to assemble?",
+            "text": "<p>YES! We have the assembly manual instruction specifically made according to your project site. Also there are video clips to show you how to install it step by step. If you need any assistance, just contact us freely.Of course,if you don’t want to assemble by yourself,we also provide assembly service.<\/p>"
+          }
+        },
+        "question_AxY7WJ": {
+          "type": "question",
+          "settings": {
+            "icon": "leather",
+            "heading": "What types of features can I add to the roof?",
+            "text": "<p>We also offer an integrated LED lighting system, manual\/motorized side screen, frameless sliding door, and fencing. Also a rain sensor that will automatically close the roof when it starts raining.If you have any further ideas we encourage you to share them with us.<\/p>"
+          }
+        },
+        "question_WczAqr": {
+          "type": "question",
+          "settings": {
+            "icon": "leather",
+            "heading": "Do you offer customization?",
+            "text": "<p>Of course! If you need something other than the standard sizes, you can customize your product, be it size, mounting, or color.<\/p>"
+          }
+        },
+        "category_BWkT7U": {
+          "type": "category",
+          "settings": {
+            "text": "AlunoTec Affiliate Program"
+          }
+        },
+        "question_8NyKTj": {
+          "type": "question",
+          "settings": {
+            "icon": "leather",
+            "heading": "What is AlunoTec Affiliate Program?",
+            "text": "<p>AlunoTec Affiliate Program is our way of giving back to our friends who follow AlunoTec. The purpose of the program is to allow members who join the AlunoTec Affiliate Program to be the first to learn about and enjoy AlunoTec's special offers.<\/p>"
+          }
+        },
+        "question_dPR8MP": {
+          "type": "question",
+          "settings": {
+            "icon": "leather",
+            "heading": "How to become a member of AlunoTec Affiliate Program?",
+            "text": "<p>Very simple!All you need to do is follow us on shopify to become our regular member.That’s it!<\/p>"
+          }
+        },
+        "question_w9gtkr": {
+          "type": "question",
+          "settings": {
+            "icon": "leather",
+            "heading": "What can I get if I become a member?",
+            "text": "<p>We will issue a coupon to your account during the specified campaign period and it will be automatically used when you place an order while the coupon is valid.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_m4qGAD",
+        "faq-question-1",
+        "faq-question-2",
+        "faq-question-3",
+        "faq-question-4",
+        "question_AxY7WJ",
+        "question_WczAqr",
+        "category_BWkT7U",
+        "question_8NyKTj",
+        "question_dPR8MP",
+        "question_w9gtkr"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-center",
+        "color_scheme": "none",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-banner",
+    "faqs"
+  ]
+}

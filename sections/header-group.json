@@ -1,0 +1,206 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement_7j3yAN": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>FREE USA SHIPPING<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_7j3yAN"
+      ],
+      "settings": {
+        "link1": "shopify:\/\/pages\/showroom",
+        "link1_label": "",
+        "link2": "",
+        "link2_label": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "bg_color": "#29425e",
+        "text_color": "#ffffff",
+        "text_type_scale": "small",
+        "read_time": 7
+      }
+    },
+    "promo-strip": {
+      "type": "promo-strip",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Announce a promotion",
+            "heading_size": "h6",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share something special with your customers.<\/p>",
+            "enlarge_text": false,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "discount-2": {
+          "type": "discount",
+          "settings": {
+            "discount_code": "DISCOUNTCODE"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "text-1",
+        "discount-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "xsmall",
+        "color_scheme": "3",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "columns_jDpGFE": {
+          "type": "columns",
+          "settings": {
+            "title": "Pergola",
+            "product_1": "alunotec-pergo-v",
+            "product_2": "pergo-m6",
+            "product_3": "",
+            "collection_images": "none",
+            "collection_use_product_image": false,
+            "show_underline": true,
+            "promo_position": "right",
+            "promo_min_height": 200,
+            "promo_text_color": "#ffffff",
+            "promo_tint_color": "#000000",
+            "promo_tint_opacity": 35,
+            "promo1_image": "shopify:\/\/shop_images\/pergo-v_3026999f-2dd2-43fa-9824-36df46f8e006.jpg",
+            "promo1_content": "<p>Transform your outdoor space into a year-round oasis with our elegantly designed pergolas, offering adjustable shade and weather protection.<\/p>",
+            "promo1_link_url": "shopify:\/\/collections\/bioclimatic-pergola",
+            "promo1_text_size": 16,
+            "promo1_text_width": 100,
+            "promo1_text_alignment": "justify-center items-center text-center",
+            "promo2_content": "",
+            "promo2_link_url": "",
+            "promo2_text_size": 16,
+            "promo2_text_width": 100,
+            "promo2_text_alignment": "justify-center items-center text-center",
+            "promo3_content": "",
+            "promo3_link_url": "",
+            "promo3_text_size": 16,
+            "promo3_text_width": 100,
+            "promo3_text_alignment": "justify-center items-center text-center",
+            "badge1_color": "#29425e",
+            "badge1_link": "AlunoTec Pergo-v",
+            "badge1_text": "NEW",
+            "badge2_color": "#000000",
+            "badge2_link": "",
+            "badge2_text": "",
+            "badge3_color": "#000000",
+            "badge3_link": "",
+            "badge3_text": ""
+          }
+        },
+        "columns_gdwP7C": {
+          "type": "columns",
+          "disabled": true,
+          "settings": {
+            "title": "Accessories",
+            "product_1": "",
+            "product_2": "",
+            "product_3": "",
+            "collection_images": "none",
+            "collection_use_product_image": false,
+            "show_underline": true,
+            "promo_position": "right",
+            "promo_min_height": 200,
+            "promo_text_color": "#ffffff",
+            "promo_tint_color": "#000000",
+            "promo_tint_opacity": 40,
+            "promo1_image": "shopify:\/\/shop_images\/zip-screen.jpg",
+            "promo1_content": "<p>Extend the comfort of your outdoor living areas into the cooler months with our efficient and discreet systems.<\/p>",
+            "promo1_link_url": "shopify:\/\/collections\/frontpage",
+            "promo1_text_size": 16,
+            "promo1_text_width": 100,
+            "promo1_text_alignment": "justify-center items-center text-center",
+            "promo2_content": "",
+            "promo2_link_url": "",
+            "promo2_text_size": 16,
+            "promo2_text_width": 100,
+            "promo2_text_alignment": "justify-center items-center text-center",
+            "promo3_content": "",
+            "promo3_link_url": "",
+            "promo3_text_size": 16,
+            "promo3_text_width": 100,
+            "promo3_text_alignment": "justify-center items-center text-center",
+            "badge1_color": "#29425e",
+            "badge1_link": "AlunoTec Side Blinds,AlunoTec Heater",
+            "badge1_text": "NEW",
+            "badge2_color": "#b40c1c",
+            "badge2_link": "AlunoTec Frameless Sliding Door",
+            "badge2_text": "SALE",
+            "badge3_color": "#000000",
+            "badge3_link": "",
+            "badge3_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "columns_jDpGFE",
+        "columns_gdwP7C"
+      ],
+      "settings": {
+        "top_link": "shopify:\/\/pages\/showroom",
+        "top_text": "",
+        "header_link1": "shopify:\/\/pages\/showroom",
+        "header_text1": "Visit Our SHOWROOM",
+        "header_text2": "Contact Us: <a href=\"mailto:info@alunotec.com\">info@alunotec.com<\/a>",
+        "enable_sticky": true,
+        "mobile_menu_position": "burger-right",
+        "logo_text": "",
+        "logo_type_scale": "2",
+        "logo": "shopify:\/\/shop_images\/AunoTEC_LOGO.png",
+        "logo_width": 120,
+        "logo_h1": true,
+        "logo_center": false,
+        "enable_search": true,
+        "minimise_search_mobile": false,
+        "minimise_search_desktop": false,
+        "menu": "new-main-menu",
+        "menu_center": false,
+        "repeat_links": true,
+        "menu_featured_link": "Sale",
+        "quicklinks_menu": "",
+        "cta_show": false,
+        "cta_icon": "phone",
+        "cta_label": "Call us",
+        "cta_link": "",
+        "cta_border_color": "#333333",
+        "cta_bg_color": "#333333",
+        "cta_text_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "text_color": "#070707",
+        "accent_color": "#777777"
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "promo-strip",
+    "header"
+  ]
+}

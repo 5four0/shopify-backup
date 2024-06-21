@@ -1,0 +1,134 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "icons-with-text": {
+      "type": "icons-with-text",
+      "blocks": {
+        "icons-with-text-1": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "custom_icon_svg": "",
+            "heading": "Visit our support center",
+            "text": "<p>Expert help & advice<\/p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-2": {
+          "type": "item",
+          "settings": {
+            "icon": "box",
+            "custom_icon_svg": "",
+            "heading": "Check your order status",
+            "text": "<p>Updates & tracking<\/p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-3": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "custom_icon_svg": "",
+            "heading": "Returns & exchanges",
+            "text": "<p>All you need to know<\/p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-4": {
+          "type": "item",
+          "settings": {
+            "icon": "dollar_sign",
+            "custom_icon_svg": "",
+            "heading": "Price-match guarantee",
+            "text": "<p>Our promise to you<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icons-with-text-1",
+        "icons-with-text-2",
+        "icons-with-text-3",
+        "icons-with-text-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 36,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "small",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aluno.png",
+            "image_width": 220,
+            "heading": "",
+            "text": "<p>WhatsApp: +86 15322860791<\/p><p>Tel: +86-769-89865511\u2028<\/p><p>Email: info@alunotec.com<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_follow_on_shop": false,
+            "show_social": true,
+            "text_align": "text-start"
+          }
+        },
+        "link-list-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "footer"
+          }
+        },
+        "link-list-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Explore",
+            "menu": "footer-explore"
+          }
+        },
+        "newsletter_LhedPc": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "SIGN UP TO OUR NEWSLETTER",
+            "text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
+            "collapse_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "link-list-2",
+        "link-list-1",
+        "newsletter_LhedPc"
+      ],
+      "settings": {
+        "max_width": 1600,
+        "show_back_to_top": true,
+        "show_payment_icons": true,
+        "show_powered_by": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "secondary_menu": "bottom-footer",
+        "bg_color": "#29425e",
+        "text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "icons-with-text",
+    "footer"
+  ]
+}

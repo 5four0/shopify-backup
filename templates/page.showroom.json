@@ -1,0 +1,385 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "image_banner_qKAKWR": {
+      "type": "image-banner",
+      "blocks": {
+        "subheading_yzy7qE": {
+          "type": "subheading",
+          "settings": {
+            "text": "New locations added every week"
+          }
+        },
+        "heading_EbYtYg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find your local Neighborhood <br> Showroom™ today",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_4Kbihz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skip the store and experience Outer in the comfort of our real customers' outdoor spaces<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_miYbm8": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Find a Showroom",
+            "button_1_link": "shopify:\/\/pages\/contact-us",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yzy7qE",
+        "heading_EbYtYg",
+        "text_4Kbihz",
+        "button_miYbm8"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/Pergola-_58.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 550,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": true,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 60,
+        "prevent_animation": false
+      }
+    },
+    "icons_with_text_jHftap": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_Bb9iHk": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "shopify:\/\/shop_images\/Alunotec_Icons.png",
+            "heading": "Find a showroom",
+            "text": "<p>Search and explore nearby Showrooms hosted by real Outer customers in your neighborhood.<\/p>",
+            "link": ""
+          }
+        },
+        "item_RDcYwU": {
+          "type": "item",
+          "settings": {
+            "icon": "price_tag",
+            "custom_icon": "shopify:\/\/shop_images\/Alunotec_Icons_1.png",
+            "heading": "Arrange a visit",
+            "text": "<p>Your Outer Concierge will coordinate an in-person or virtual visit.<\/p>",
+            "link": ""
+          }
+        },
+        "item_4QUpkF": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "custom_icon": "shopify:\/\/shop_images\/Alunotec_Icons_2.png",
+            "heading": "Try before you buy",
+            "text": "<p>Feel Outer for yourself and get an honest review from someone who's purchased.<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Bb9iHk",
+        "item_RDcYwU",
+        "item_4QUpkF"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "media_with_text_qx3346": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_mNtVfb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experience Outer for yourself",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_C8feUq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>See and feel Outer products in person at a Showroom hosted by a trusted Outer customer.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_Rgif9P": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find a Showroom",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mNtVfb",
+        "text_C8feUq",
+        "button_Rgif9P"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pergo-m6.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": true,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_HfbY87": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_8idVKb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Connect virtually from anywhere",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_T4Rpng": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get all your questions answered by a Showroom Host by text, phone, video chat, or email.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_ABMfgR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find a Showroom Host",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8idVKb",
+        "text_T4Rpng",
+        "button_ABMfgR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": true,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_QgcwEb": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_rhzimb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get inspired",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_xjVixd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore photos taken by Neighborhood Showroom™ Hosts.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_ihUqce": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find a Showroom Host",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rhzimb",
+        "text_xjVixd",
+        "button_ihUqce"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Pergo-T600（带字幕）.mp4",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": true,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "none",
+        "only_content_color_scheme": false
+      }
+    },
+    "faq_nYrHFN": {
+      "type": "faq",
+      "blocks": {
+        "question_GkyPHF": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "What is a Neighborhood Showroom™?",
+            "text": "<p>Our Neighborhood Showroom program is a revolutionary new way to shop for outdoor furniture. See, touch, and ask questions about Outer products in the outdoor spaces of neighbors who use them every day. There’s no pressure to buy— just enjoy the chance to experience Outer in person and hear from real customers before you buy.<\/p>"
+          }
+        },
+        "question_qyz9YD": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Can I purchase Outer products at Neighborhood Showrooms™?",
+            "text": "<p>Since Outer’s Neighborhood Showrooms are located in the outdoor spaces of real customers, they do not carry any inventory on hand. You can purchase products through liveouter.com during or following a visit to a Neighborhood Showroom.<\/p>"
+          }
+        },
+        "question_D9CLN8": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Where can I find the address of a Neighborhood Showroom™?",
+            "text": "<p>For security purposes and to protect the privacy of our Hosts, only an estimated location within a small radius of the area is shown on the listing.<br\/><br\/>The address will be provided after an Outer Concierge has paired you with a Host and your showing has been confirmed.<br\/><br\/>If you have questions about the location, we encourage you to reach out to our Concierge Team prior to or during the visit request process. You can do this by starting a chat.<\/p>"
+          }
+        },
+        "question_QMtNHc": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How do I visit a Neighborhood Showroom™?",
+            "text": "<p>Visiting a Neighborhood Showroom is easy! Start a search to find Neighborhood Showrooms available in your area. Browse results to find a location that best fits your needs, and submit a request to visit in person or to connect virtually.<br\/><br\/>A member from our Concierge Team will help coordinate the details of your visit or virtual connection, including your Host’s contact information and directions to the Showroom, and answer any questions you may have.<br\/><br\/>Once your visit or virtual connection has been confirmed, simply arrive at the Showroom at the confirmed date and time. If you’re scheduled for a virtual connection, just follow the instructions provided by your Host to connect via phone or video chat.<\/p>"
+          }
+        },
+        "question_6UwzU7": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Who are Neighborhood Showroom™ Hosts?",
+            "text": "<p>Hosts are real Outer customers who open their homes to shoppers in their communities to foster meaningful connections. Hosts receive exclusive benefits for providing neighbors with first-hand, candid opinions and reviews of Outer products.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_GkyPHF",
+        "question_qyz9YD",
+        "question_D9CLN8",
+        "question_QMtNHc",
+        "question_6UwzU7"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "heading_align": "text-start",
+        "color_scheme": "1",
+        "full_width": true
+      }
+    },
+    "image_banner_FBnNja": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_9trFqe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find a Showroom",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_nrjtmb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enter your address and meet a fellow outdoor enthusiast near you enjoying their Outer furniture.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_CbbGfr": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Find a Showroom",
+            "button_1_link": "shopify:\/\/pages\/contact-us",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9trFqe",
+        "text_nrjtmb",
+        "button_CbbGfr"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/M6_7.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 550,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": true,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 65,
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_qKAKWR",
+    "icons_with_text_jHftap",
+    "media_with_text_qx3346",
+    "media_with_text_HfbY87",
+    "media_with_text_QgcwEb",
+    "faq_nYrHFN",
+    "image_banner_FBnNja"
+  ]
+}

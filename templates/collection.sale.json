@@ -1,0 +1,100 @@
+{
+  "sections": {
+    "collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_title": true,
+        "show_product_count": true,
+        "show_collection_description": true,
+        "text_align": "text-start",
+        "collection_image": "natural",
+        "use_product_image": false,
+        "text_width": "standard",
+        "color_scheme": "default"
+      }
+    },
+    "countdown_timer_CFj6t7": {
+      "type": "countdown-timer",
+      "blocks": {
+        "subheading_rHtekN": {
+          "type": "subheading",
+          "settings": {
+            "text": "SUMMER SALE"
+          }
+        },
+        "heading_4n6mBf": {
+          "type": "heading",
+          "settings": {
+            "heading": "UP TO 60% OFF",
+            "heading_size": "h2"
+          }
+        },
+        "text_FdH9rp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dive into AlunoTec's Summer Sale to discover unmatched deals that bring elegance, functionality, and innovation to your outdoor living spaces, making this the perfect time to upgrade your oasis for less.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "countdown_jyUXLD": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2024-03-30",
+            "end_time": "",
+            "end_text": "",
+            "enlarge_end_text": false,
+            "hide_on_end": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rHtekN",
+        "heading_4n6mBf",
+        "text_FdH9rp",
+        "countdown_jyUXLD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pergo-v_13_89e86ded-9165-4f7b-8732-0ae04af6468f.jpg",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": false,
+        "countdown_size": "24",
+        "use_custom_colors": false,
+        "count_color": "#ffffff",
+        "bg_color": "#070707",
+        "color_scheme": "2",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 20
+      }
+    },
+    "collection-products": {
+      "type": "main-collection-products",
+      "settings": {
+        "products_per_page": 16,
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "show_layout_toggle": true,
+        "enable_filtering": true,
+        "filters_open_lg": true,
+        "stick_on_scroll": true,
+        "show_filter_counts": true,
+        "expand_filters": true,
+        "show_filter_deadends": true,
+        "max_filter_options": 7,
+        "enable_sorting": true,
+        "show_feat_sort_opt": true,
+        "sort_first": true
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "countdown_timer_CFj6t7",
+    "collection-products"
+  ]
+}

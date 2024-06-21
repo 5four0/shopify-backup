@@ -1,0 +1,873 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_weight": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": true
+          }
+        },
+        "image_PmDJBg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_3037_cleanup.png",
+            "image_width": 1000,
+            "image_align": "justify-start",
+            "title": "<p>Feel experience in <strong>AlunoTec Showroom<\/strong><\/p>",
+            "btntxt": "Visit",
+            "url": "shopify:\/\/pages\/showroom",
+            "clr": "#ffffff"
+          }
+        },
+        "product_specs_PNBekL": {
+          "type": "product-specs",
+          "disabled": true,
+          "settings": {
+            "icon1": "shopify:\/\/shop_images\/Protection_524380f8-0056-4b8a-825e-11268b608162.png",
+            "icon_specs_1": "warranty",
+            "text1": "15 Years Warranty",
+            "icon2": "shopify:\/\/shop_images\/windy_e4a5de8f-449d-4e7c-8273-5de0f08d11d7.png",
+            "icon_specs_2": "none",
+            "text2": "80~100km\/h\u2028 Windproof",
+            "icon3": "shopify:\/\/shop_images\/Weather_3b984079-f297-41ee-8217-8553b0dac16c.png",
+            "icon_specs_3": "none",
+            "text3": "4 Seasons\u2028 Available",
+            "icon4": "shopify:\/\/shop_images\/Labourer_1ad175f9-fca1-4926-af30-d9194b406c05.png",
+            "icon_specs_4": "none",
+            "text4": "Assembly Service"
+          }
+        },
+        "productslist_NYnAGM": {
+          "type": "productslist",
+          "settings": {
+            "title": "{{ product.metafields.custom.system_products.value.title.value }}",
+            "title1": "Label Title",
+            "prdct1": "",
+            "title2": "Label Title",
+            "prdct2": "",
+            "title3": "Label Title",
+            "prdct3": ""
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "selector_style": "buttons",
+            "enable_dynamic_availability": true,
+            "show_backorder_text": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "complementary_FdUXjm": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Add-Ons",
+            "products_to_show": 4,
+            "layout": "carousel"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": false,
+            "enable_dynamic_checkout": false,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_btn_a9bwEP": {
+          "type": "custom-btn",
+          "settings": {
+            "btntxt": "Installation Support",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\">\n<path d=\"M7.37908 19.046L10.5184 15.9067L9.47568 14.8639L6.33631 18.0033L5.7515 17.4185C5.61321 17.2802 5.42566 17.2025 5.23012 17.2025C5.03457 17.2025 4.84702 17.2802 4.70873 17.4185L1.75889 20.3683C1.62063 20.5066 1.54297 20.6941 1.54297 20.8897C1.54297 21.0852 1.62063 21.2728 1.75889 21.4111L3.97127 23.6235C4.10956 23.7617 4.29711 23.8394 4.49265 23.8394C4.6882 23.8394 4.87574 23.7617 5.01404 23.6235L7.96388 20.6736C8.10213 20.5353 8.1798 20.3478 8.1798 20.1522C8.1798 19.9567 8.10213 19.7691 7.96388 19.6308L7.37908 19.046ZM4.49265 22.0593L3.32304 20.8897L5.23012 18.9826L6.39973 20.1522L4.49265 22.0593Z\" fill=\"#434241\"><\/path>\n<path d=\"M18.2125 22.8421C17.0794 22.8408 15.993 22.3901 15.1918 21.5888C14.3905 20.7876 13.9398 19.7013 13.9385 18.5681C13.9388 18.1958 13.9891 17.8251 14.0881 17.4662L7.91772 11.2953C7.55849 11.3942 7.18761 11.4445 6.81501 11.4448C6.11864 11.4476 5.43222 11.2795 4.81593 10.9553C4.19965 10.6311 3.67231 10.1606 3.28016 9.58518C2.88801 9.00973 2.64303 8.34687 2.56668 7.65471C2.49033 6.96255 2.58496 6.26223 2.84226 5.61515L3.23974 4.60293L5.59903 6.96216C5.73464 7.09183 5.91503 7.16419 6.10266 7.16419C6.29029 7.16419 6.47068 7.09183 6.60629 6.96216C6.6725 6.89607 6.72502 6.81756 6.76086 6.73115C6.7967 6.64473 6.81515 6.5521 6.81515 6.45854C6.81515 6.36499 6.7967 6.27236 6.76086 6.18594C6.72502 6.09952 6.6725 6.02102 6.60629 5.95493L4.24558 3.59427L5.25924 3.1975C5.9064 2.94037 6.60675 2.84589 7.29892 2.92235C7.99108 2.99881 8.65392 3.24387 9.22935 3.63606C9.80477 4.02825 10.2752 4.55559 10.5995 5.17186C10.9237 5.78813 11.0918 6.47452 11.0891 7.17087C11.0888 7.54324 11.0384 7.91387 10.9395 8.27285L17.1105 14.4438C17.4695 14.3449 17.8402 14.2946 18.2125 14.2942C18.9089 14.2914 19.5953 14.4595 20.2116 14.7837C20.8279 15.1079 21.3552 15.5784 21.7474 16.1538C22.1395 16.7293 22.3845 17.3921 22.4609 18.0843C22.5372 18.7765 22.4426 19.4768 22.1853 20.1239L21.7885 21.1361L19.4285 18.7768C19.2929 18.6474 19.1127 18.5752 18.9252 18.5752C18.7378 18.5752 18.5575 18.6474 18.422 18.7768C18.3557 18.8429 18.3031 18.9214 18.2672 19.0078C18.2313 19.0941 18.2128 19.1868 18.2127 19.2803C18.2127 19.3739 18.2311 19.4665 18.2668 19.553C18.3026 19.6394 18.3551 19.7179 18.4212 19.7841L20.7812 22.144L19.7683 22.5415C19.2732 22.7385 18.7454 22.8404 18.2125 22.8421ZM8.28457 9.64693L15.7357 17.0993L15.5655 17.5331C15.3986 17.9502 15.3334 18.401 15.3752 18.8482C15.417 19.2954 15.5646 19.7263 15.8058 20.1053C16.047 20.4842 16.3749 20.8003 16.7624 21.0275C17.15 21.2546 17.586 21.3864 18.0344 21.4118L17.414 20.792C17.2155 20.5936 17.0581 20.358 16.9506 20.0987C16.8432 19.8394 16.7879 19.5615 16.7879 19.2808C16.7879 19.0002 16.8432 18.7222 16.9506 18.4629C17.0581 18.2037 17.2155 17.9681 17.414 17.7696C17.8211 17.3809 18.3623 17.164 18.9252 17.164C19.4881 17.164 20.0294 17.3809 20.4365 17.7696L21.0562 18.3901C21.0307 17.9416 20.8989 17.5056 20.6716 17.1181C20.4444 16.7306 20.1282 16.4027 19.7492 16.1615C19.3702 15.9203 18.9393 15.7727 18.492 15.7309C18.0447 15.6891 17.5939 15.7543 17.1768 15.9211L16.743 16.0914L9.29183 8.64041L9.46279 8.20589C9.62948 7.78877 9.69456 7.33798 9.65266 6.89075C9.61076 6.44351 9.46308 6.01266 9.22181 5.63376C8.98055 5.25486 8.65262 4.93877 8.2651 4.7116C7.87757 4.48443 7.44157 4.35269 6.99309 4.32726L7.61283 4.94698C7.81131 5.14542 7.96876 5.38102 8.07618 5.64031C8.1836 5.89961 8.23888 6.17752 8.23888 6.45819C8.23888 6.73885 8.1836 7.01677 8.07618 7.27606C7.96876 7.53536 7.81131 7.77095 7.61283 7.96939C7.20573 8.35811 6.66448 8.57501 6.10159 8.57501C5.5387 8.57501 4.99746 8.35811 4.59035 7.96939L3.97061 7.34896C3.996 7.79743 4.12772 8.23343 4.3549 8.62094C4.58208 9.00845 4.8982 9.33635 5.27714 9.57756C5.65608 9.81876 6.08698 9.96636 6.53423 10.0081C6.98148 10.0499 7.43226 9.98472 7.84933 9.81789L8.28457 9.64693Z\" fill=\"#434241\"><\/path>\n<path d=\"M21.8627 3.50352C21.4556 3.11397 20.9144 2.89661 20.3515 2.89661C19.7885 2.89661 19.2473 3.11397 18.8402 3.50352L13.5117 8.84318L14.519 9.85258L19.8475 4.51292C19.9832 4.38314 20.1635 4.31073 20.3511 4.31073C20.5387 4.31073 20.719 4.38314 20.8547 4.51292C20.9879 4.64697 21.0627 4.82844 21.0627 5.01762C21.0627 5.20679 20.9879 5.38826 20.8547 5.52232L15.5263 10.862L16.5336 11.8721L21.862 6.53242C22.2624 6.13051 22.4872 5.58584 22.4872 5.01797C22.4872 4.4501 22.2631 3.90544 21.8627 3.50352Z\" fill=\"#434241\"><\/path>\n<\/svg>",
+            "btnurl": "shopify:\/\/pages\/book-an-installation"
+          }
+        },
+        "payments_zR4TMV": {
+          "type": "payments",
+          "settings": {
+          }
+        },
+        "custom_solution_ULWMTU": {
+          "type": "custom-solution",
+          "settings": {
+            "bgclr": "#f9f9f9",
+            "title": "Looking for a Custom Pergola Solution?",
+            "text1": "Get a Free Personalized Quote!",
+            "link1": "<p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">SEND ME A QUOTE<\/a><\/p>",
+            "text2": "Want a Closer Look at Our Pergolas?",
+            "link2": "<p><a href=\"\/pages\/showroom\" title=\"Showroom\">VISIT OUR SHOWROOM<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "image_PmDJBg",
+        "product_specs_PNBekL",
+        "productslist_NYnAGM",
+        "variant-picker",
+        "complementary_FdUXjm",
+        "buy-buttons",
+        "custom_btn_a9bwEP",
+        "payments_zR4TMV",
+        "custom_solution_ULWMTU"
+      ],
+      "settings": {
+        "stick_on_scroll": true,
+        "stick_media": true,
+        "sticky_atc_panel": true,
+        "sticky_atc_position": "sticky-atc-panel--center",
+        "sticky_atc_mobile": true,
+        "media_layout": "slider",
+        "media_size": "large",
+        "media_ratio": "natural",
+        "media_crop": "none",
+        "hover_zoom": "large",
+        "enable_video_looping": false,
+        "stacked_scroll": "always",
+        "underline_active": false,
+        "media_thumbs": "always",
+        "thumb_ratio": "1",
+        "thumb_crop": "center",
+        "media_arrows": "always",
+        "show_slide_count": false,
+        "border_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "details": {
+      "type": "product-details",
+      "blocks": {
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "style": "collapsible",
+            "open_first": false,
+            "show_description": true,
+            "show_reviews": false,
+            "custom_reviews": "",
+            "show_specification": false,
+            "spec_metafields": "",
+            "spec_right_align": false,
+            "spec_show_empty_metafields": true,
+            "spec_empty_field_text": "-",
+            "tab_1_title": "",
+            "tab_1_text": "",
+            "tab_1_page": "",
+            "tab_2_title": "",
+            "tab_2_text": "",
+            "tab_2_page": "",
+            "tab_3_title": "",
+            "tab_3_text": "",
+            "tab_3_page": ""
+          }
+        },
+        "payment-methods": {
+          "type": "payment-methods",
+          "settings": {
+            "title": "Payment & Security",
+            "title1": "Payment methods",
+            "show_payment_icons": true,
+            "text1": "<p>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.<\/p>",
+            "title2": "",
+            "text2": ""
+          }
+        }
+      },
+      "block_order": [
+        "tabs",
+        "payment-methods"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "pdp_faq_pUW3RX": {
+      "type": "pdp-faq",
+      "blocks": {
+        "question_zcVkqn": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "{{ product.metafields.custom.technical_info.value.main_heading.value }}",
+            "text": "",
+            "tblehdng1": "{{ product.metafields.custom.technical_info.value.info_heading_1.value }}",
+            "tblecntnt1": "{{ product.metafields.custom.technical_info.value.info_content_1.value }}",
+            "tblehdng2": "{{ product.metafields.custom.technical_info.value.info_heading_2.value }}",
+            "tblecntnt2": "{{ product.metafields.custom.technical_info.value.info_content_2.value }}",
+            "tblehdng3": "{{ product.metafields.custom.technical_info.value.info_heading_3.value }}",
+            "tblecntnt3": "{{ product.metafields.custom.technical_info.value.info_content_3.value }}",
+            "tblehdng4": "{{ product.metafields.custom.technical_info.value.info_heading_4.value }}",
+            "tblecntnt4": "{{ product.metafields.custom.technical_info.value.info_content_4.value }}",
+            "tblehdng5": "{{ product.metafields.custom.technical_info.value.info_heading_5.value }}",
+            "tblecntnt5": "{{ product.metafields.custom.technical_info.value.info_content_5.value }}",
+            "tblehdng6": "{{ product.metafields.custom.technical_info.value.info_heading_6.value }}",
+            "tblecntnt6": "{{ product.metafields.custom.technical_info.value.info_content_6.value }}",
+            "tblehdng7": "{{ product.metafields.custom.technical_info.value.info_heading_7.value }}",
+            "tblecntnt7": "{{ product.metafields.custom.technical_info.value.info_content_7.value }}",
+            "tblehdng8": "{{ product.metafields.custom.technical_info.value.info_heading_8.value }}",
+            "tblecntnt8": "{{ product.metafields.custom.technical_info.value.info_content_8.value }}",
+            "tblehdng9": "",
+            "tblecntnt9": ""
+          }
+        },
+        "question_7VLUKP": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "{{ product.metafields.custom.shipping.value.main_heading.value }}",
+            "text": "{{ product.metafields.custom.shipping.value.content | metafield_tag }}",
+            "tblehdng1": "",
+            "tblecntnt1": "",
+            "tblehdng2": "",
+            "tblecntnt2": "",
+            "tblehdng3": "",
+            "tblecntnt3": "",
+            "tblehdng4": "",
+            "tblecntnt4": "",
+            "tblehdng5": "",
+            "tblecntnt5": "",
+            "tblehdng6": "",
+            "tblecntnt6": "",
+            "tblehdng7": "",
+            "tblecntnt7": "",
+            "tblehdng8": "",
+            "tblecntnt8": "",
+            "tblehdng9": "",
+            "tblecntnt9": "",
+            "upload_image": "{{ product.metafields.custom.shipping.value.image_1.value }}",
+            "upload_image2": "{{ product.metafields.custom.shipping.value.image_2.value }}"
+          }
+        },
+        "question_VDk9mn": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "{{ product.metafields.custom.warranty_after_sale_service.value.main_heading.value }}",
+            "text": "{{ product.metafields.custom.warranty_after_sale_service.value.content | metafield_tag }}",
+            "tblehdng1": "",
+            "tblecntnt1": "",
+            "tblehdng2": "",
+            "tblecntnt2": "",
+            "tblehdng3": "",
+            "tblecntnt3": "",
+            "tblehdng4": "",
+            "tblecntnt4": "",
+            "tblehdng5": "",
+            "tblecntnt5": "",
+            "tblehdng6": "",
+            "tblecntnt6": "",
+            "tblehdng7": "",
+            "tblecntnt7": "",
+            "tblehdng8": "",
+            "tblecntnt8": "",
+            "tblehdng9": "",
+            "tblecntnt9": ""
+          }
+        },
+        "question_gcLfNX": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "{{ product.metafields.custom.personalized_customized_service.value.main_heading.value }}",
+            "text": "{{ product.metafields.custom.personalized_customized_service.value.content | metafield_tag }}",
+            "tblehdng1": "",
+            "tblecntnt1": "",
+            "tblehdng2": "",
+            "tblecntnt2": "",
+            "tblehdng3": "",
+            "tblecntnt3": "",
+            "tblehdng4": "",
+            "tblecntnt4": "",
+            "tblehdng5": "",
+            "tblecntnt5": "",
+            "tblehdng6": "",
+            "tblecntnt6": "",
+            "tblehdng7": "",
+            "tblecntnt7": "",
+            "tblehdng8": "",
+            "tblecntnt8": "",
+            "tblehdng9": "",
+            "tblecntnt9": "",
+            "upload_image": "{{ product.metafields.custom.personalized_customized_service.value.image_1.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "question_zcVkqn",
+        "question_7VLUKP",
+        "question_VDk9mn",
+        "question_gcLfNX"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-center",
+        "color_scheme": "1",
+        "full_width": true,
+        "margin_top": 96,
+        "margin_bottom": 96,
+        "margin_top_mob": 64,
+        "margin_bottom_mob": 48
+      }
+    },
+    "background_video_fFQjwA": {
+      "type": "background-video",
+      "blocks": {
+        "heading_Ac4nXh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Extending Your Ideal Lifestyle",
+            "heading_size": "h0",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ac4nXh"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".video-section {margin: 6rem 0 0;}",
+        ".text-overlay {max-width: 100%;}"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/video_productpage_v_pc.mp4",
+        "video_external": "",
+        "video_description": "",
+        "poster_image": "shopify:\/\/shop_images\/Image.png",
+        "video_height": "lg",
+        "mblvideo_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": false,
+        "margin_top": 96,
+        "margin_bottom": 96,
+        "margin_top_mob": 0,
+        "margin_bottom_mob": 0
+      }
+    },
+    "pdp_img_text_DWxPre": {
+      "type": "pdp-img-text",
+      "blocks": {
+        "heading_kd7UpY": {
+          "type": "heading",
+          "settings": {
+            "title": "Outdoor Illumination"
+          }
+        },
+        "description_34FYxA": {
+          "type": "description",
+          "settings": {
+            "content": "Integrated LED strips × RGB Ambient Lighting\nCustomizable perimeter lighting \nLight up the night"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kd7UpY",
+        "description_34FYxA"
+      ],
+      "disabled": true,
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Group_3036_2.png",
+        "image_height": "default",
+        "fixed_height": 400,
+        "imgposition": "right",
+        "margin_top": 96,
+        "margin_bottom": 0,
+        "margin_top_mob": 48,
+        "margin_bottom_mob": 0
+      }
+    },
+    "pdp_img_text_mPtgGg": {
+      "type": "pdp-img-text",
+      "blocks": {
+        "heading_JcVphM": {
+          "type": "heading",
+          "settings": {
+            "title": "AlunoTec Quality"
+          }
+        },
+        "icon_text_yt6R7i": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Protection_87edc48c-af63-4aeb-8fe0-fdfd7f1322ec.png",
+            "title": "15-Year Warranty"
+          }
+        },
+        "icon_text_M99wbK": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/windy_1.png",
+            "title": "80-100KM\/H Wind Resistance"
+          }
+        },
+        "icon_text_UWnMMb": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Snow.png",
+            "title": "Snow loading capacity"
+          }
+        },
+        "icon_text_eaJCdV": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/waterproof.png",
+            "title": "IP67 waterproof"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JcVphM",
+        "icon_text_yt6R7i",
+        "icon_text_M99wbK",
+        "icon_text_UWnMMb",
+        "icon_text_eaJCdV"
+      ],
+      "disabled": true,
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Group_3036_4.png",
+        "image_height": "default",
+        "fixed_height": 400,
+        "imgposition": "left",
+        "margin_top": 96,
+        "margin_bottom": 0,
+        "margin_top_mob": 48,
+        "margin_bottom_mob": 0
+      }
+    },
+    "pdp_img_text_DKWA6h": {
+      "type": "pdp-img-text",
+      "blocks": {
+        "heading_ctPeDy": {
+          "type": "heading",
+          "settings": {
+            "title": "Remote Control Louvers from 0-90°"
+          }
+        },
+        "description_AFiQKW": {
+          "type": "description",
+          "settings": {
+            "content": "Customize Your Sunlight\nEffortlessly, Comfortably, Freely, Naturally"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ctPeDy",
+        "description_AFiQKW"
+      ],
+      "disabled": true,
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Group_3036_3.png",
+        "image_height": "default",
+        "fixed_height": 400,
+        "imgposition": "right",
+        "margin_top": 96,
+        "margin_bottom": 0,
+        "margin_top_mob": 48,
+        "margin_bottom_mob": 0
+      }
+    },
+    "pdp_img_text_WG8FM3": {
+      "type": "pdp-img-text",
+      "blocks": {
+        "heading_xcyfhp": {
+          "type": "heading",
+          "settings": {
+            "title": "Waterproof Roof"
+          }
+        },
+        "description_zpYE8X": {
+          "type": "description",
+          "settings": {
+            "content": "Each louver roof is desighed with drainage channels, ensuring no leakage even during heavy rain."
+          }
+        }
+      },
+      "block_order": [
+        "heading_xcyfhp",
+        "description_zpYE8X"
+      ],
+      "disabled": true,
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Group_3036_4.png",
+        "image_height": "default",
+        "fixed_height": 400,
+        "imgposition": "left",
+        "margin_top": 96,
+        "margin_bottom": 0,
+        "margin_top_mob": 48,
+        "margin_bottom_mob": 0
+      }
+    },
+    "pdp_img_text_zdiAEF": {
+      "type": "pdp-img-text",
+      "blocks": {
+        "heading_TVchVa": {
+          "type": "heading",
+          "settings": {
+            "title": "Multifunctional Pergola"
+          }
+        },
+        "description_JecifY": {
+          "type": "description",
+          "settings": {
+            "content": "Create your backyard oasis outdoor kitchen, fitness area, children's playroom，swimming pool"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TVchVa",
+        "description_JecifY"
+      ],
+      "disabled": true,
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Group_3036_3.png",
+        "image_height": "default",
+        "fixed_height": 400,
+        "imgposition": "right",
+        "margin_top": 96,
+        "margin_bottom": 0,
+        "margin_top_mob": 48,
+        "margin_bottom_mob": 0
+      }
+    },
+    "pdp_img_text_fxhqJL": {
+      "type": "pdp-img-text",
+      "blocks": {
+        "heading_wQnAjc": {
+          "type": "heading",
+          "settings": {
+            "title": "Accessories Selection"
+          }
+        },
+        "description_zd7ycJ": {
+          "type": "description",
+          "settings": {
+            "content": "Led Light & RGB Light\nRoller Blinds\nLouver Sliding Door \nLouver Folding Door\nGlass Door\nFrameless Sliding Door"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wQnAjc",
+        "description_zd7ycJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Group_3036_4.png",
+        "image_height": "default",
+        "fixed_height": 400,
+        "imgposition": "left",
+        "margin_top": 96,
+        "margin_bottom": 96,
+        "margin_top_mob": 48,
+        "margin_bottom_mob": 48
+      }
+    },
+    "image_gallery_7mWB3Y": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_rLWhUQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column.png",
+            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+          }
+        },
+        "image_txfE69": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_1.png",
+            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+          }
+        },
+        "image_xYjF9n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_2.png",
+            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+          }
+        },
+        "image_qP7nz7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_3.png",
+            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+          }
+        },
+        "image_jFEgdk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_7.png",
+            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+          }
+        },
+        "image_AqAJcw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_6.png",
+            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+          }
+        },
+        "image_GfFBrJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_5.png",
+            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+          }
+        },
+        "image_fBMCXt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_4.png",
+            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_rLWhUQ",
+        "image_txfE69",
+        "image_xYjF9n",
+        "image_qP7nz7",
+        "image_jFEgdk",
+        "image_AqAJcw",
+        "image_GfFBrJ",
+        "image_fBMCXt"
+      ],
+      "settings": {
+        "title": "Image Gallery",
+        "padding_top": 70,
+        "padding_bottom": 48,
+        "padding_top_mob": 30,
+        "padding_bottom_mob": 30
+      }
+    },
+    "171507347500ed42c9": {
+      "type": "apps",
+      "blocks": {
+        "rivyo_product_reviews_wc_review_section_cAKCMR": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "rivyo_product_reviews_wc_review_section_cAKCMR"
+      ],
+      "custom_css": [
+        ".container {max-width: 1600px; padding: 0 100px;}",
+        "@media (max-width: 767px) {.container {padding: 0 20px; }}"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "faq_WTiy3T": {
+      "type": "faq",
+      "blocks": {
+        "question_eLpfTT": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "What Types of Features Can I Add to the Roof?",
+            "text": "<p>We also offer an integrated LED lighting system, manual\/motorized side screen, frameless sliding door, and fencing. Also a  rain sensor that will automatically close the roof when it starts raining.If you have any further ideas we encourage you to share them with us.<\/p>"
+          }
+        },
+        "category_RzTDNN": {
+          "type": "category",
+          "settings": {
+            "text": "Maintenance and Cleaning "
+          }
+        },
+        "question_ybPh43": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "Do I need to maintain my pergola?",
+            "text": "<p>Items must be returned within 30 days after receiving your order. Items must be returned in the same condition in which they were received, be unworn\/unused, have any tags still attached, and include all the original packaging.<\/p>"
+          }
+        },
+        "question_BWf9Ej": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "What I need to pay attention to when cleaning?",
+            "text": "<p>Refunds are processed within 7 days from when we receive the item(s).<\/p>"
+          }
+        },
+        "category_h39zpb": {
+          "type": "category",
+          "settings": {
+            "text": "About Installation"
+          }
+        },
+        "question_N7eG3K": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "I have not assembled before, can I do it if I want to assemble it by myself?",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.<\/p>"
+          }
+        },
+        "question_nQD4Rh": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "I don't want to assemble it myself.",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.<\/p>"
+          }
+        },
+        "question_bn4JJM": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How long does it take to assemble the product?",
+            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_eLpfTT",
+        "category_RzTDNN",
+        "question_ybPh43",
+        "question_BWf9Ej",
+        "category_h39zpb",
+        "question_N7eG3K",
+        "question_nQD4Rh",
+        "question_bn4JJM"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "heading_align": "text-center",
+        "color_scheme": "none",
+        "full_width": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mob": 30,
+        "padding_bottom_mob": 30
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_align": "text-start",
+        "buton_label": "Shop All",
+        "shop_link": "shopify:\/\/collections\/all",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "large",
+        "products_to_show": 6,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mob": 30,
+        "padding_bottom_mob": 30
+      }
+    },
+    "featured_collection_ttfntU": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "You May Also Like",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "alunotec-pergola",
+        "layout": "carousel_on_mobile",
+        "card_size_mobile": "small",
+        "card_size": "large",
+        "products_to_show": 3,
+        "show_promo_info": false,
+        "image_ratio": "natural",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "newsletter_iNYWDx": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_8QUU98": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe & Get A Chance To Win A $10,000",
+            "heading_size": "h1"
+          }
+        },
+        "text_jwFXjT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe and get entered into a monthly giveaway with a chance to win a $10,000 <\/p>",
+            "enlarge_text": false
+          }
+        },
+        "form_Ajnrha": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_8QUU98",
+        "text_jwFXjT",
+        "form_Ajnrha"
+      ],
+      "disabled": true,
+      "settings": {
+        "overlay_position": "justify-end",
+        "text_align": "text-start",
+        "image": "shopify:\/\/shop_images\/Pergola-_5_1_2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Pergola-_5_1_2.jpg",
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "pdp_faq_pUW3RX",
+    "background_video_fFQjwA",
+    "pdp_img_text_DWxPre",
+    "pdp_img_text_mPtgGg",
+    "pdp_img_text_DKWA6h",
+    "pdp_img_text_WG8FM3",
+    "pdp_img_text_zdiAEF",
+    "pdp_img_text_fxhqJL",
+    "image_gallery_7mWB3Y",
+    "171507347500ed42c9",
+    "faq_WTiy3T",
+    "recommendations",
+    "featured_collection_ttfntU",
+    "newsletter_iNYWDx"
+  ]
+}

@@ -1,0 +1,253 @@
+<style>
+  .cc-custom-liquid{
+    background:white;
+  }
+  .module-slideshow-image-description {
+    width: 100%;
+}
+  .module-slideshow-image-description .slides-wrapper {
+   /* position: sticky;
+    top:0;*/
+    overflow: hidden;
+    height: 100lvh;
+}
+  .module-slideshow-image-description .slide {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100lvh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    will-change: transform;
+    transform: translateZ(0);
+}
+  .partial-image-with-mask {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+  .module-slideshow-image-description .slide .background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  .partial-image-with-mask img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  .module-slideshow-image-description .slide .content {
+    position: relative;
+    text-align: center;
+    max-width: 342px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    will-change: transform;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    transform: translateZ(0);
+}
+  .module-slideshow-image-description .b-left, .module-slideshow-image-description .b-right {
+    top: 0;
+    bottom: 0;
+    width: 150px;
+}
+  .module-slideshow-image-description .b-left {
+    left: 0;
+    transform-origin: 0% 50%;
+}
+  .module-slideshow-image-description .b-right {
+    right: 0;
+    transform-origin: 100% 50%;
+}
+
+  .module-slideshow-image-description .b-top, .module-slideshow-image-description .b-bottom {
+    left: 0;
+    right: 0;
+}
+  .module-slideshow-image-description .b-top {
+    top: 0;
+    transform-origin: 50% 0%;
+}
+  .module-slideshow-image-description .b-bottom {
+    bottom: 0;
+    transform-origin: 50% 100%;
+}
+  .image_overlay_content{
+      /*  transform: translate3d(0px, -953px, 0px);*/
+    will-change: transform;
+  }
+  @media (min-width: 960px) {
+    .module-slideshow-image-description {
+        padding: 0;
+        margin-top: -20px;
+    }
+    .module-slideshow-image-description .slide .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: 50% 25%;
+}
+    .module-slideshow-image-description .slide .content {
+    padding-left: unset;
+    padding-right: unset;
+    max-width: 1015px;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+    .module-slideshow-image-description .b-left, .module-slideshow-image-description .b-right, .module-slideshow-image-description .b-top, .module-slideshow-image-description .b-bottom {
+    display: block;
+    position: absolute;
+    background-color:white;
+}
+}
+    .image_overlay_ov,.image_overlay_content{
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+   
+  }
+
+  .image_overlay_content{
+    align-items:center;
+  }
+  .image_overlay_text{
+    max-width:690px;
+  }
+  .image_overlay_text h1{
+    margin-bottom:14px;
+  }
+  .image_overlay_text .d_flex p{
+        font-size: 18px;
+    color: white;
+    margin-right: 14px;
+    line-height: 27px;
+  }
+  @media (max-width:960px){
+   /* .module-slideshow-image-description{
+      height:auto!important;
+    }
+    .slide{
+      transform:unset!important;
+    }
+    .module-slideshow-image-description .slide {
+    position: relative;
+}
+    .module-slideshow-image-description .slides-wrapper {
+     height: auto; 
+}*/
+    .image_overlay_text .d_flex p{
+              width: fit-content;
+        white-space: nowrap;
+    }
+    .module-slideshow-image-description .slide .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: 50% 25%;
+}
+  }
+</style>
+<div class="module module-slideshow-image-description">
+  <div class="slides-wrapper" style="translate: none; rotate: none; scale: none;">
+
+
+ {% for block in section.blocks %}
+    <div class="slide" style="translate: none; rotate: none; scale: none;">
+      
+      <div class="background" style="translate: none; rotate: none; scale: none; ">
+        <div class="partial-image-with-mask">
+          <picture>
+            <source srcset="{{ block.settings.image_desktop | img_url:"master" }}" media="(min-width: 750px)">
+            <img src="{{ block.settings.image_mobile | img_url:"master" }}" class="picture is-background" data-src="" alt="" draggable="false">
+          </picture>
+        </div>
+      </div>
+
+
+
+     
+    <div class="image_overlay_ov absolute" style="background:#000000;opacity:0.{{ block.settings.overlay_opacity }};"></div>
+     <div class="d_flex image_overlay_content pad_desk pad_mobile absolute">
+              <div class="image_overlay_text">
+                <div class="d_flex">
+                  <p>{{ forloop.index }}.</p>
+                <h1 class="small_h white">{{ block.settings.heading }}</h1>
+                </div>
+                <p class="d_big_text white">{{ block.settings.text }}</p>
+              </div>
+          </div>
+
+      
+    </div>
+{% endfor %}
+{% comment %}
+    <div class="b-left" style="translate: none; rotate: none; scale: none; transform: translate3d(-100px, 0px, 0px);"></div>
+    <div class="b-right" style="translate: none; rotate: none; scale: none; transform: translate3d(100px, 0px, 0px);"></div>
+    <div class="b-top"></div>
+    <div class="b-bottom" style="translate: none; rotate: none; scale: none; transform: translate3d(0px, 0px, 0px);"></div>
+    {% endcomment %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Showroom slides",
+  "tag": "section",
+  "settings": [
+
+  ],
+      "blocks": [
+    {
+      "type":"text_block",
+      "name":"text block",
+      "settings": [
+        {
+       "type": "image_picker",
+      "id": "image_desktop",
+      "label": "image desktom"
+     },
+      {
+       "type": "image_picker",
+      "id": "image_mobile",
+      "label": "image mobile"
+     },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "heading"
+    },
+   {
+      "type": "textarea",
+      "id": "text",
+      "label": "text"
+   },
+           {
+       "type": "range",
+      "id": "overlay_opacity",
+      "label": "overlay_opacity",
+        "min":1,
+        "max": 99,
+        "default":66
+     }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Showroom slides"
+    }
+  ]
+}
+{% endschema %}

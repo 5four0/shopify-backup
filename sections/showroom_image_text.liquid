@@ -1,0 +1,223 @@
+<style>
+.showroom_image_text_item{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    column-gap: 7%;
+    height: 90vh;
+    align-items: center;
+    background: white;
+  /* position: sticky;
+    top: 0;*/
+  left:0;
+  width:100%;
+  transition: opacity 300ms,visibility 500ms;
+}
+
+  .showroom_image_text_item.inactive{
+    z-index:4;
+  }
+  .sticky_element{
+     /*position: sticky;
+    top: 0;*/
+  }
+  .showroom_image_text{
+    /*height:300vh;*/
+  }
+  .showroom_image_text_item:first-child{
+      z-index:2;
+  }
+  .showroom_image_text_item:not(:first-child){
+      /*position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;*/
+  }
+  .showroom_image_text.is-visible .showroom_image_text_item:first-child{
+    opacity:0;
+    visibility:hidden;
+  }
+  
+  .item__text{
+    flex: 0 0 60%;
+    justify-content:center;
+    flex-direction:column;
+  }
+  .item__text h1{
+    margin-bottom:16px;
+  }
+  .btn_sec{
+    color:#29425E;
+    margin-top:24px;
+        column-gap: 12px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight:bold;
+  }
+  .btn_sec span{
+    display:flex;
+  }
+.item__img{
+    flex: 0 0 33%;
+ 
+  }
+  .item__img img{
+    width:100%;
+     border-radius:30px;
+  }
+.item__img video{
+  width:100%;
+  max-height:70vh;
+  object-fit:contain;
+}
+  .btn_sec svg{
+    transition:.5s;
+  }
+  .btn_sec:hover svg{
+    transform:translateX(5px);
+  }
+  @media (max-width:769px){
+    .showroom_image_text_item{
+  padding-top:48px;
+  padding-bottom:48px;
+}
+    .showroom_image_text_item {
+     height: auto; 
+}
+     .item__text{
+    flex: 0 0 100%;
+  }
+.item__img{
+    flex: 0 0 100%;
+ 
+  }
+   .showroom_image_text_item .only_mobile .d_text{
+     margin-top:24px;
+   }
+  }
+
+</style>
+<div class="showroom_image_text">
+  
+  <div class="sticky_element">
+   
+  {% for block in section.blocks %}
+         <div class="showroom_image_text_item d_flex pad_desk pad_mobile  mobile_d_wrap">
+            
+             <div class="item__text d_flex">
+                 <h1 class="big_h">{{ block.settings.heading }}</h1>
+               <div class="only_desk">
+               <p class="d_text">{{ block.settings.text }}</p>
+               <a class="d_text btn_sec d_flex" href="{{ block.settings.link }}"><span>{{ block.settings.link_text }}</span><span>{% render 'icon-right' %}</span></a>
+               </div>
+               </div>
+          
+           <div class="item__img">
+             {% if block.settings.image != blank  %}
+             <img src="{{ block.settings.image | img_url:"master" }}"> 
+            {% elsif block.settings.gif_link != blank %}
+             <img src="{{ block.settings.gif_link }}">
+               {% elsif block.settings.video_link != blank %}
+                  <video class="alm-slide-video  {% if block.settings.mobile_video != blank %}only_desk{% endif %}" preload="auto" playsinline="" autoplay="" loop="" muted="">
+                           <source src="{{ block.settings.video_link }}" type="video/mp4">
+                  </video>
+               {% if block.settings.mobile_video != blank %}
+                 <video class="alm-slide-video only_mobile" preload="auto" playsinline="" autoplay="" loop="" muted="">
+                           <source src="{{ block.settings.mobile_video }}" type="video/mp4">
+                  </video>
+                 {% endif %}
+               {% endif %}
+               </div>
+   
+           <div class="only_mobile">
+               <p class="d_text">{{ block.settings.text }}</p>
+               <a class="d_text btn_sec d_flex" href="{{ block.settings.link }}"><span>{{ block.settings.link_text }}</span><span>{% render 'icon-right' %}</span></a>
+               </div>
+                
+         </div>
+    {% endfor %}
+    
+  </div>
+ 
+</div>
+<script>
+  /*
+function isElementBottom(el){
+  var recte = el.getBoundingClientRect();
+    return  (recte.top + window.innerHeight +800) < window.innerHeight ; 
+  
+  }
+   var richif = false;
+ function richText(){
+  
+ if(isElementBottom(document.querySelector(".showroom_image_text"))){
+  document.querySelector(".showroom_image_text").classList.add("is-visible");
+       richif=false; 
+   }else{
+   document.querySelector(".showroom_image_text").classList.remove("is-visible");
+   }
+ }
+ window.addEventListener("scroll", richText);  
+  */
+</script>
+{% schema %}
+{
+  "name": "Showroom image text",
+  "tag": "section",
+  "settings": [
+
+  ],
+      "blocks": [
+    {
+      "type":"text_block",
+      "name":"text block",
+      "settings": [
+        {
+       "type": "image_picker",
+      "id": "image",
+      "label": "image desktop"
+     },
+        {
+      "type": "text",
+      "id": "gif_link",
+      "label": "gif link"
+    },
+        {
+      "type": "text",
+      "id": "video_link",
+      "label": "video link"
+    },
+            {
+      "type": "text",
+      "id": "mobile_video",
+      "label": "mobile video link"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "heading"
+    },
+   {
+      "type": "textarea",
+      "id": "text",
+      "label": "text"
+   },
+        {
+      "type": "url",
+      "id": "link",
+      "label": "link"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "link text"
+    }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Showroom image text"
+    }
+  ]
+}
+{% endschema %}

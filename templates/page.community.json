@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "media_with_text_VXc9n8": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_FTxkAW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Community is everything",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_ngFQ7f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While Vancouver, Canada, is where you can trace our beginnings, our global community isn't just where we are, it's who we are.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTxkAW",
+        "text_ngFQ7f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_grid_TDgG4q": {
+      "type": "media-grid",
+      "blocks": {
+        "media_GdNNGP": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "Discover all our community has to offer.",
+            "title": "<p>Explore<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 35
+          }
+        },
+        "media_Tf4hxp": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M6_17.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "Discover how the Ambassador program elevates your community.",
+            "title": "<p><strong>Ambassadors<\/strong><\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 50
+          }
+        },
+        "media_D4cYna": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergo-v_21_2670c759-8dac-4822-9386-6b8b4aa66a0f.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "By the people who inspire us, for living a life you love.",
+            "title": "<p>Stories<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_zeJdD3": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergo-v_30.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "Chase your goals, from wherever you're at.",
+            "title": "<p>Guides<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "media_GdNNGP",
+        "media_Tf4hxp",
+        "media_D4cYna",
+        "media_zeJdD3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "mobile_carousel": false,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 180,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "media_with_text_rCccjC": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_jGKaW6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stories",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_FqBeAP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meet the people and see the places that inspire us everyday. From workout tips to travel advice, this is what lululemon looks like in the real world.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jGKaW6",
+        "text_FqBeAP"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/X-Pergola_1_8fbb6943-f2a7-4ae1-bd47-52d747ce517b.png",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "1",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_PMx7Fz": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_TEcTDd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Build with us",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_UmMyxn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From building classes and mindful moments, to high-intensity training sessions, to shapes of all distances, we believe being in one roof has the power to bring people together.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TEcTDd",
+        "text_UmMyxn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "1",
+        "only_content_color_scheme": false
+      }
+    },
+    "image_banner_iW6kYW": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_bPBQNY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to get inspired?",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_xcTPzz": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><\/h4><p>Stories, tools, training plans and more.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "button_CgYX79": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Discover Case Studies",
+            "button_1_link": "shopify:\/\/pages\/about-us",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bPBQNY",
+        "text_xcTPzz",
+        "button_CgYX79"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/pergo-v_15.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 55,
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_VXc9n8",
+    "media_grid_TDgG4q",
+    "media_with_text_rCccjC",
+    "media_with_text_PMx7Fz",
+    "image_banner_iW6kYW"
+  ]
+}

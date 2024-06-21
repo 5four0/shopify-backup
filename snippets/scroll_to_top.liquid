@@ -1,0 +1,75 @@
+<style>
+  html{
+    scroll-behaviour:smooth;
+  }
+.progress-page {
+    position: fixed;
+    right: 30px;
+    bottom: 70px;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    opacity: 1;
+    background: #8eb3c6;
+    z-index: 99;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1px #8eb3c6;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    transition: opacity .2s ease-in-out,transform .2s ease-in-out;
+}
+  
+  .progress-page .arrow-top {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    left: 19px;
+    top: 16px;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    transition: top .2s ease-in-out;
+}
+  .progress-page .arrow-top-line {
+    height: 14px;
+    left: 50%;
+    position: absolute;
+    top: 16px;
+    width: 2px;
+    margin-left: -1px;
+    background-color: #fff;
+    transition: top .2s ease-in-out,height .2s ease-in-out;
+}
+  
+</style>
+
+  <div class="progress-page has-tooltip" style="display:none;">
+    <div class="scrolltotop is-active ">
+      <div class="arrow-top"></div>
+      <div class="arrow-top-line"></div>
+    </div>
+  </div>
+
+
+<script>
+  let mybutton = document.querySelector(".progress-page");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+  mybutton.addEventListener("click",function(){
+    document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  })
+
+</script>
+

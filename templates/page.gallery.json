@@ -1,0 +1,747 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "image_banner_TL6QHc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wTxGV9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gallery",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_46VFQT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Immerse yourself in the world of outdoor elegance with AlunoTec's Gallery. Explore a stunning array of meticulously crafted aluminum outdoor living products, from sleeking pergolas to stylish patio canopies.<br\/><br\/>Each image tells a story of innovation, quality, and timeless design, inviting you to envision the perfect outdoor sanctuary for your home. Discover inspiration, craftsmanship, and endless possibilities in our Gallery.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wTxGV9",
+        "text_46VFQT"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/pergo-v_23_c9616b53-d42a-4739-a6f3-8e86bb95fbc4.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 55,
+        "prevent_animation": false
+      }
+    },
+    "media_grid_gKC7qX": {
+      "type": "media-grid",
+      "blocks": {
+        "media_4TtQGV": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alunotec_pergola_with_glass_door_2.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_VDeRj8": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/deck_pergola.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_P6bHLC": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alunotec_pergola_with_glass_door_5.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_XpeVCG": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alunotec_pergola_with_glass_door_1.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_nRFfpH": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alunotec_pergola_with_glass_door_3.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "media_4TtQGV",
+        "media_VDeRj8",
+        "media_P6bHLC",
+        "media_XpeVCG",
+        "media_nRFfpH"
+      ],
+      "settings": {
+        "title": "Pergolas with Glass Doors",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "mobile_carousel": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 180,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "media_grid_qcUGUL": {
+      "type": "media-grid",
+      "blocks": {
+        "media_4tEUyg": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alunotec_pergola_with_glass_door_4.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_qWEbGy": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlunoTec_Residential_pergola.png",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_Ge3mdq": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlunoTec_pergola_with_roof.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_AYrD46": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlunoTec_pergola_canopy.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_TgqBdx": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlunoTec_pergola_roof.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_aYxUqP": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlunoTec_pergola_with_canopy.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "media_4tEUyg",
+        "media_qWEbGy",
+        "media_Ge3mdq",
+        "media_AYrD46",
+        "media_TgqBdx",
+        "media_aYxUqP"
+      ],
+      "settings": {
+        "title": "Pergolas with Roller Blinds",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "mobile_carousel": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 180,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "media_grid_z94yWM": {
+      "type": "media-grid",
+      "blocks": {
+        "media_qHtjgQ": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlunoTec_pergola_Residential.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_tTnwUr": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home_depot_pergola.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_6CPt3R": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergola_attached_to_house.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_7Jw7BJ": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/building_a_pergola.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_eLmyCg": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/backyard_discovery_pergola.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_wYcE4j": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergolas_de_madera.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_3zQiBM": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/retractable_pergola_canopy.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_7zUzDn": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/corner_pergola.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "media_qHtjgQ",
+        "media_tTnwUr",
+        "media_6CPt3R",
+        "media_7Jw7BJ",
+        "media_eLmyCg",
+        "media_wYcE4j",
+        "media_3zQiBM",
+        "media_7zUzDn"
+      ],
+      "settings": {
+        "title": "Residential Pergolas",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "mobile_carousel": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 180,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "media_grid_yzcixh": {
+      "type": "media-grid",
+      "blocks": {
+        "media_zF3UiP": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hotel_pergola.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_CEV8JK": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergola_restaurant.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_H68bVz": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergola_new_york.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_YYTwTa": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergolas_for_sale.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_PLjKLb": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergola_shade.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "media_zF3UiP",
+        "media_CEV8JK",
+        "media_H68bVz",
+        "media_YYTwTa",
+        "media_PLjKLb"
+      ],
+      "settings": {
+        "title": "Commercial Pergolas",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "mobile_carousel": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 180,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "media_grid_U8zdND": {
+      "type": "media-grid",
+      "blocks": {
+        "media_3yejgn": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlunoTec_pergola_idea.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_9YJH9H": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/patio_pergola_ideas.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_i9Lkr6": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/backyard_pergola_ideas.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_Ft7Djx": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/modern_pergola_ideas.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_WXeK8R": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pergola_roof_ideas.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "media_3yejgn",
+        "media_9YJH9H",
+        "media_i9Lkr6",
+        "media_Ft7Djx",
+        "media_WXeK8R"
+      ],
+      "settings": {
+        "title": "Different Scenarios",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "mobile_carousel": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 180,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_TL6QHc",
+    "media_grid_gKC7qX",
+    "media_grid_qcUGUL",
+    "media_grid_z94yWM",
+    "media_grid_yzcixh",
+    "media_grid_U8zdND"
+  ]
+}

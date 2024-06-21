@@ -1,0 +1,127 @@
+<style>
+  .ralative{
+    position:relative;
+  }
+  .absolute{
+    position:absolute;
+  }
+  .image_overlay_item{
+    height:100vh;
+        height: 100vh;
+   /* position: sticky;*/
+    bottom: 0;
+    overflow:hidden;
+        background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+  }
+  .image_overlay_img img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+  }
+  .image_overlay_ov,.image_overlay_content{
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+   
+  }
+  .image_overlay_ov{
+     background:#00000066;
+  }
+  .image_overlay_content{
+    align-items:center;
+  }
+  .image_overlay_text{
+    max-width:690px;
+  }
+  .image_overlay_text h1{
+    margin-bottom:14px;
+  }
+  .image_overlay_img{
+    height:100%;
+  }
+  .image_overlay_text .d_flex p{
+        font-size: 18px;
+    color: white;
+    margin-right: 14px;
+    line-height: 27px;
+  }
+  @media (max-width:999px){
+    .image_overlay_text .d_flex p{
+        font-size: 16px;
+    line-height: 24px;
+  }
+  }
+</style>
+<div class="showroom_image_overlay">
+  {% for block in section.blocks %}
+        <div class="image_overlay_item  relative" style="z-index:{{ block.settings.z_index }};background-image:url({{ block.settings.image_desktop | img_url:"master" }})">
+         {% comment %}   <div class="image_overlay_img">
+              <img src="{{ block.settings.image_desktop | img_url:"master" }}">
+            </div>{% endcomment %}
+            <div class="image_overlay_ov absolute"></div>
+          <div class="d_flex image_overlay_content pad_desk pad_mobile absolute">
+              <div class="image_overlay_text">
+                <div class="d_flex">
+                  <p>{{ forloop.index }}.</p>
+                <h1 class="small_h white">{{ block.settings.heading }}</h1>
+                </div>
+                <p class="d_big_text white">{{ block.settings.text }}</p>
+              </div>
+          </div>
+        </div>      
+    {% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Showroom image overlay",
+  "tag": "section",
+  "settings": [
+
+  ],
+      "blocks": [
+    {
+      "type":"text_block",
+      "name":"text block",
+      "settings": [
+        {
+       "type": "image_picker",
+      "id": "image_desktop",
+      "label": "image desktom"
+     },
+      {
+       "type": "image_picker",
+      "id": "image_mobile",
+      "label": "image mobile"
+     },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "heading"
+    },
+   {
+      "type": "textarea",
+      "id": "text",
+      "label": "text"
+   },
+           {
+       "type": "range",
+      "id": "z_index",
+      "label": "z index",
+        "min":1,
+        "max": 10,
+        "default":1
+     }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Showroom image overlay"
+    }
+  ]
+}
+{% endschema %}

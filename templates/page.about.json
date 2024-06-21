@@ -1,0 +1,340 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "image_banner_6hkxPz": {
+      "type": "image-banner",
+      "blocks": {
+        "subheading_w9E7qq": {
+          "type": "subheading",
+          "settings": {
+            "text": "Bringing the beauty and convenience of patio living to 10 million families."
+          }
+        },
+        "heading_XJ6tp7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_EiJXnd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>AlunoTec established in 2013, is a professional one-stop solution provider and trader engaged in the research, customization, development, production, service, and provide customized service of Outdoor Garden Furniture for Garden Products and Garden Decoration to our Dealers, Wholesales, Builders, Designers, End Users and our other partners.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_w9E7qq",
+        "heading_XJ6tp7",
+        "text_EiJXnd"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/M6_8.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 60,
+        "prevent_animation": false
+      }
+    },
+    "rich_text_f9Aigm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ektCxJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Good products are not only about quality but also the service and your attitude to the troubles. ”<\/p><p>--From AlunoTec‘s Core Value.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_ektCxJ"
+      ],
+      "settings": {
+        "toppadding": 30,
+        "bottompadding": 30,
+        "bgclr": "",
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "media_with_text_UKVBiJ": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_DQpdXC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why AlunoTec was born？",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_MHz8jV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We founded our company with the principle and ultimate goal of <strong>providing the world with better products made in China<\/strong>.<\/p><p>lt's time to change people's mind on the bias that anything made in China is not reliable in quality and not worth the price.<br\/><\/p><p>Since the first day of founded, we've developed a strong relationship with Aluminium products and truly believe that only continuousinnovation can lead us into the brighter future. That is the true meaning of our brand <strong>Aluno<\/strong>. <\/p><p>With Technology, it empowers our brand and increase its vitality for competitions in the marketplace.<\/p><p>Gradually, the brand has evolved into what it is —<strong>AlunoTec<\/strong> ，today and one that we're passionate about.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DQpdXC",
+        "text_MHz8jV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/M6_13.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "3",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_cYNpn7": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_QKrH9J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Story Between AlunoTecERS and Their Customers:",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_NFCgRt": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Hazel: <\/strong><\/h6><p>The most memorable client who from USA, we meet in AlunoTec's Facebook, and I helped him with the outdoor restaurant's shading project.<br\/><\/p><p>He is a very optimistic person full of positive energy. He inspires me to face life more optimistically, cheerfully, and confidently.He likes fishing and said that the air in the morning is the freshest, so he likes to ride and fish in the morning.This also encourages me to get up early every morning to exercise. Until now, I still insist on getting up in the morning to play badminton for an hour every day. Customers are also friends, and they are also people who will change my lifestyle. <\/p><p>Thanks we can meet in AlunoTec.<\/p><p> <\/p><h6><strong>Helen: <\/strong><\/h6><p>The most impressive customer who bought a set from our company for his own home in 2018 and recommended it to his friends and family after four years of using and checking out our service, and they all agree with the quality of AlunoTec Pergola. <\/p><p>He recognizes AlunoTec's philosophy on branding and believes that \"a company needs to have its own brand if it wants to survive for a long time.\"<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QKrH9J",
+        "text_NFCgRt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/12.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "3",
+        "only_content_color_scheme": false
+      }
+    },
+    "icons_with_text_hFarMU": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_jYXxJT": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "shopify:\/\/shop_images\/1.png",
+            "custom_icon_svg": "",
+            "heading": "Years",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_3d8An7": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "shopify:\/\/shop_images\/2.png",
+            "custom_icon_svg": "",
+            "heading": "Countries",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_n8Gay3": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "shopify:\/\/shop_images\/3.png",
+            "custom_icon_svg": "",
+            "heading": "Square Meters",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_KJgMFb": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "shopify:\/\/shop_images\/4.png",
+            "custom_icon_svg": "",
+            "heading": "Users",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_jYXxJT",
+        "item_3d8An7",
+        "item_n8Gay3",
+        "item_KJgMFb"
+      ],
+      "settings": {
+        "heading": "Why Choose AlunoTec?",
+        "heading_align": "text-center",
+        "icon_size": 104,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "above",
+        "mobile_stack": false,
+        "section_height": "default",
+        "color_scheme": "none",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "image_banner_a9Q7Ri": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_P3TfT6": {
+          "type": "heading",
+          "settings": {
+            "heading": "About AlunoTec",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_d7bAiq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>AlunoTec, founded in 2013, specializes in Aluminum outdoor living products, ranging from Pergolas, Gazebos, Zip Screens, Retractable Roofs, Patio Canopies, Slat Fencing, Umbrellas, and Outdoor Furniture. As a brand company, AlunoTec has  expanded its markets to 150+ countries. We insist on providing our partners and customers with high-quality, reliable products and trustable service. <\/p><p>In our core values, good products are not only about quality but also the service and your attitude to the troubles. Meanwhile, we would like to share the meaning of AlunoTec, which stands for Aluminum Innovation and Technology. <\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_P3TfT6",
+        "text_d7bAiq"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/M6_8.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 60,
+        "prevent_animation": false
+      }
+    },
+    "featured_collection_8AyUCq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Browse Our Pergolas",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "alunotec-pergola",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "large",
+        "products_to_show": 3,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "newsletter_zVGXgK": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_bTgk8P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Supreme Outdoor Living In Your Inbox",
+            "heading_size": "h4"
+          }
+        },
+        "text_QBJ6BL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stay ahead with AlunoTec: Exclusive insights, tips, and deals delivered directly to your inbox, enhancing your outdoor living with every update.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "form_EbYVqX": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_bTgk8P",
+        "text_QBJ6BL",
+        "form_EbYVqX"
+      ],
+      "settings": {
+        "overlay_position": "justify-center",
+        "text_align": "text-center",
+        "color_scheme": "3",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_6hkxPz",
+    "rich_text_f9Aigm",
+    "media_with_text_UKVBiJ",
+    "media_with_text_cYNpn7",
+    "icons_with_text_hFarMU",
+    "image_banner_a9Q7Ri",
+    "featured_collection_8AyUCq",
+    "newsletter_zVGXgK"
+  ]
+}

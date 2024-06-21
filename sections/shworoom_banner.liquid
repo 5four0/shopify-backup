@@ -1,0 +1,233 @@
+<style>
+ /* 
+  .cc-header--sticky {
+    top: 0px;
+}
+  @media (max-width:999px){
+  .cc-header--sticky {
+    top: 10px;
+}
+  }*/
+/*.cc-header--sticky store-header.header {
+    padding-top: 0px;
+}*/
+  .showroom_btn {
+    font-weight: 500;
+    padding: 16px 48px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+  .showroom_btn span {
+    display: flex;
+    line-height: 1;
+}
+  .showroom_btn svg {
+    margin-right: 8px;
+}
+  .big_h{
+    font-size:56px;
+    line-height:64px;
+    font-weight:600;
+    margin:0;
+  }
+  .small_h{
+    font-size:48px;
+    line-height:56px;
+    font-weight:600;
+    margin:0;
+  }
+  .white{
+    color:white;
+  }
+
+  
+.d_flex{
+  display:flex;
+}
+
+  .d_text{
+      font-size:16px;
+      line-height:24px;
+    }
+  .d_big_text{
+      font-size:20px;
+      line-height:24px;
+    }
+  @media (min-width:1000px){
+    .d_half{
+        flex:0 0 50%;
+    }  
+      .pad_desk{
+    padding-left:100px;
+    padding-right:100px;
+  }
+  }
+@media (max-width:999px){
+  .cc-header--sticky {
+    top: 10px;
+}
+  .mobile_d_full{
+    flex:0 0 100%;
+  }
+  .mobile_d_wrap{
+    flex-wrap:wrap;
+  }
+  .pad_mobile{
+    padding-left:24px;
+    padding-right:24px;
+  }
+}
+  .showroom_banner_image img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+  }
+  .showroom_banner_content{
+    padding-top:48px;
+    padding-bottom:96px;
+  }
+  .showroom_banner_content .btn{
+    margin-top:32px;
+  }
+  
+  @media (max-width:999px){
+ .showroom_banner_content{
+    padding-top:24px;
+    padding-bottom:48px;
+  }
+     .small_h,.big_h{
+       font-size:30px;
+       line-height:44px;
+     }
+     .showroom_btn {
+      font-weight: 500;
+    padding: 10px 32px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+     }
+    .d_text{
+      font-size:14px;
+      line-height:20px;
+    }
+    .d_big_text{
+      font-size:16px;
+      line-height:20px;
+    }
+    .showroom_banner_content .btn {
+    margin-top: 24px;
+      margin-bottom:24px;
+}
+  }
+  .breadcrumbsu{
+    padding:16px 100px;
+    display:flex;
+    column-gap:16px;
+    align-items:center;
+  }
+  .breadcrumbsu span{
+    font-size:14px;
+    line-height:16px;
+    color:#BCBCBC;
+    display:flex;
+  }
+  .breadcrumbsu span a{
+    color:#BCBCBC;
+  }
+  .breadcrumbsu span.current{
+    color:#29425E;
+  }
+  main#main-content {
+    padding-top: 0;
+}
+  @media (max-width:749px){
+     .breadcrumbsu{
+    padding:16px;
+    column-gap:8px;
+  }
+      .breadcrumbsu span{
+    font-size:12px;
+         line-height:14px;
+        letter-spacing:0.3px;
+      }
+  }
+  
+</style>
+<div class="breadcrumbsu">
+  <span><a href="/">Home</a></span>
+  <span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M4.83687 2.50417C5.06468 2.27636 5.43402 2.27636 5.66183 2.50417L9.74516 6.5875C9.97297 6.81531 9.97297 7.18465 9.74516 7.41246L5.66183 11.4958C5.43402 11.7236 5.06468 11.7236 4.83687 11.4958C4.60906 11.268 4.60906 10.8986 4.83687 10.6708L8.50772 6.99998L4.83687 3.32913C4.60906 3.10132 4.60906 2.73197 4.83687 2.50417Z" fill="#BCBCBC"/>
+    </svg>
+
+  </span>
+  <span class="current">Showroom</span>
+</div>
+<div class="showroom_banner">
+  <div class="showroom_banner_image">
+    <img src='{{ section.settings.image_desktop | img_url:"master" }}'>
+  </div>
+  <div class="showroom_banner_content d_flex mobile_d_wrap pad_desk pad_mobile">
+      <div class="d_half mobile_d_full">
+            <h1 class="big_h">{{ section.settings.heading }}</h1>
+            <a class="btn btn--primary showroom_btn" href="{{ section.settings.link }}">
+              <span>
+                  {%- render 'icon', icon: "globe", width: 17, height: 17 -%}
+             </span>
+               <span>{{ section.settings.link_text }}</span>
+            </a>
+      </div>
+     <div class="d_half mobile_d_full">
+        <p class="d_text">{{ section.settings.text }}</p>
+      </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Showroom banner",
+  "tag": "section",
+  "settings": [
+      {
+       "type": "image_picker",
+      "id": "image_desktop",
+      "label": "image desktom"
+     },
+      {
+       "type": "image_picker",
+      "id": "image_mobile",
+      "label": "image mobile"
+     },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "heading"
+    },
+   {
+      "type": "textarea",
+      "id": "text",
+      "label": "text"
+   },
+   
+    {
+      "type": "url",
+      "id": "link",
+      "label": "link"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "link text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Showroom banner"
+    }
+  ]
+}
+{% endschema %}

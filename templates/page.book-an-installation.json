@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "disabled": true,
+      "settings": {
+        "show_contact_title": false,
+        "heading_align": "text-center"
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Book an Installation",
+            "heading_size": "h1",
+            "heading_h1": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're enhancing your space with our elegant pergolas, retractable roofs, or any other innovative solution, our team of skilled professionals is here to ensure your vision comes to life exactly as you've imagined.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/pergo-v_31.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 450,
+        "fixed_height_mobile": 440,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": true,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 55,
+        "prevent_animation": false
+      }
+    },
+    "rich_text_zeJD79": {
+      "type": "rich-text-book-installation",
+      "blocks": {
+        "text_FzyfkB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the AlunoTec difference today—where quality products meet expert installation to transform your outdoor area into a breathtaking retreat. Book your installation now and step into the outdoor oasis you've always dreamed of.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_FzyfkB"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "contact-name-2": {
+          "type": "name",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "contact-email-3": {
+          "type": "email",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "phone_YCUb7H": {
+          "type": "phone",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "dropdown_cfNLGe": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Where did you order the product?",
+            "options": "Website\nOther",
+            "half_width": true
+          }
+        },
+        "dropdown_dHqedr": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Product Mode",
+            "options": "Pergo-V\nPergo-M6\nPergola",
+            "half_width": true
+          }
+        },
+        "custom_r3azNH": {
+          "type": "custom",
+          "settings": {
+            "title": "Preferred Service Arrival Date & Time",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "custom_cHYMB6": {
+          "type": "custom",
+          "settings": {
+            "title": "Service Address",
+            "type": "text",
+            "required": false,
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "contact-name-2",
+        "contact-email-3",
+        "phone_YCUb7H",
+        "dropdown_cfNLGe",
+        "dropdown_dHqedr",
+        "custom_r3azNH",
+        "custom_cHYMB6"
+      ],
+      "settings": {
+        "heading": "Drop us an email",
+        "heading_align": "text-center",
+        "image_position": "top",
+        "color_scheme": "1",
+        "full_width": false,
+        "button_style": "btn btn--primary"
+      }
+    },
+    "icons_with_text_V8tTxD": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_z6gMnz": {
+          "type": "item",
+          "settings": {
+            "icon": "phone",
+            "heading": "Phone",
+            "text": "<p>WhatsApp: +86 15322860791<br\/>Tel: +86-769-89865511<\/p>",
+            "link": ""
+          }
+        },
+        "item_tjVQVY": {
+          "type": "item",
+          "settings": {
+            "icon": "email",
+            "heading": "Email",
+            "text": "<p><a href=\"mailto:info@alunotec.com\" target=\"_blank\" title=\"mailto:info@alunotec.com\">info@alunotec.com<\/a><\/p>",
+            "link": ""
+          }
+        },
+        "item_r3HUhR": {
+          "type": "item",
+          "settings": {
+            "icon": "map_pin",
+            "heading": "Address",
+            "text": "<p>Nr. 3, Shenghe Road, Nancheng, Dongguan, Guangdong, China<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_z6gMnz",
+        "item_tjVQVY",
+        "item_r3HUhR"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "none",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-banner",
+    "rich_text_zeJD79",
+    "form",
+    "icons_with_text_V8tTxD"
+  ]
+}

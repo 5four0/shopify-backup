@@ -1,0 +1,42 @@
+{{ 'juxtapose.css' | asset_url | stylesheet_tag }}
+<style>
+  div.juxtapose{
+    height:725px!important;
+    border-radius:30px;
+    overflow:hidden;
+    max-width:100%;
+  }
+  div.jx-image img{
+        width: 100%;
+    object-fit: cover;
+  }
+</style>
+<div class="page-width container">
+  <div class="image-compare">
+    <div class="imgcmpre-width">
+       <div class="juxtapose">
+        <img class="left" src="{{ section.settings.left-img | img_url:'' }}" data-label="2009" alt="Maidan square in 2009" data-credit="WSJ" />
+        <img class="right" src="{{ section.settings.right-img | img_url:'' }}" data-label="2014" alt="Maidan square in 2014" data-credit="" />
+    </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Image Compare",
+    "presets":[{"name":"Image Compare"}],
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"left-img",
+        "label":"Left Image(Before)"
+      },
+      {
+        "type":"image_picker",
+        "id":"right-img",
+        "label":"Right Image(After)"
+      }
+    ]
+  }
+{% endschema %}

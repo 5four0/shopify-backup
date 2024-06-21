@@ -1,0 +1,734 @@
+{%- if section.index > 2 -%}
+  <link rel="stylesheet" href="{{ 'hotspots-image.css' | asset_url }}" media="print" onload="this.media='all'">
+{%- else -%}
+  {{ 'hotspots-image.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
+
+<script src="{{ 'hotspots-image.js' | asset_url }}" defer="defer"></script>
+
+{%- liquid
+  assign color_scheme = section.settings.color_scheme
+  assign hotspot_color_brightness = section.settings.hotspot_color | color_brightness
+-%}
+
+{% style %}
+  #{{ section.id }} {
+    --hotspot-color: {{ section.settings.hotspot_color.rgb }};
+    {%- if hotspot_color_brightness > 128 %}
+      --hotspot-cross-color: #000;
+    {%- else -%}
+      --hotspot-cross-color: #fff;
+    {%- endif %}
+  }
+{% endstyle %}
+{%- assign section_identifier = '#shopify-section-' | append: section.id -%}
+  {%- assign  text_container = section.settings.text_container -%}
+    {%- assign  padding_top = section.settings.padding_top | append:'px' -%}
+  {%- assign  padding_bottom = section.settings.padding_bottom | append:'px' -%}
+
+{%- assign padding_mobile_top = section.settings.padding_top_mob | append: 'px' -%}
+{%- assign padding_mobile_bottom = section.settings.padding_bottom_mob | append: 'px' -%}
+<style>
+  {{ section_identifier }} {
+     background:{{section.settings.bgclr | default:'#fff'}};
+  }
+ {{ section_identifier }} .shoppable-image__text {
+    background: {{ text_container }};
+  }
+  .section-{{ section.id }}{
+    background:{{section.settings.bgclr | default:'#fff'}};
+    padding-top:{{section.settings.toppaddingpadding}}px;
+    padding-bottom:{{section.settings.bottompaddingpadding}}px;
+  }
+  .shoppable-image{
+  border-radius:30px;
+   /* overflow:hidden;*/
+  }
+   .shoppable-image__text {
+          flex: 0 0 33%;
+      }
+  @media (max-width:1499px) and (max-width:1025px){
+       .shoppable-image__text {
+          flex: 0 0 40%;
+      }
+  }
+  .shoppable-image__text h2{
+    color:rgb(var(--btn-bg-color));
+    font-size:32px;
+  }
+ .shoppable-image__text .rte ul li:not(:last-child){
+    margin-bottom:0;
+  }
+  .shoppable-image__text .btn--primary{
+    font-weight: 600;
+    padding: 13.5px 36px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 21px;
+    border-radius: var(--Button-mombile-rounded, 15px);
+  }
+  .rte ul li:before, .styled-list>li:before {
+    width: 5px;
+    height: 5px;
+}
+  .shop_container{
+    /* padding:0 100px 96px 100px; */
+  }
+.shop_container .card__info{
+      padding-right: 25px;
+    padding-left: 30px;
+}
+  .rounded_dot{
+    height:12px;
+    width:12px;
+    background:white;
+    border-radius:50%;
+  }
+  .hotspot.is-active .hotspot__btn{
+    border:1px solid white;
+  }
+  .hotspot__card{
+        padding: 20px;
+    width: 270px;
+    border-radius: 15px;
+  box-shadow: 1px 1px 17px #00000096;
+  }
+  .hotspot__card .card-link{
+    color: #29425E;
+  }
+  .hotspot__card .price__default {
+    font-size: 16px;
+}
+  .hotspot__card .price__current {
+    font-size: 16px;
+}
+  .hotspot__card .price__was {
+    font-size: 16px;
+}
+  .hotspot__card img{
+    margin-bottom:10px;
+  }
+  .hotspot:hover .hotspot__card {
+        visibility: visible;
+    opacity: 1;
+    transform: translate(-50%) scale(1);
+    transition: visibility 0s,opacity .3s,transform .3s;
+}
+  .shoppable-image__image img{
+        border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+        height: 100%;
+    object-fit: cover;
+  }
+  .shoppable-image__text{
+        border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  
+
+   @media (max-width: 1025px) {
+ .shoppable-image__image img{
+        border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+   border-bottom-left-radius: 0px;
+    
+  }
+  .shoppable-image__text{
+      border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+       border-top-right-radius: 0px;
+  }
+     .shop_container .card__info{
+         padding-bottom:20px;
+     }
+
+   }
+  @media (min-width: 769px) {
+    .hotspot__btn {
+            width: 48px;
+    height: 48px;
+    background-color: #8EB3C699;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
+  @media (max-width:1249px) and (min-width:1024px){
+      .shoppable-image__text {
+          flex: 0 0 45%;
+      }
+  }
+   @media (max-width:1429px) and (min-width:999px){
+    .shoppable-image__text .btn--primary {
+    padding: 16px 0px;
+    width: 100%;
+}
+     .shop_container {
+    padding: 0 50px 96px 50px;
+}
+     .shop_container .card__info {
+    padding-right: 15px;
+    padding-left: 20px;
+}
+   }
+  @media (max-width:999px){
+    .shoppable-image__text h2 {
+    font-size: 18px;
+      padding-left: 10px;
+}
+    
+    .hotspot__btn {
+            width: 32px;
+    height: 32px;
+    background-color: #8EB3C699;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .shop_container{
+    padding:0 24px 48px;
+  }
+    .shoppable-image__text .rte ul li{
+      font-size:14px;
+  }
+    .shoppable-image__text .btn--primary {
+    font-weight: 500;
+    padding: 10px 32px;
+    font-size: 14px;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 1px;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    }
+
+  }
+    @media (max-width: 430px) {
+       /* .section-{{ section.id }} {
+         padding-bottom: 48px;
+       } */
+      .shop_container .card__info {
+            padding: 10px 10px 20px;
+        }
+    }
+  .section__block.images{
+    display:flex;
+    justify-content:space-between;
+        max-width: 500px;
+  }
+  @media (max-width: 768px) {
+ .section__block.images{
+   flex-wrap:wrap !important;
+    justify-content:space-around !important;
+  }
+    .img_item{
+    flex:0 0 44% !important;
+  }
+    .img_item img{
+      border-radius:10px !important;
+    }
+}
+  
+  .img_item{
+    flex:0 0 23%;
+    text-align:center;
+  }
+  .img_coont{
+        padding-top: 100%;
+    position: relative;
+  }
+  .img_item img{
+       position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--btn-border-radius, 0);
+  }
+  .img_item p{
+    font-weight:bold;
+  }
+
+    /* New Adjustment Start */
+     {{ section_identifier }} .shop_container {
+      padding-top: {{padding_top}};
+      padding-bottom: {{padding_bottom}};
+    }
+  
+
+
+  {{ section_identifier }} .custom-height {
+    height: {{ section.settings.fixed_height_desktop | append: 'px' }};
+  }
+   @media only screen and (max-width: 1600px) {
+       {{ section_identifier }} .custom-height {
+        height: 500px;
+      }
+   }
+    @media only screen and (max-width: 1440px) {
+      .shoppable-image__text .btn--primary {
+            padding: 13.5px 36px;
+      }
+    }
+  
+   @media only screen and (max-width: 768px) {
+     {{ section_identifier }} .custom-height {
+        height: 100%;
+      }
+     .shop_container .card__info {
+               display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+   }
+   @media only screen and (max-width: 430px) {
+     {{ section_identifier }} .custom-height {
+        height: 100%;
+      }
+       {{ section_identifier }} .shop_container {
+        padding-top: {{ padding_mobile_top }};
+        padding-bottom: {{ padding_mobile_bottom }};
+      }
+      .shoppable-image__text .btn--primary {
+        border-radius: var(--Button-mombile-rounded, 12px);
+      }
+   }
+     @media only screen and (max-width: 414px) {
+        .shoppable-image__text .btn--primary {
+        border-radius: var(--Button-mombile-rounded, 12px);
+      }
+     }
+
+    /* New Adjustment End */
+</style>
+<div class="section-{{ section.id }}">
+<div class="container shop_container {% if section.settings.new_adjustment %}new_adjustment{% endif %}" id="{{ section.id }}">
+  
+    <div class="shoppable-image{% if section.settings.layout == 'image_last' %} flex-row-reverse{% endif %} {{ section.settings.height_mode }}">
+      <hotspots-image class="shoppable-image__image block relative "{% if settings.animations_enabled != "disabled" %} data-cc-animate{% endif %}>
+        {%- if section.settings.image != blank -%}
+          {%- capture sizes -%}
+            {%- render 'sizes-attribute', min: 'page', sm: 'page', md: false, lg: false, xl: '896px', max: false -%}
+          {%- endcapture -%}
+
+          {% render 'image',
+            image: section.settings.image,
+            widths: '690, 896, 1408, 1792, 1920',
+            src_width: 896,
+            sizes: sizes,
+            class: 'block mx-auto w-full'
+          %}
+        {%- else -%}
+          <div class="media relative" style="padding-top: 56.25%;">
+            {{ 'collection-2' | placeholder_svg_tag: 'media__placeholder img-fit' }}
+          </div>
+        {%- endif -%}
+
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {% when "hotspot" %}
+          {%- assign product = block.settings.product -%}
+
+          <div class="hotspot absolute" data-x="{{ block.settings.hotspot_x }}" data-y="{{ block.settings.hotspot_x }}" style="top: {{ block.settings.hotspot_y }}%; left: {{ block.settings.hotspot_x }}%">
+            <button type="button" class="hotspot__btn relative tap-target no-js-hidden" aria-expanded="false">
+              <span class="visually-hidden">
+                {{- 'accessibility.view_details' | t }}{% if product and product != empty %} - {{ product.title }}{% endif -%}
+              </span>
+             {% comment %} {% render 'icon-plus' %}{% endcomment %}
+              <div class="rounded_dot"></div>
+            </button>
+            <div class="hotspot__card absolute no-js-hidden" aria-hidden="true">
+              {%- if product and product != empty -%}
+                {%- if section.settings.show_vendor -%}
+                  <p class="card__vendor mb-0">{{ product.vendor }}</p>
+                {%- endif -%}
+                {% if product.featured_image != blank %}
+                        <img src="{{ product.featured_image | img_url:"64x64" }}">
+                  {% endif %}
+                <p class="h5">
+                  <a href="{{ product.url }}" class="card-link text-current">{{ product.title }}</a>
+                </p>
+                <hr class="mt-4 mb-4">
+                {%- render 'price', product: product -%}
+              {%- else -%}
+                <p class="h5">{{ 'onboarding.product.title' | t }}</p>
+                <hr class="mt-4 mb-4">
+                <div class="card__price theme-money">
+                  {%- render 'price' -%}
+                </div>
+              {%- endif -%}
+            </div>
+            {%- if product and product != empty -%}
+              <noscript>
+                <a class="hotspot__btn tap-target flex justify-center items-center" href="{{ product.url }}" title="{{ product.title }}">
+                  {% render 'icon-plus' %}
+                </a>
+              </noscript>
+            {%- endif -%}
+          </div>
+            {% endcase %}
+        {% endfor %}
+      </hotspots-image>
+
+      {%- if section.settings.show_content -%}
+        <div class="shoppable-image__text"{% if settings.animations_enabled != "disabled" %} data-cc-animate{% endif %}>
+          <div class="card card--wide h-full {% unless color_scheme == 'none' %} color-scheme color-scheme--{{ color_scheme }}{% endunless %}">
+            <div class="card__info{% if section.settings.mob_center_text %} md-down:text-center{% endif %}">
+              {%- if section.settings.heading != blank -%}
+                <h2 class="section__block section__block--heading h4">
+                  {{- section.settings.heading | escape -}}
+                </h2>
+              {%- endif -%}
+
+              {%- if section.settings.text != blank -%}
+                <div class="section__block rte">
+                  {{ section.settings.text }}
+                </div>
+              {%- endif -%}
+
+              <div class="section__block images">
+                {% for block in section.blocks %}
+                  {% case block.type %}
+                    {% when "image_with_title" %}
+                      <div class="img_item">
+                        <a href="{% if block.settings.link != blank %}{{ block.settings.link }}{% else %}#{% endif %}">
+                        <div class="img_coont">
+                        <img src="{{ block.settings.image | img_url:'master' }}">
+                        </div>
+                        <p>{{ block.settings.text }}</p>
+                        </a>
+                      </div>
+                    {% endcase %}
+                {% endfor %}
+              </div>
+
+              {%- if section.settings.button_label != blank -%}
+                <div class="section__block section__block--button">
+                  <a class="relative {{ section.settings.button_style }}" {% if section.settings.button_link != blank %}href="{{ section.settings.button_link }}"{% else %}role="link" aria-disabled="true"{% endif %}>
+                    {{- section.settings.button_label | escape -}}
+                  </a>
+                </div>
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Shoppable image",
+  "tag": "section",
+  "class": "cc-shoppable-image",
+  "settings": [
+    {
+      "type":"range","id":"toppadding","label":"Top Padding","min":20,"max":100,"step":2,"unit":"px","default":30
+    },
+    {
+      "type":"range","id":"bottompadding","label":"Bottom Padding","min":20,"max":100,"step":2,"unit":"px","default":30
+    },
+    {"type":"color","id":"bgclr","label":"Background Color"},
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "For best results, use a landscape shaped image with a width of 1920px. Smaller images may be enlarged."
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "new_adjustment",
+      "label": "New Figma",
+      "info": "Enable this will follow the figma new adjustment it will be auto adjust the content.",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "height_mode",
+      "label": "Container height",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Height of first image"
+        },
+        {
+          "value": "custom-height",
+          "label": "Fixed height (set below)"
+        }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "range",
+      "id": "fixed_height_desktop",
+      "min": 400,
+      "max": 1000,
+      "step": 10,
+      "unit": "px",
+      "label": "Maximum fixed height on large screens",
+      "default": 600
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Image position on large screens",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "Left"
+        },
+        {
+          "value": "image_last",
+          "label": "Right"
+        }
+      ],
+      "default": "image_first"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "label": "Show vendor",
+      "info": "Shown in product popups",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_content",
+      "label": "Show text",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "mob_center_text",
+      "label": "Center text on mobile",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Shoppable image"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Create a Shop the Look section to assist with upselling or helping customers with purchasing complementary products.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+     {
+      "type": "color",
+      "id": "text_container",
+      "label": "Text container background color"
+    },
+    {
+      "type": "color",
+      "id": "hotspot_color",
+      "label": "Hotspot color",
+      "default": "#070707"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "none",
+          "label": "Default"
+        },
+        {
+          "value": "1",
+          "label": "Scheme 1"
+        },
+        {
+          "value": "2",
+          "label": "Scheme 2"
+        },
+        {
+          "value": "3",
+          "label": "Scheme 3"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button",
+      "options": [
+        {
+          "value": "link",
+          "label": "Link"
+        },
+        {
+          "value": "btn btn--primary",
+          "label": "Primary button"
+        },
+        {
+          "value": "btn btn--secondary",
+          "label": "Secondary button"
+        }
+      ],
+      "default": "btn btn--primary"
+    },
+    {
+      "type": "header",
+      "content": "Kikstart Spacing Settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "padding top",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "padding Bottom",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mob",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "For Mobile padding top",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mob",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "For Mobile padding Bottom",
+      "default": 48
+    }
+  ], 
+  "blocks": [
+    {
+      "type": "hotspot",
+      "name": "Hotspot",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "hotspot_x",
+          "label": "Horizontal position",
+          "min": 10,
+          "max": 90,
+          "unit": "%",
+          "step": 1,
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "hotspot_y",
+          "label": "Vertical position",
+          "min": 10,
+          "max": 90,
+          "unit": "%",
+          "step": 1,
+          "default": 50
+        }
+      ]
+    },
+       {
+      "type": "image_with_title",
+      "name": "image with title",
+      "settings": [
+         {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+             {
+      "type": "text",
+      "id": "text",
+      "label": "text"
+    },
+         {
+      "type": "url",
+      "id": "link",
+      "label": "link"
+    }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shoppable image",
+      "blocks": [
+        {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 28,
+            "hotspot_y": 38
+          }
+        },
+        {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 23
+          }
+        },
+        {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 73,
+            "hotspot_y": 54
+          }
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": [
+      "header",
+      "footer",
+      "aside"
+    ]
+  }
+}
+{% endschema %}

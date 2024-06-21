@@ -1,0 +1,396 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+<script>
+  console.log(window.document.documentElement.clientHeight, window.innerHeight)
+
+ //+ window.addEventListener("scroll", richText);  
+
+ if (window.matchMedia("(min-width: 749.1px)").matches) {
+   gsap.to('.sticky_ele_cont', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.showroom_moving_images',
+   start:"5% top",
+   end:"bottom bottom",
+  },
+   x:0,
+  y:"0",
+  z:0,
+  scale:2.5
+})
+   gsap.to('.scale-grid-items:not(:nth-child(3))', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.showroom_moving_images',
+   start:"5% top",
+   end:"bottom bottom",
+  },
+   x:0,
+  y:"0",
+  z:0,
+  scale:0.75,
+     opacity:0
+})
+  gsap.to('.scale-grid-items:nth-child(3) img', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.showroom_moving_images',
+   start:"5% top",
+   end:"bottom bottom",
+  },
+   x:0,
+  y:"0",
+  z:0,
+  scale:1
+})
+
+/*
+    gsap.to('.scale-grid-content', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.scale-grid',
+   start:"5% top",
+   end:"bottom bottom",
+  },
+  scale:2.78
+})
+   gsap.to('.scale-grid-item:not(:nth-child(3))', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.scale-grid',
+   start:"5% top",
+   end:"bottom bottom",
+  },
+   x:0,
+  y:"0",
+  z:0,
+  scale:0.75,
+     opacity:0
+})
+  gsap.from('.scale-grid-item:nth-child(3) img', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.scale-grid',
+   start:"5% top",
+   end:"bottom bottom",
+  },
+   x:0,
+  y:"0",
+  z:0,
+  scale:1.5
+})*/
+
+
+/*gsap.to('.b-left', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+     start:"top bottom",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"-100",
+  y:0,
+  z:0,
+    ease: "none"
+})
+
+gsap.to('.b-right', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+     start:"top bottom",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"150",
+  y:0,
+  z:0,
+    ease: "none"
+})
+*/  
+
+
+gsap.set(".slides-wrapper", { height: (window.innerHeight*3) });
+gsap.set(".slide:not(:first-child)", { x: 0, y: window.innerHeight, z:0 });
+gsap.set(".slide .background", { x: 0, y: 0, z:0, scale:1.4 });
+gsap.set(".slide .image_overlay_content", { x: 0, y: - window.innerHeight, z:0 });
+
+
+  
+gsap.to('.slides-wrapper', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:"top top",
+   end:"+="+(window.innerHeight*3),
+    
+  },
+   x:"0",
+  y:(window.innerHeight*3),
+  z:0,
+    ease: "none"
+})
+
+
+//slides
+
+gsap.to('.slide:nth-child(2)', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:"top top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:0,
+  z:0,
+    ease: "none"
+})
+
+gsap.to('.slide:nth-child(3)', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:window.innerHeight+ "top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:0,
+  z:0,
+    ease: "none"
+})
+
+  
+//background
+gsap.to('.slide:nth-child(1) .background', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:"top bottom",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:0,
+  z:0,
+  scale:1,
+  ease: "none"
+})
+gsap.to('.slide:nth-child(2) .background', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:"top top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:0,
+  z:0,
+  scale:1,
+  ease: "none"
+})
+  gsap.to('.slide:nth-child(3) .background', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:window.innerHeight+ "top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:0,
+  z:0,
+  scale:1,
+  ease: "none"
+})
+
+gsap.to('.slide:nth-child(1) .background', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:"top top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:-238,
+  z:0,
+  ease: "none"
+})
+
+gsap.to('.slide:nth-child(2) .background', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:window.innerHeight+ "top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:-238,
+  z:0,
+  ease: "none"
+})
+
+gsap.to('.slide:nth-child(3) .background', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:(window.innerHeight*2)+ "top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:-238,
+  z:0,
+  ease: "none"
+})
+
+
+
+
+
+//content
+
+gsap.to('.slide:nth-child(1) .image_overlay_content', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:"top bottom",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:0,
+  z:0,
+    ease: "none"
+})
+
+gsap.to('.slide:nth-child(2) .image_overlay_content', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:"top top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:0,
+  z:0,
+    ease: "none"
+})
+gsap.to('.slide:nth-child(3) .image_overlay_content', {
+  scrollTrigger: {
+    scrub: 0,
+   trigger:'.module-slideshow-image-description',
+   start:window.innerHeight+ "top",
+   end:"+="+ ( window.innerHeight ),
+    
+  },
+   x:"0",
+  y:0,
+  z:0,
+    ease: "none"
+})
+ 
+ }
+
+
+
+  
+  
+
+if (window.matchMedia("(max-width: 749px)").matches) {
+ScrollTrigger.config({ ignoreMobileResize: true });
+gsap.set(".slide:not(:first-child)", { x: 0, y: window.innerHeight, z:0 });
+gsap.set(".slide:not(:first-child) .image_overlay_content", { x: 0, y: - window.innerHeight, z:0 });
+
+// timeline
+let tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.module-slideshow-image-description',
+        pin: ".slides-wrapper", // pin the trigger element while active
+        start:"top top",
+       end:"+="+(window.innerHeight*3),
+        scrub: 0, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar: was 1
+       anticipatePin: 1,
+            invalidateOnRefresh: true,
+      toggleActions: "restart reverse restart reverse",
+    },
+})
+// to animations
+tl.to('.slide:nth-child(1) .background', {x:"0",y:-238,z:0},0)  
+tl.to('.slide:nth-child(2) .image_overlay_content', {x:"0",y:0,z:0},0)  
+tl.to('.slide:nth-child(2)',{ x:"0", y:0,z:0},0)
+  tl.to('.slide:nth-child(2) .background', {x:"0",y:-238,z:0},0.5)  
+tl.to('.slide:nth-child(3) .image_overlay_content', {x:"0",y:0,z:0},.5)
+tl.to('.slide:nth-child(3)',{x:"0", y:0,z:0},0.5)
+
+  
+}
+  
+  
+//last section
+  gsap.to('.scrolling_items_1 .scrolling-items .scrolling-item', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.scrolling-section',
+   start:"top bottom",
+   end:"+=2000",
+  },
+   x:"-25%",
+  y:"0",
+  z:0
+})
+    gsap.to('.scrolling_items_2 .scrolling-items .scrolling-item', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.scrolling-section',
+   start:"top bottom",
+   end:"+=2000",
+  },
+   x:"25%",
+  y:"0",
+  z:0
+})
+     gsap.to('.scrolling_items_3 .scrolling-items .scrolling-item', {
+  scrollTrigger: {
+    scrub: 1,
+   trigger:'.scrolling-section',
+   start:"top bottom",
+   end:"+=2000",
+  },
+   x:"-25%",
+  y:"0",
+  z:0
+})
+
+
+
+
+
+
+
+
+
+
+</script>
+{% schema %}
+{
+  "name": "Showroom animation script",
+  "tag": "section",
+  "class": "scrolling-section",
+  "settings": [
+     
+  ],
+  "presets": [
+    {
+      "name": "Showroom animation script"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,88 @@
+<style>
+  .scrolling_items_3{
+    margin-bottom:48px;
+  }
+.scrolling-items{
+  display:flex;
+  column-gap:24px;
+  overflow:hidden;
+  margin-bottom:24px;
+}
+  .scrolling-item-{{ section.id }}{
+    margin-left: -{{section.settings.margin_left}}%;
+  }
+  .scrolling-item{
+    width:332px;
+    height:220px;
+    flex:0 0 332px;
+  }
+  .scrolling-item img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius:15px;
+  }
+  @media (max-width:999px){
+    .scrolling-items{
+  column-gap:12px;
+  margin-bottom:12px;
+}
+    .scrolling-item{
+    width:165.34px;
+    height:109.56px;
+    flex:0 0 165.34px;
+  }
+  }
+</style>
+<div class="showroom_scrolling_images scrolling-item-{{ section.id }} scrolling_items_{{ section.settings.section_number }}">
+    <div class="scrolling-items">
+  {% for block in section.blocks %}
+         <div class='scrolling-item'>
+           <img src="{{ block.settings.image | img_url:"master" }}">
+         </div>
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Showroom scrolling images",
+  "tag": "section",
+  "class": "scrolling-section",
+  "settings": [
+        {
+       "type": "range",
+      "id": "section_number",
+      "label": "section number",
+        "min":1,
+        "max": 10,
+        "default":1
+     },
+      {
+       "type": "range",
+      "id": "margin_left",
+      "label": "margin_left",
+        "min":0,
+        "max": 100,
+        "default":22
+     }
+  ],
+      "blocks": [
+    {
+      "type":"image_block",
+      "name":"image block",
+      "settings": [
+        {
+       "type": "image_picker",
+      "id": "image",
+      "label": "image desktop"
+     }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Showroom scrolling images"
+    }
+  ]
+}
+{% endschema %}

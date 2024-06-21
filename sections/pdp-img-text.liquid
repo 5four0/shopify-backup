@@ -1,0 +1,226 @@
+{%- assign section_identifier = '#shopify-section-' | append: section.id -%}
+{%- assign margin_top = section.settings.margin_top | append: 'px' -%}
+{%- assign margin_bottom = section.settings.margin_bottom | append: 'px' -%}
+{%- assign margin_mobile_top = section.settings.margin_top_mob | append: 'px' -%}
+{%- assign margin_mobile_bottom = section.settings.margin_bottom_mob | append: 'px' -%}
+<style>
+    {{ section_identifier }} {
+    padding-top: {{ margin_top }};
+    padding-bottom: {{ margin_bottom }};
+  }
+
+   {{ section_identifier }} .custom-height img {
+         height: {{ section.settings.fixed_height | append: 'px' }};
+   }
+
+  
+  .pdp-imgtext-wrap{
+    gap:24px;
+  }
+  .pdp-imgtext-wrap>div {
+    width: 50%;
+  }
+  .pdpimgtxt-img img{
+    width:100%;
+    display:block;
+    border-radius:20px;
+  }
+  .pdpimgtext-left {
+    flex-direction: row-reverse;
+}
+  .pdpimgtxt-icntxt {
+    padding-bottom: 8px;
+}
+  .pdpimgtxt-icntxt .pdp-icntxt {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+  .pdp-icntxt span.pdpicntxt-icon img {
+      width: 24px;
+      height: 24px;
+  }
+@media (min-width:768px){
+  .pdpimgtext-left .pdpimgtxt-cntnt {
+      padding-left: 50px;
+  }
+}
+@media (max-width:767px){
+  
+  .pdp-img-text .page-width{
+  padding:0 24px !important;
+  }
+  .pdp-imgtext-wrap>div {
+    width: 100%;
+  }
+  .pdp-imgtext-wrap {
+    flex-direction: column-reverse;
+  }
+}
+    @media only screen and (max-width: 430px) {
+    {{ section_identifier }} {
+      padding-top: {{margin_mobile_top }};
+      padding-bottom: {{ margin_mobile_bottom }};
+    }
+     {{ section_identifier }} .custom-height img {
+         width: 366px;
+        height: 230px;
+    }
+  }
+    @media only screen and (max-width: 414px) {
+      {{ section_identifier }} .custom-height img {
+           width: 366px;
+          height: 230px;
+      }
+        .pdpimgtxt-icntxt {
+              padding-bottom: 11px;
+          }
+    }
+</style>
+<section>
+  <div class="pdp-img-text">
+    <div class="page-width">
+      <div class="pdp-imgtext-wrap pdp-imgtext-wrap-{{ section.id }} flex items-center pdpimgtext-{{ section.settings.imgposition }}">
+        {% if section.settings.img %}
+        <div class="pdpimgtxt-cntnt">
+          {% for block in section.blocks %}
+            {% case block.type %}
+            {% when 'heading' %}
+            <div class="pdpimgtxt-title">
+              <h2>{{ block.settings.title }}</h2>
+            </div>
+              
+            {% when 'description' %}
+              <div class="pdpimgtxt-content">
+                {{ block.settings.content | newline_to_br }}
+              </div>
+              {% when 'icon-text' %}
+              <div class="pdpimgtxt-icntxt">
+                <div class="pdp-icntxt">
+                  <span class="pdpicntxt-icon"><img src="{{ block.settings.icon | img_url:''}}"></span>
+                  <span>{{ block.settings.title }}</span>
+                </div>
+              </div>
+            {% endcase %}
+          {% endfor %}
+          
+        </div>
+        <div class="pdpimgtxt-img {{ section.settings.image_height }}">
+            <img src="{{ section.settings.img | img_url:'' }}">
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "PDP Image Text",
+    "class": "c-pdp-img-text",
+    "presets":[
+      {
+        "name":"PDP Image Text",
+        "blocks": [
+          {"type": "heading"},
+          {"type": "description"},
+          {"type": "icon-text"}
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type":"image_picker","id":"img","label":"Image"
+      },
+      {
+        "type": "select","id": "image_height","label": "Image Custom Height","default":"default",
+        "options": [
+          {"label": "Default","value": "default"},
+          {"label": "Custom Height (Set below)","value": "custom-height"}
+        ]
+      },
+      {
+        "type": "range",
+        "id": "fixed_height",
+        "min": 400,
+        "max": 1000,
+        "step": 10,
+        "unit": "px",
+        "label": "Maximum fixed height on large screens",
+        "default": 400
+      },
+      {
+        "type": "select","id": "imgposition","label": "Image Position","default":"left",
+        "options": [
+          {"label": "Left","value": "left"},
+          {"label": "Right","value": "right"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Kikstart Spacing Settings"
+      }, {
+        "type": "range",
+        "id": "margin_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Margin Top",
+        "default": 96
+      }, {
+        "type": "range",
+        "id": "margin_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Margin Bottom",
+        "default": 96
+      }, {
+        "type": "range",
+        "id": "margin_top_mob",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "For Mobile Margin top",
+        "default": 48
+      }, {
+        "type": "range",
+        "id": "margin_bottom_mob",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "For Mobile Margin Bottom",
+        "default": 48
+      }
+    ],
+    "blocks":[
+      {
+        "type":"heading",
+        "name":"Heading",
+        "settings":[
+          {"type": "text","id": "title","label": "Heading","default":"Heading"}
+        ]
+      },
+      {
+        "type":"description",
+        "name":"Description",
+        "settings":[
+          {"type": "textarea","id": "content","label": "Description","default":"Description about product specs"}
+        ]
+      },
+      {
+        "type":"icon-text",
+        "name":"Icon Text",
+        "settings":[
+          {"type": "image_picker","id": "icon","label": "Icon"},
+          {"type": "text","id": "title","label": "Text"}
+        ]
+      }
+    ]
+  }
+{% endschema %}

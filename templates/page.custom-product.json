@@ -1,0 +1,489 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "image_banner_L6biaX": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_BWDDhN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Create Your Custom Pergola",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "subheading_3AVP4p": {
+          "type": "subheading",
+          "settings": {
+            "text": "Customize Your Pergola for the Perfect Integration into Your Space"
+          }
+        },
+        "button_yQaRCt": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Customize Now",
+            "button_1_link": "shopify:\/\/pages\/contact-us",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BWDDhN",
+        "subheading_3AVP4p",
+        "button_yQaRCt"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/9.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 550,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 45,
+        "prevent_animation": false
+      }
+    },
+    "multi_column_dqLADW": {
+      "type": "multi-column-affiliate",
+      "blocks": {
+        "column_P8JmY3": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/7.jpg",
+            "media_scale": 100,
+            "heading": "Transforming Outdoor Spaces: The AlunoTec Pergola Project",
+            "text": "<p>In the heart of a bustling suburb, AlunoTec undertook the challenge of transforming a neglected backyard into a luxurious outdoor living area.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_JeFwQM": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/9.jpg",
+            "media_scale": 100,
+            "heading": "Beyond the Patio: Revolutionizing Restaurant Seating with AlunoTec",
+            "text": "<p>Faced with the need to expand seating capacity while navigating weather uncertainties, a popular café partnered with AlunoTec to rethink its outdoor dining experience.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_9NjXxe": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/M6_9.jpg",
+            "media_scale": 100,
+            "heading": "AlunoTec’s Shade Solutions: Enhancing a Community Park",
+            "text": "<p>In an initiative to revitalize a community park, AlunoTec was approached to provide innovative shade solutions that would encourage more visitors and host a variety of outdoor activities.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_P8JmY3",
+        "column_JeFwQM",
+        "column_9NjXxe"
+      ],
+      "settings": {
+        "title": "Case Studies",
+        "heading_align": "text-start",
+        "button_label": "View More",
+        "button_link": "",
+        "layout": "carousel",
+        "column_size": "medium",
+        "column_align": "left",
+        "media_align": "text-center",
+        "image_ratio": "natural",
+        "color_scheme": "1",
+        "button_style": "btn btn--secondary"
+      }
+    },
+    "rich_text_bedXBT": {
+      "type": "rich-text-book-installation",
+      "blocks": {
+        "heading_CYkzb6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Craft Your Perfect Pergola",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_pnJFqk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose your path to the perfect outdoor experience with our two easy customization options.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CYkzb6",
+        "text_pnJFqk"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "3",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "media_with_text_LiiJwn": {
+      "type": "media-with-text",
+      "blocks": {
+        "subheading_C3zcAj": {
+          "type": "subheading",
+          "settings": {
+            "text": "Option 1"
+          }
+        },
+        "heading_WLLN7G": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personalized Design Service",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_cd8jBn": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Have Dimensions But Need Design Help?<\/h6><p>If you want to install a pergola but need design help, we can assist. Provide your dimensions, and we’ll create a custom design for you. We'll send a detailed proposal and quote directly to your email.<\/p><h6>How to Get Started?<\/h6><ol><li><strong>Upload Photos<\/strong>: Easily upload images of your space.<\/li><li><strong>Provide Details<\/strong>: Any specific requirements or preferences.<\/li><li><strong>Submit<\/strong>: Click Submit, and we’ll contact you ASAP.<\/li><\/ol>",
+            "enlarge_text": false
+          }
+        },
+        "button_xGkDUA": {
+          "type": "button",
+          "settings": {
+            "button_label": "UPLOAD NOW！",
+            "button_link": "shopify:\/\/pages\/personalized-design",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_C3zcAj",
+        "heading_WLLN7G",
+        "text_cd8jBn",
+        "button_xGkDUA"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pergo-v_19_da184794-127c-45f3-953a-c8e0647042e4.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "3",
+        "only_content_color_scheme": false
+      }
+    },
+    "media_with_text_6bNiKb": {
+      "type": "media-with-text",
+      "blocks": {
+        "subheading_trgqYK": {
+          "type": "subheading",
+          "settings": {
+            "text": "Option 2"
+          }
+        },
+        "heading_khJTHP": {
+          "type": "heading",
+          "settings": {
+            "heading": "DIY 3D Design",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_EqEA8x": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Design Your Pergola Yourself<\/h6><p>We invite you to use our intuitive online 3D tool to craft your pergola exactly how you want it. Submit your creation, and we'll provide a tailored quote.<\/p><h6>How to Get Started?<\/h6><ol><li><strong>Visit Our 3D Platform<\/strong>: Use our online tool.<\/li><li><strong>Design Your Pergola<\/strong>: Customize every detail.<\/li><li><strong>Submit Design<\/strong>: Click Submit, and we’ll send you a quote.<\/li><\/ol>",
+            "enlarge_text": false
+          }
+        },
+        "button_UKgFxR": {
+          "type": "button",
+          "settings": {
+            "button_label": "COMING SOON!",
+            "button_link": "",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_trgqYK",
+        "heading_khJTHP",
+        "text_EqEA8x",
+        "button_UKgFxR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pergo-v_9_dadb732e-9dbb-41a4-bce7-1959abf24742.jpg",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2",
+        "only_content_color_scheme": false
+      }
+    },
+    "multi_column_9ra7cC": {
+      "type": "multi-column",
+      "blocks": {
+        "column_WmXHpR": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Alunotec_Icons.png",
+            "media_scale": 70,
+            "heading": "Design Consultation",
+            "text": "<p>Begin with a personal consultation where you share your vision, preferences, and specific requirements for your custom pergola.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_ayCGEw": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Alunotec_Icons_1.png",
+            "media_scale": 70,
+            "heading": "Customization & Approval",
+            "text": "<p>Based on the initial consultation, we'll draft a custom design tailored to your specifications. <\/p>",
+            "button_label": "Create Your Own Pergola!",
+            "button_link": "shopify:\/\/products\/outdoor-space-custom-pergola-design"
+          }
+        },
+        "column_Q6yTBy": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Alunotec_Icons_2.png",
+            "media_scale": 70,
+            "heading": "Professional Installation",
+            "text": "<p>Once the design is approved, our skilled team takes over to bring your custom pergola to life. <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WmXHpR",
+        "column_ayCGEw",
+        "column_Q6yTBy"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "How it Works",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "column_size": "medium",
+        "column_align": "center",
+        "media_align": "text-center",
+        "image_ratio": "natural",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "contact_form_mDVwbE": {
+      "type": "contact-form",
+      "blocks": {
+        "name_n9xPCH": {
+          "type": "name",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "email_DH8P7b": {
+          "type": "email",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "phone_DYDMhN": {
+          "type": "phone",
+          "settings": {
+            "required": false,
+            "half_width": true
+          }
+        },
+        "custom_XHEJJr": {
+          "type": "custom",
+          "settings": {
+            "title": "Zip Code",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "dropdown_rjL7Pa": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Where did you hear about us?",
+            "options": "Google\nYouTube\nInstagram\nFacebook\nOther",
+            "half_width": true
+          }
+        },
+        "custom_ziqYpd": {
+          "type": "custom",
+          "settings": {
+            "title": "Size (L x W x H)",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "body_xPhKRk": {
+          "type": "body",
+          "settings": {
+            "required": true,
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name_n9xPCH",
+        "email_DH8P7b",
+        "phone_DYDMhN",
+        "custom_XHEJJr",
+        "dropdown_rjL7Pa",
+        "custom_ziqYpd",
+        "body_xPhKRk"
+      ],
+      "settings": {
+        "heading": "Did not find your custom pergola? Contact us here.",
+        "heading_align": "text-center",
+        "image_position": "top",
+        "color_scheme": "1",
+        "full_width": true,
+        "button_style": "btn btn--primary"
+      }
+    },
+    "icons_with_text_MyAFxk": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_EgnMxe": {
+          "type": "item",
+          "settings": {
+            "icon": "email",
+            "custom_icon_svg": "",
+            "heading": "Email",
+            "text": "<p><a href=\"mailto:info@alunotec.com\" target=\"_blank\" title=\"mailto:info@alunotec.com\">info@alunotec.com<\/a><\/p>",
+            "link": ""
+          }
+        },
+        "item_Mm6PVq": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "custom_icon_svg": "",
+            "heading": "WhatsApp",
+            "text": "<p><a href=\"tel:+86 15322860791\" target=\"_blank\" title=\"tel:+86 15322860791\">+86 15322860791<\/a><\/p>",
+            "link": ""
+          }
+        },
+        "item_gVQLqF": {
+          "type": "item",
+          "settings": {
+            "icon": "phone",
+            "custom_icon_svg": "",
+            "heading": "Telephone",
+            "text": "<p><a href=\"tel:+86-769-89865511\" target=\"_blank\" title=\"tel:+86-769-89865511\">+86-769-89865511<\/a><\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_EgnMxe",
+        "item_Mm6PVq",
+        "item_gVQLqF"
+      ],
+      "settings": {
+        "heading": "Need More Assistance?",
+        "heading_align": "text-center",
+        "icon_size": 48,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "none",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "rich_text_GE4UwP": {
+      "type": "rich-text",
+      "blocks": {
+        "text_CapDLP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We will get back to you within 24 working hours (except all major holidays)<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_CapDLP"
+      ],
+      "settings": {
+        "toppadding": 30,
+        "bottompadding": 30,
+        "bgclr": "",
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_L6biaX",
+    "multi_column_dqLADW",
+    "rich_text_bedXBT",
+    "media_with_text_LiiJwn",
+    "media_with_text_6bNiKb",
+    "multi_column_9ra7cC",
+    "contact_form_mDVwbE",
+    "icons_with_text_MyAFxk",
+    "rich_text_GE4UwP"
+  ]
+}

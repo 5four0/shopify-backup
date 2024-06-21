@@ -1,0 +1,521 @@
+{
+  "sections": {
+    "shworoom_banner_UXhAdx": {
+      "type": "shworoom_banner",
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/image_showroom_banner2.jpg",
+        "heading": "AlunoTec Showroom",
+        "text": "\"Real Homes, Real Stories\" provides an authentic journey through homeowners' experiences, allowing you to engage with tangible elements and genuine emotions. Gain valuable insights from real customers, explore tactile sensations, and visualize your outdoor space with inspiration from genuine stories.",
+        "link": "shopify:\/\/pages\/contact-us",
+        "link_text": "Book A Visit"
+      }
+    },
+    "showroom_moving_images_kDAd4f": {
+      "type": "showroom_moving_images",
+      "blocks": {
+        "image_block_4nefmJ": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_scroll1-1.jpg"
+          }
+        },
+        "image_block_Tai4jA": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_scroll2.jpg"
+          }
+        },
+        "image_block_6A69nM": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_banner2_dc6d38e9-24c3-4ed5-bee7-57ea2e5cb053.jpg"
+          }
+        },
+        "image_block_3bMxcX": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_scroll2-3.jpg"
+          }
+        },
+        "image_block_ND3Xcc": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_scroll4-2.jpg"
+          }
+        },
+        "image_block_WzhnjP": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_scroll5-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_4nefmJ",
+        "image_block_Tai4jA",
+        "image_block_6A69nM",
+        "image_block_3bMxcX",
+        "image_block_ND3Xcc",
+        "image_block_WzhnjP"
+      ],
+      "settings": {
+      }
+    },
+    "showroom_scaling_images_nLzmNa": {
+      "type": "showroom_scaling_images",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "showroow_slides_hwWrJ4": {
+      "type": "showroow_slides",
+      "blocks": {
+        "text_block_gfjePY": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/image_showroom_pc_transition1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_showroom_h5_transition5.jpg",
+            "heading": "Send Your Location",
+            "text": "Share your location or zip code with us via email, WhatsApp, or our online chat. We will find the nearest AlunoTec Showroom for you.",
+            "overlay_opacity": 50
+          }
+        },
+        "text_block_jgE9eJ": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/image_showroom_pc_transition2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_showroom_h5_transition4.jpg",
+            "heading": "Get Showroom Details",
+            "text": "We will provide the address and contact details of the closest showroom. These are real homes of friendly people. You can schedule a visit at a convenient time!",
+            "overlay_opacity": 50
+          }
+        },
+        "text_block_NaHBqh": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/image_showroom_pc_transition3.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_showroom_h5_transition6.jpg",
+            "heading": "Visit and Experience",
+            "text": "Visit AlunoTec showroom to see AlunoTec Pergola in real-life settings. Relax under its canopy, perfect for both quiet reflection and lively gatherings.",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "text_block_gfjePY",
+        "text_block_jgE9eJ",
+        "text_block_NaHBqh"
+      ],
+      "settings": {
+      }
+    },
+    "showroom_image_overlay_LhAJBq": {
+      "type": "showroom_image_overlay",
+      "blocks": {
+        "text_block_qcbnL6": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/3142c5b60250c461b34ec552d6788588.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_showroom_h5_transition4.jpg",
+            "heading": "Location",
+            "text": "Simplifies the search for nearby showrooms, ensuring convenience and accessibility in finding the perfect spot to explore products and services tailored to your needs",
+            "z_index": 3
+          }
+        },
+        "text_block_z3MPq6": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/74ff847f05aee889df8fc7517cc62ab2.jpg",
+            "heading": "Book a Visit",
+            "text": "Your Outer Concierge will facilitate arrangements for either an in-person or virtual visit, ensuring a seamless and tailored experience to suit your preferences",
+            "z_index": 2
+          }
+        },
+        "text_block_xpfYnA": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/ebb31d2f775e4f82d6bcbd499ec1c445.jpg",
+            "heading": "Experience Our Pergola",
+            "text": "Step into our serene outdoor haven, nestled amidst natural beauty. Relax under its canopy, perfect for both quiet reflection and lively gatherings",
+            "z_index": 1
+          }
+        }
+      },
+      "block_order": [
+        "text_block_qcbnL6",
+        "text_block_z3MPq6",
+        "text_block_xpfYnA"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "showroom_image_text_CcXn8W": {
+      "type": "showroom_image_text",
+      "blocks": {
+        "text_block_AEzr66": {
+          "type": "text_block",
+          "settings": {
+            "gif_link": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/268b7a1c1ee842e0a90e2545c9eb72ff.mp4",
+            "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/268b7a1c1ee842e0a90e2545c9eb72ff.mp4",
+            "heading": "Find a Pergola Showroom Near Me",
+            "text": "See, touch, and ask questions！<br>\nBook a visit to experience our premium pergolas.",
+            "link": "shopify:\/\/pages\/contact-us",
+            "link_text": "Contact Us"
+          }
+        },
+        "text_block_NxCtmn": {
+          "type": "text_block",
+          "settings": {
+            "gif_link": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7e16017e379f41ecb89b10f1f9edbb56.mp4",
+            "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac46a2b67e81460c8dc7dde46823417f.mp4",
+            "heading": "Anywhere Visit Online",
+            "text": "Get all your questions answered by Online video chat.",
+            "link": "shopify:\/\/pages\/contact-us",
+            "link_text": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_AEzr66",
+        "text_block_NxCtmn"
+      ],
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "custom_image_text_x8HAyy": {
+      "type": "custom_image_text",
+      "blocks": {
+        "text_block_6BpBHA": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cf7c5e4573dc3a1283334ebb1f6ee2d6.jpg",
+            "small_text": "Ireland Project Showcases",
+            "link": "#",
+            "big_text": "We want to help make your outdoor space the best part of your home, a place that beckons you spend time in it - resting, playing, dining, and entertaining - everyday"
+          }
+        },
+        "text_block_7397Gz": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_blog1.jpg",
+            "small_text": "England Project Showcases",
+            "link": "#",
+            "big_text": "AlunoTec Pergola from residential to commercial uses, for small patios to large outdoor spaces, we’ve got you covered"
+          }
+        },
+        "text_block_dtqRnm": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f42e7c5490cfbdd664a7000fb1a5c780.jpg",
+            "small_text": "China Project Showcases",
+            "link": "#",
+            "big_text": "This is good project to apply Pergola for the house foreyard. after adding table and chairs, with your own family have a great relaxing time here.   Read More"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_6BpBHA",
+        "text_block_7397Gz",
+        "text_block_dtqRnm"
+      ],
+      "custom_css": [
+        ".custom-section .section__heading {font-size: 48px; line-height: 56px;}",
+        ".custom_text_item p {font-size: 18px; color: #202020; line-height: 27px; font-weight: bold;}",
+        ".custom_text_item a {font-weight: 400; line-height: 24px;}",
+        ".custom_text_item {margin-bottom: 32px;}",
+        "@media (max-width: 999px) {.custom-section .section__heading {font-size: 18px; line-height: 26px; } .custom_text_item p {font-size: 16px; line-height: 24px; }}"
+      ],
+      "settings": {
+        "heading": "AlunoTec Project",
+        "h_font-size_d": 20,
+        "h_font-size_m": 18,
+        "subheading": "We love seeing what our customers and their mates have achieved. Let's see take a look at these real-life AlunoTec pergola projects.",
+        "s_font-size_d": 16,
+        "s_font-size_m": 14,
+        "link": "",
+        "link_text": "",
+        "cta_style": "secondary",
+        "small_t_font-size_d": 14,
+        "small_t_font-size_m": 12,
+        "big_t_font-size_d": 16,
+        "big_t_font-size_m": 14
+      }
+    },
+    "custom_liquid_j8QHcw": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"background:white;\">\n<h1 class=\"small_h\" style=\"text-align:center;\">Get Inspired by Our Pergola<\/h1>\n<\/div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "showroom_scrolling_images_bmKApQ": {
+      "type": "showroom-scrolling-images",
+      "blocks": {
+        "image_block_pL3B8X": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery12.jpg"
+          }
+        },
+        "image_block_ANYhRM": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery11.jpg"
+          }
+        },
+        "image_block_N4JmQD": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery10.jpg"
+          }
+        },
+        "image_block_WRmATJ": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery2.jpg"
+          }
+        },
+        "image_block_TmkHfx": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery8.jpg"
+          }
+        },
+        "image_block_BXrE9a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery9.jpg"
+          }
+        },
+        "image_block_W9ade7": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_pL3B8X",
+        "image_block_ANYhRM",
+        "image_block_N4JmQD",
+        "image_block_WRmATJ",
+        "image_block_TmkHfx",
+        "image_block_BXrE9a",
+        "image_block_W9ade7"
+      ],
+      "settings": {
+        "section_number": 1,
+        "margin_left": 9
+      }
+    },
+    "showroom_scrolling_images_mDW8NA": {
+      "type": "showroom-scrolling-images",
+      "blocks": {
+        "image_block_eJtec4": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery7.jpg"
+          }
+        },
+        "image_block_zjyJmT": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery6.jpg"
+          }
+        },
+        "image_block_3En4hA": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery5.jpg"
+          }
+        },
+        "image_block_KcAcUp": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery4.jpg"
+          }
+        },
+        "image_block_xNj9f3": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery3.jpg"
+          }
+        },
+        "image_block_efGFgw": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery17.jpg"
+          }
+        },
+        "image_block_BhMeAD": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery12.jpg"
+          }
+        },
+        "image_block_LbWpC8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery14.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_eJtec4",
+        "image_block_zjyJmT",
+        "image_block_3En4hA",
+        "image_block_KcAcUp",
+        "image_block_xNj9f3",
+        "image_block_efGFgw",
+        "image_block_BhMeAD",
+        "image_block_LbWpC8"
+      ],
+      "settings": {
+        "section_number": 2,
+        "margin_left": 22
+      }
+    },
+    "showroom_scrolling_images_YQmdTE": {
+      "type": "showroom-scrolling-images",
+      "blocks": {
+        "image_block_Bt3XFV": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery14.jpg"
+          }
+        },
+        "image_block_TYqx3m": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery15.jpg"
+          }
+        },
+        "image_block_WMabA7": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery13.jpg"
+          }
+        },
+        "image_block_hxR9x8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery16.jpg"
+          }
+        },
+        "image_block_dbt3EQ": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery1.jpg"
+          }
+        },
+        "image_block_FCVtzf": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery7.jpg"
+          }
+        },
+        "image_block_nHBdjY": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery17.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_Bt3XFV",
+        "image_block_TYqx3m",
+        "image_block_WMabA7",
+        "image_block_hxR9x8",
+        "image_block_dbt3EQ",
+        "image_block_FCVtzf",
+        "image_block_nHBdjY"
+      ],
+      "settings": {
+        "section_number": 3,
+        "margin_left": 9
+      }
+    },
+    "newsletter_LBwYgP": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_DgRVTD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h4"
+          }
+        },
+        "text_DQQnwK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "form_cKniLf": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_DgRVTD",
+        "text_DQQnwK",
+        "form_cKniLf"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".newsletter .container {position: absolute; height: 100%; width: 100%; align-items: flex-end; padding: 0 100px;}",
+        ".newsletter .text-overlay {height: fit-content; text-align: left;}",
+        ".section__block--heading {font-size: 56px; line-height: 64px;}",
+        "@media (max-width: 749px) {.newsletter .container {padding: 32px 24px; align-items: flex-start; } .newsletter .text-overlay {padding: 0; } .section__block--heading {font-size: 40px; line-height: 44px; }}"
+      ],
+      "settings": {
+        "overlay_position": "justify-start",
+        "text_align": "text-center",
+        "image": "shopify:\/\/shop_images\/6aa911c6b9c7f1d8dbbc877d3cf0bb83.png",
+        "mobile_image": "shopify:\/\/shop_images\/Pergola-_5_1_2_6c4a12b5-7721-4656-82c5-3d9ae968f0f2.jpg",
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 10
+      }
+    },
+    "showroom_animation_scripts_8L6PmN": {
+      "type": "showroom_animation_scripts",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shworoom_banner_UXhAdx",
+    "showroom_moving_images_kDAd4f",
+    "showroom_scaling_images_nLzmNa",
+    "showroow_slides_hwWrJ4",
+    "showroom_image_overlay_LhAJBq",
+    "showroom_image_text_CcXn8W",
+    "main",
+    "custom_image_text_x8HAyy",
+    "custom_liquid_j8QHcw",
+    "showroom_scrolling_images_bmKApQ",
+    "showroom_scrolling_images_mDW8NA",
+    "showroom_scrolling_images_YQmdTE",
+    "newsletter_LBwYgP",
+    "showroom_animation_scripts_8L6PmN"
+  ]
+}

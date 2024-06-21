@@ -1,0 +1,163 @@
+<style>
+
+  .stick_items {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* height: calc(var(--vh, 1vh)*100); */
+    font-size: 1rem;
+}
+  .scale-grid-items {
+    position: absolute;
+  /*  background-color: #111;*/
+    overflow: hidden;
+      border-radius:30px;
+}
+  .scale-grid-items img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  
+}
+  .scale-grid-items:nth-child(1) {
+            top: 2vh;
+    left: 23%;
+    width: 70%;
+    height: 25vh;
+}
+  .scale-grid-items:nth-child(2) {
+           left: 2vw;
+    top: 48vh;
+    width: 16vw;
+    height: 23vh;
+}
+  .scale-grid-items:nth-child(3) {
+    width: 100%;
+}
+  .scale-grid-items:nth-child(3) {
+    height: 100vh;
+    height: calc(var(--vh, 1vh)*100);
+}
+  .scale-grid-items:nth-child(4) {
+          top: 48vh;
+    right: 2vw;
+    width: 16vw;
+    height: 23vh;
+}
+  .scale-grid-items:nth-child(5) {
+          bottom: 2vh;
+    left: 10%;
+    width: 30%;
+    height: 25vh;
+}
+  .scale-grid-items:nth-child(6) {
+             bottom: 2vh;
+    left: 41%;
+    width: 48%;
+    height: 25vh;
+}
+  .scale-grid-items:nth-child(3) img{
+        transform: translate3d(0px, 0px, 0px) scale(1.5, 1.5);
+  }
+ @media (min-width: 650px) {
+  .showroom_moving_images {
+    height: 400vh;
+    padding:0 100px;
+    padding-bottom:42px;
+}
+   .sticky_ele_cont {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+}
+   .scale-grid-items:nth-child(3) {
+           top: 29vh;
+          left: 22%;
+}
+   .scale-grid-items:nth-child(3) {
+       width: 56%;
+}
+   .scale-grid-items:nth-child(3) {
+         height: 42vh;
+    margin-left: 0rem;
+}
+    .scale-grid-items:nth-child(3)::before {
+     content: 'How to Book Your Visit';
+      color: white;
+      font-family:var(--heading-font-family);
+      font-size: 28px;
+      z-index: 10;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+       font-weight:600;
+      width:max-content;
+        
+    }
+}
+  @media (max-width:649px){
+    .showroom_moving_images {
+    padding:48px 24px;
+      display:none;
+}
+    .scale-grid-items{
+      display:none;
+    }
+.scale-grid-items:nth-child(3) {
+      display: block;
+    position: relative;
+    width: 100%;
+   height: 50vh;
+}
+   .stick_items {
+    height: auto;
+}
+  }
+</style>
+<div class="showroom_moving_images">
+  <div class="stick_items">
+    <div class="sticky_ele_cont">
+  {% for block in section.blocks %}
+         <div class='scale-grid-items'>
+           <img src="{{ block.settings.image | img_url:"master" }}">
+         </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Showroom moving images",
+  "tag": "section",
+  "settings": [
+
+  ],
+      "blocks": [
+    {
+      "type":"image_block",
+      "name":"image block",
+      "settings": [
+        {
+       "type": "image_picker",
+      "id": "image",
+      "label": "image desktop"
+     }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Showroom moving images"
+    }
+  ]
+}
+{% endschema %}
