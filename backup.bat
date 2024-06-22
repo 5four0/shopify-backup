@@ -27,7 +27,7 @@ if %errorlevel% neq 0 (
 )
 
 echo "Running git push..."
-git push origin master
+git push origin main
 if %errorlevel% neq 0 (
   echo "git push failed with error code %errorlevel%"
   exit /b %errorlevel%
