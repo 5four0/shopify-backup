@@ -39,11 +39,13 @@
     top: 96%;
 }
   .imgtxt-btn .btn{
-     font-weight: 600;
     padding: 13.5px 36px;
     font-size: 14px;
-   line-height: 21px;
-    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,10 +55,9 @@
   }
   .imgtxt-btn .btn span{
     display:flex;
-    line-height:1
   }
   .imgtxt-btn .btn svg{
-    margin-right:8px;
+    margin-right: 8px;
   }
   .imgtxt-imgs-wrap{
     display:flex;
@@ -99,11 +100,7 @@
     .imgtxt-btn {
     padding: 24px 0;
 }
-    .imgtxt-btn .btn {
-    padding: 10px 32px;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
+  
   }
    @media (max-width:769px){
       .imgtxt-img {
@@ -170,6 +167,16 @@
        line-height: 21.6px;
         margin-bottom: 4px;
      }
+  .imgtxt-btn .btn {
+       padding: 10px 32px;
+       font-size: 12px;
+       line-height: 18px;
+            width: 190px;
+       border-radius: var(--Button-rounded, 12px);
+     }
+        .imgtxt-btn .btn svg {
+          margin-right: 10px;
+      }
     }
    @media only screen and (max-width: 414px) {
        .txtimg-hdng h2 {
@@ -205,8 +212,15 @@
         margin-bottom: 4px;
      }
      .imgtxt-btn .btn {
-           border-radius: var(--Button-rounded, 12px);
+       padding: 10px 32px;
+       font-size: 12px;
+       line-height: 18px;
+         width: 190px;
+       border-radius: var(--Button-rounded, 12px);
      }
+     .imgtxt-btn .btn svg {
+          margin-right: 10px;
+      }
    }
 
   /* New Adjustment End */

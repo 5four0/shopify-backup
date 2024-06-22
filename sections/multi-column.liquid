@@ -180,6 +180,11 @@
       margin-bottom:14px;
     }
   }
+    @media (max-width:414px) {
+        .multi-column-c .section__header{
+        margin-bottom:0;
+      }
+    }
 </style>
   <div class="multi-column-c {% if section.settings.new_adjustment %}new_adjustment{% endif %}" id="{{ section.id }}">
     {%- if section.settings.title != blank or section.settings.button_label != blank -%}

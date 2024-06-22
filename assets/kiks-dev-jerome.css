@@ -1000,6 +1000,8 @@ span.imgprdct-preview a.btn.btn--secondary:hover {
     font-style: normal;
     font-weight: 600;
     line-height: 18px;
+      margin-bottom: 0;
+
 }
 @media only screen and (max-width: 430px) {
   .new_adjustment .shoppable-image__text .card__info h2 {
@@ -1724,6 +1726,13 @@ product-recommendations h2 {
     align-items: center;
     margin-bottom: 48px;
 }
+.cc-product-recommendations .price,
+.cc-product-recommendations .price.price--top,
+.cc-product-recommendations .price.price--on-sale.price--top {
+    padding: 0;
+    margin: 0 !important;
+    /* margin-top: 0 !important; */
+}
 .cc-product-recommendations .slider {
   scrollbar-width: none;
 }
@@ -1756,6 +1765,7 @@ product-recommendations h2 {
     font-weight: 600;
     line-height: 21.6px;
     letter-spacing: 2px;
+      margin-bottom: 0;
 }
 .cc-product-recommendations product-card.card.card--product .card__info-container .card__info .price .price__default span.price__from,
 .cc-product-recommendations product-card.card.card--product .card__info-container .card__info .price .price__default strong.price__current {
