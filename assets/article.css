@@ -42,6 +42,10 @@
 .article-content p{
     font-size: calc(var(--body-font-size) * .12rem);
 }
+.article-content p a{
+  color:rgb(142,179,198);
+  font-weight:600;
+}
 .media img{
   width:70%;
 }

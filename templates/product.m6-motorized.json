@@ -9,16 +9,10 @@
             "show_weight": false
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_tax_and_shipping": true
-          }
-        },
         "image_PmDJBg": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.jpg",
+            "image": "shopify:\/\/shop_images\/Group-3039.png",
             "image_width": 1000,
             "image_align": "justify-start",
             "title": "<p>Feel experience in <strong>AlunoTec Showroom<\/strong><\/p>",
@@ -35,7 +29,7 @@
             "text1": "15 Years Warranty",
             "icon2": "shopify:\/\/shop_images\/windy_e4a5de8f-449d-4e7c-8273-5de0f08d11d7.png",
             "icon_specs_2": "none",
-            "text2": "80~100km\/h\u2028 Windproof",
+            "text2": "100~120km\/h\u2028 Windproof",
             "icon3": "shopify:\/\/shop_images\/Weather_3b984079-f297-41ee-8217-8553b0dac16c.png",
             "icon_specs_3": "none",
             "text3": "4 Seasons\u2028 Available",
@@ -67,12 +61,10 @@
             "size_chart_page": ""
           }
         },
-        "complementary_FdUXjm": {
-          "type": "complementary",
+        "price": {
+          "type": "price",
           "settings": {
-            "heading": "Add-Ons",
-            "products_to_show": 4,
-            "layout": "carousel"
+            "show_tax_and_shipping": true
           }
         },
         "buy-buttons": {
@@ -92,8 +84,17 @@
             "btnurl": "shopify:\/\/pages\/book-an-installation"
           }
         },
+        "complementary_FdUXjm": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Add-Ons",
+            "products_to_show": 4,
+            "layout": "carousel"
+          }
+        },
         "payments_zR4TMV": {
           "type": "payments",
+          "disabled": true,
           "settings": {
           }
         },
@@ -111,14 +112,14 @@
       },
       "block_order": [
         "title",
-        "price",
         "image_PmDJBg",
         "product_specs_PNBekL",
         "productslist_NYnAGM",
         "variant-picker",
-        "complementary_FdUXjm",
+        "price",
         "buy-buttons",
         "custom_btn_a9bwEP",
+        "complementary_FdUXjm",
         "payments_zR4TMV",
         "custom_solution_ULWMTU"
       ],
@@ -136,7 +137,7 @@
         "enable_video_looping": false,
         "stacked_scroll": "never",
         "underline_active": false,
-        "media_thumbs": "always",
+        "media_thumbs": "desktop",
         "thumb_ratio": "1",
         "thumb_crop": "center",
         "media_arrows": "always",
@@ -419,21 +420,21 @@
           "type": "icon-text",
           "settings": {
             "icon": "shopify:\/\/shop_images\/windy_1.png",
-            "title": "80-100KM\/H Wind Resistance"
+            "title": "100-120KM\/H Wind Resistance"
           }
         },
         "icon_text_UWnMMb": {
           "type": "icon-text",
           "settings": {
             "icon": "shopify:\/\/shop_images\/Snow.png",
-            "title": "Snow loading capacity"
+            "title": "40~70cm Snow Loading Capacity"
           }
         },
         "icon_text_eaJCdV": {
           "type": "icon-text",
           "settings": {
             "icon": "shopify:\/\/shop_images\/waterproof.png",
-            "title": "IP67 waterproof"
+            "title": "IP67 Waterproof"
           }
         }
       },
@@ -454,6 +455,39 @@
         "margin_bottom": 0,
         "margin_top_mob": 48,
         "margin_bottom_mob": 0
+      }
+    },
+    "video_TVVP6V": {
+      "type": "video",
+      "blocks": {
+        "heading_WYpitf": {
+          "type": "heading",
+          "settings": {
+            "heading": "AlunoTec Pergo-M6 Installation Guide",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        },
+        "text_kUqhBF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_WYpitf",
+        "text_kUqhBF"
+      ],
+      "settings": {
+        "video_external": "https:\/\/youtu.be\/6uj45gUnA1U?si=ecG0980Z3uObXUBk",
+        "video_description": "",
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
       }
     },
     "pdp_img_text_DKWA6h": {
@@ -488,44 +522,6 @@
         "margin_bottom_mob": 0
       }
     },
-    "background_video_inKF6b": {
-      "type": "background-video",
-      "blocks": {
-        "heading_Pt4Qpf": {
-          "type": "heading",
-          "settings": {
-            "heading": "Extending Your Ideal Lifestyle",
-            "heading_size": "h2",
-            "heading_h1": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Pt4Qpf"
-      ],
-      "settings": {
-        "video_shopify": "shopify:\/\/files\/videos\/video_product_pergo_M6_pc.mp4",
-        "video_external": "",
-        "video_description": "",
-        "poster_image": "shopify:\/\/shop_images\/image_product_pergo_M6_pc.jpg",
-        "video_height": "sm",
-        "mblvideo_shopify": "shopify:\/\/files\/videos\/video_product_pergo_m6_h5_aa8adb2b-a60f-4d62-82ca-97c3ba1c0bb7.mp4",
-        "mblvideo_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "overlay_text_align": "text-center",
-        "overlay_position": "justify-center items-center",
-        "mob_center_text": true,
-        "color_scheme": "white",
-        "transparent_content_color": "#ffffff",
-        "tint_color": "#000000",
-        "tint_opacity": 40,
-        "lazyload": true,
-        "prevent_animation": false,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_top_mob": 0,
-        "margin_bottom_mob": 0
-      }
-    },
     "pdp_img_text_WG8FM3": {
       "type": "pdp-img-text",
       "blocks": {
@@ -546,21 +542,21 @@
           "type": "icon-text",
           "settings": {
             "icon": "shopify:\/\/shop_images\/windy_1.png",
-            "title": "80-100KM\/H Wind Resistance"
+            "title": "100-120KM\/H Wind Resistance"
           }
         },
         "icon_text_cJieMY": {
           "type": "icon-text",
           "settings": {
             "icon": "shopify:\/\/shop_images\/Snow.png",
-            "title": "Snow loading capacity"
+            "title": "40~70cm Snow Loading Capacity"
           }
         },
         "icon_text_JmejG3": {
           "type": "icon-text",
           "settings": {
             "icon": "shopify:\/\/shop_images\/waterproof.png",
-            "title": "IP67 waterproof"
+            "title": "IP67 Waterproof"
           }
         }
       },
@@ -603,7 +599,7 @@
         "description_j8BjCU"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/image_productpage_m6_motorized_light.png",
+        "img": "shopify:\/\/shop_images\/gif_product_m6_ledlight.gif",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -619,13 +615,13 @@
         "heading_3qrVi6": {
           "type": "heading",
           "settings": {
-            "title": "Remote Control Louvers from 0-90°"
+            "title": "Remote Control Louvers from 0-95°"
           }
         },
         "description_WGKB97": {
           "type": "description",
           "settings": {
-            "content": "Customize Your Sunlight\nEffortlessly, Comfortably, Freely, Naturally"
+            "content": "Customize your sunlight\nEffortlessly, comfortably, freely, naturally"
           }
         }
       },
@@ -634,7 +630,7 @@
         "description_WGKB97"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/image_productpage_m6_motorized_Louvers.jpg",
+        "img": "shopify:\/\/shop_images\/gif_product_m6_louvers2.gif",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
@@ -665,7 +661,7 @@
         "description_CYCxd8"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/image_productpage_m6_motorized_waterproof.gif",
+        "img": "shopify:\/\/shop_images\/gif_product_m6_waterproof2.gif",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -718,7 +714,7 @@
         "description_zd7ycJ": {
           "type": "description",
           "settings": {
-            "content": "Pergo-lux offers a palette of five standard colors, along with custom color options to match your unique style. \nOur pergolas are finished with a robust powder coating, ensuring exceptional corrosion resistance and long-lasting beauty."
+            "content": "Built-in LED Lighting: Standard illumination included.\nSliding Doors: Add privacy and style.\nHeaters: Keep warm during cooler months.\nRoller Blinds: Excellent sun protection and privacy.\nLouvered Sliding Doors: Extra ventilation and aesthetics."
           }
         }
       },
@@ -727,7 +723,7 @@
         "description_zd7ycJ"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/image_productpage_m6_motorized_accessories.png",
+        "img": "shopify:\/\/shop_images\/img_productpage_m6_pergola_accessories.jpg",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -735,6 +731,44 @@
         "margin_bottom": 70,
         "margin_top_mob": 32,
         "margin_bottom_mob": 30
+      }
+    },
+    "background_video_inKF6b": {
+      "type": "background-video",
+      "blocks": {
+        "heading_Pt4Qpf": {
+          "type": "heading",
+          "settings": {
+            "heading": "AlunoTec Lifestyle<br>Pergo-M6",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pt4Qpf"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/video_product_pergo_M6_pc.mp4",
+        "video_external": "",
+        "video_description": "",
+        "poster_image": "shopify:\/\/shop_images\/image_product_pergo_M6_pc.jpg",
+        "video_height": "sm",
+        "mblvideo_shopify": "shopify:\/\/files\/videos\/video_product_pergo_m6_h5_aa8adb2b-a60f-4d62-82ca-97c3ba1c0bb7.mp4",
+        "mblvideo_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_top_mob": 0,
+        "margin_bottom_mob": 0
       }
     },
     "image_gallery_7mWB3Y": {
@@ -832,7 +866,11 @@
         "@media (max-width: 767px) {.container {padding: 0 20px; }}"
       ],
       "settings": {
-        "full_width": false
+        "full_width": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mob": 30,
+        "padding_bottom_mob": 30
       }
     },
     "faq_WTiy3T": {
@@ -841,13 +879,14 @@
         "question_eLpfTT": {
           "type": "question",
           "settings": {
-            "icon": "none",
-            "heading": "What Types of Features Can I Add to the Roof?",
-            "text": "<p>We also offer an integrated LED lighting system, manual\/motorized side screen, frameless sliding door, and fencing. Also a  rain sensor that will automatically close the roof when it starts raining.If you have any further ideas we encourage you to share them with us.<\/p>"
+            "icon": "gift",
+            "heading": "Can I Customize My Pergola with More Optional Accessories?",
+            "text": "<p>Certainly! We offer a variety of optional accessories to customize your own pergola. Such as RGB lights, rain sensors, heater, side zip screen, glass doors, ceiling fans, slatted fence, etc. If you have any further ideas we encourage you to share them with us.<a href=\"https:\/\/alunotec.shop\/pages\/contact-us\" target=\"_blank\" title=\"Contact Us\"><strong>(Contact Us)<\/strong><\/a><\/p>"
           }
         },
         "category_RzTDNN": {
           "type": "category",
+          "disabled": true,
           "settings": {
             "text": "Maintenance and Cleaning "
           }
@@ -855,21 +894,22 @@
         "question_ybPh43": {
           "type": "question",
           "settings": {
-            "icon": "none",
-            "heading": "Do I need to maintain my pergola?",
-            "text": "<p>Items must be returned within 30 days after receiving your order. Items must be returned in the same condition in which they were received, be unworn\/unused, have any tags still attached, and include all the original packaging.<\/p>"
+            "icon": "washing",
+            "heading": "Does the pergola waterproof?",
+            "text": "<p>Yes our pergola is waterproof and the motor waterproofing grade is IP67.<\/p>"
           }
         },
         "question_BWf9Ej": {
           "type": "question",
           "settings": {
-            "icon": "none",
-            "heading": "What I need to pay attention to when cleaning?",
-            "text": "<p>Refunds are processed within 7 days from when we receive the item(s).<\/p>"
+            "icon": "star",
+            "heading": "What is the applicable voltage of pergola?",
+            "text": "<p>The applicable voltage is 110v-120v.<\/p>"
           }
         },
         "category_h39zpb": {
           "type": "category",
+          "disabled": true,
           "settings": {
             "text": "About Installation"
           }
@@ -877,25 +917,33 @@
         "question_N7eG3K": {
           "type": "question",
           "settings": {
-            "icon": "none",
-            "heading": "I have not assembled before, can I do it if I want to assemble it by myself?",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.<\/p>"
+            "icon": "plane",
+            "heading": "How long is the product delivery time?",
+            "text": "<p>Production time: 3-5 weeks<br\/>Shipping time: 4-6 weeks<br\/>Estimated total time from order to delivery: 7-11 weeks<a href=\"https:\/\/alunotec.shop\/pages\/contact-us\" target=\"_blank\" title=\"Contact Us\"><strong>(Contact Us)<\/strong><\/a><\/p>"
           }
         },
         "question_nQD4Rh": {
           "type": "question",
           "settings": {
-            "icon": "none",
+            "icon": "silhouette",
             "heading": "I don't want to assemble it myself.",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.<\/p>"
+            "text": "<p>Yes. Contact us to recommend installer locally who can service about it.<\/p>"
           }
         },
         "question_bn4JJM": {
           "type": "question",
           "settings": {
-            "icon": "none",
+            "icon": "clock",
             "heading": "How long does it take to assemble the product?",
-            "text": "<p>Provide an answer to the question here, with as much detail as possible to help your customers.<\/p>"
+            "text": "<p>2-3days normally by 2-3 people.<\/p>"
+          }
+        },
+        "question_Ub6KdN": {
+          "type": "question",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "I have not assembled before, can I do it if I want to assemble it by myself?",
+            "text": "<p>Yes, many customer buy it to DIY by theirself, a couple to install it 2-3days finished, It's clear to follow the installation manual step by step.<\/p>"
           }
         }
       },
@@ -907,7 +955,8 @@
         "category_h39zpb",
         "question_N7eG3K",
         "question_nQD4Rh",
-        "question_bn4JJM"
+        "question_bn4JJM",
+        "question_Ub6KdN"
       ],
       "custom_css": [
 
@@ -1011,14 +1060,15 @@
     "background_video_fFQjwA",
     "pdp_img_text_DWxPre",
     "pdp_img_text_mPtgGg",
+    "video_TVVP6V",
     "pdp_img_text_DKWA6h",
-    "background_video_inKF6b",
     "pdp_img_text_WG8FM3",
     "pdp_img_text_98Xcf9",
     "pdp_img_text_P3gCGg",
     "pdp_img_text_GtMY4N",
     "pdp_img_text_zdiAEF",
     "pdp_img_text_fxhqJL",
+    "background_video_inKF6b",
     "image_gallery_7mWB3Y",
     "171507347500ed42c9",
     "faq_WTiy3T",

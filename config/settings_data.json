@@ -437,14 +437,14 @@
     "cart_icon": "cart",
     "cart_type": "drawer",
     "show_recommendations": true,
-    "recommendations_heading": "You may also like...",
+    "recommendations_heading": "You may also like",
     "recommendations_to_show": 3,
     "cart_shaking": true,
     "show_free_shipping_notice": true,
     "free_shipping_minimum": "USD:100",
     "free_shipping_color_scheme": "1",
     "animations_enabled": "mobile_desktop",
-    "favicon": "shopify:\/\/shop_images\/icon_aluntec.jpg",
+    "favicon": "shopify:\/\/shop_images\/icon_aluntec_white3.jpg",
     "image_quality": "1.25",
     "blur_message_delay": 4,
     "vibrate_on_atc": true,
@@ -497,7 +497,7 @@
           "button_icon": "chat_bubble",
           "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "highest",
+          "button_vertical_position": "higher",
           "greeting_message": ""
         }
       }

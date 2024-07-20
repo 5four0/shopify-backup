@@ -3216,6 +3216,24 @@ details-disclosure + details-disclosure .disclosure--row {
     left: 2em;
   }
 }
+@media only screen and (max-width: 768px) {
+  .main-menu.only_desk ul li:nth-child(6) .is-open>.main-nav__child, .no-js details[open] .main-nav__child {
+    right: 1px;
+  }
+  .is-open>.main-nav__child ul.child-nav.child-nav--dropdown li:nth-child(2),
+  .is-open>.main-nav__child ul.child-nav.child-nav--dropdown li:first-child {
+      display: none;
+  }
+}
+@media only screen and (max-width: 748px) {
+  .main-menu.only_desk ul li:nth-child(6) .is-open>.main-nav__child, .no-js details[open] .main-nav__child {
+    right: unset;
+  }
+  .is-open>.main-nav__child ul.child-nav.child-nav--dropdown li:nth-child(2),
+  .is-open>.main-nav__child ul.child-nav.child-nav--dropdown li:first-child {
+      display: block;
+  }
+}
 @media (min-width: 835px) {
   .main-menu__content {
     display: flex;
@@ -3882,6 +3900,8 @@ body:not(.tab-used) .search__input {
 
 .slider__item {
   scroll-snap-align: start;
+  display: flex;
+    width: 100%;
 }
 
 .slider-nav--show-on-hover {
@@ -4088,14 +4108,16 @@ label[data-swatch],
 
 label[data-swatch]:hover,
 .filter__label[data-swatch]:hover::before {
-  border: 2px solid rgba(var(--bg-color));
-  box-shadow: 0 0 0 2px rgb(var(--swatch-border-color-default));
+  /* border: 2px solid rgba(var(--bg-color));
+  box-shadow: 0 0 0 2px rgb(var(--swatch-border-color-default)); */
 }
 
 input:checked + .opt-label--swatch,
 input:checked + .filter__label[data-swatch]::before {
-  border: 2px solid rgba(var(--bg-color));
-  box-shadow: 0 0 0 2px rgb(var(--swatch-border-color-active));
+  /* border: 2px solid rgba(var(--bg-color));
+  box-shadow: 0 0 0 2px rgb(var(--swatch-border-color-active)); */
+  border: 1px solid rgb(41 66 94);
+  /* box-shadow: 0 0 0 1px rgb(41 66 94); */
 }
 
 label[data-swatch]::before {
@@ -4739,7 +4761,7 @@ label[data-swatch]::before {
   color: #fff !important;
   width:100%;
   position:fixed;
-  top:34px;
+  top:30px;
   background:transparent;
 }
 .template-index store-header.header .header__grid >*{
@@ -4909,8 +4931,8 @@ span.cmpreprice {
     color: #bcbcbc;
 }
 span.imgprdct-preview {
-    margin-left: 12px;
-    padding-left: 12px;
+    /* margin-left: 12px;
+    padding-left: 12px; */
     width: 100%;
 }
 span.imgprdct-quickadd{
@@ -4921,14 +4943,16 @@ span.imgprdct-quickadd * {
 }
 @media (max-width:345px){
   span.imgprdct-preview {
-    margin-left: 8px;
+    /* margin-left: 8px; */
   }
 .imgprdct-preview a, .imgprdct-quickadd .product-info__add-button button{
     font-size:11px !important;
   }
 }
 /* custom style */
-
+.Color .opt-label{
+  border: none;
+}
 .small-show{
   display:none;
 }
@@ -5132,7 +5156,7 @@ a.btn.btn--secondary.pdp-cstmbtn {
 .option-selector__btns img {
     max-width: 70px;
     height: 70px;
-    border-radius: 20px;
+    border-radius: 16px;
     display: block;
 }
 label.opt-label {
@@ -5164,19 +5188,23 @@ label.opt-label+span {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 label.opt-label {
-    border-radius: 40px !important;
+    border-radius: 32px !important;
     padding: 10px 20px;
+}
+.Layout .opt-label {
+  border: none;
 }
 .Layout label.opt-label {
     display: inline-block;
-  border-radius: 20px !important;
+  /* border-radius: 16px !important; */
     padding: 2px;
+  border-radius: 0 !important;
 }
 label.opt-label.opt-label--swatch {
-    border-radius: 20px !important;
+    border-radius: 16px !important;
     padding: 2px;
 }
 .option-val_wrap {
@@ -5188,9 +5216,12 @@ label.opt-label.opt-label--swatch {
 .Layout label {
     padding: 2px;
 }
+input:checked+label.opt-label .opt-label__media {
+  border-radius: 16px;
+}
 label.opt-label .opt-label__media {
     overflow: hidden;
-    border-radius: 20px;
+    /* border-radius: 16px; */
 }
 label.opt-label.opt-label--swatch {
     position: relative;
@@ -5433,6 +5464,30 @@ main#main-content{
 }
 .img-textwrap a:hover path{
   fill:black;
+}
+@media only screen and (max-width: 430px) {
+  label.opt-label.opt-label--swatch {
+      border-radius: 8px !important;
+  }
+label.opt-label {
+      padding: 10px 16px;
+  }
+   .sm\:hidden {
+    display: none;
+  }
+}
+@media only screen and (max-width: 414px) {
+  label.opt-label.opt-label--swatch {
+      border-radius: 8px !important;
+  }
+  label.opt-label {
+      padding: 10px 16px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  label.opt-label {
+    padding: 10px 13px;
+  }
 }
 @media (max-width: 340px) {
     .footer__meta .localization__grid {

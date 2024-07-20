@@ -82,7 +82,7 @@
       {%- else -%}
         {%- if settings.enable_quick_add -%}
           <button type="button"
-                  class="btn btn--secondary btn--sm js-quick-add no-js-hidden"
+                  class="btn btn--secondary btn--sm js-quick-add no-js-hidden {% if product.has_only_default_variant and product_not_for_sale == false %}{{- 'products.product.add_to_cart' | t -}} {% else %}{{- 'products.product.choose_options' | t -}}{% endif %}"
                   aria-haspopup="dialog"
                   data-product-url="{{ product.url }}">
             {% if product.has_only_default_variant and product_not_for_sale == false %}

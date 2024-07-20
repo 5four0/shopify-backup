@@ -32,7 +32,7 @@
         "banner-text-1"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/Pergola-_52.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/img_faqs_banner.jpg",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 450,
@@ -154,7 +154,11 @@
         "heading": "",
         "heading_align": "text-center",
         "color_scheme": "none",
-        "full_width": true
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "padding_top_mob": 48,
+        "padding_bottom_mob": 48
       }
     }
   },

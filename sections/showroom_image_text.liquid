@@ -1,7 +1,8 @@
 <style>
+
 .showroom_image_text_item{
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     column-gap: 7%;
     height: 90vh;
     align-items: center;
@@ -77,8 +78,8 @@
   }
   @media (max-width:769px){
     .showroom_image_text_item{
-  padding-top:48px;
-  padding-bottom:48px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
     .showroom_image_text_item {
      height: auto; 
@@ -94,7 +95,53 @@
      margin-top:24px;
    }
   }
+/* New Adjustment */
+.cc-showroom-image-text .item__text h1.big_h {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41.6px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+  .cc-showroom-image-text .btn_sec {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 21px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 768px) {
+        .showroom_image_text_item{
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+  }
 
+  @media only screen and (max-width: 414px) {
+    .cc-showroom-image-text .showroom_image_text_item .only_mobile a {
+        gap: 24px;
+    }
+      .showroom_image_text_item .only_mobile .d_text {
+        margin-top: 24px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .cc-showroom-image-text .item__text h1.big_h {
+      font-size: 28px;
+      line-height: 33.6px; /* 33.6px */
+      margin-bottom: 24px;
+    }
+    .cc-showroom-image-text .showroom_image_text_item .only_mobile .btn_sec {
+       margin-top: 14px;
+      font-size: 12px;
+      line-height: 18px; /* 18px */
+    }
+  }
+    
+
+ /* New Adjustment end */ 
 </style>
 <div class="showroom_image_text">
   
@@ -162,6 +209,7 @@ function isElementBottom(el){
 {% schema %}
 {
   "name": "Showroom image text",
+  "class": "cc-showroom-image-text",
   "tag": "section",
   "settings": [
 

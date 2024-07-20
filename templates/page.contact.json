@@ -32,7 +32,7 @@
         "text"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/Pergola-_44.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/img_showroom_banner2.jpg",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 450,
@@ -97,7 +97,7 @@
             "icon": "phone",
             "custom_icon_svg": "",
             "heading": "Phone",
-            "text": "<p>WhatsApp: +86 15322860791<br\/>Tel: +86-769-89865511<\/p>",
+            "text": "<p><a href=\"https:\/\/api.whatsapp.com\/message\/FGIAUUNKORN5L1?autoload=1&app_absent=0\" target=\"_blank\" title=\"alunotec whatsapp\">WhatsApp: +86 15382810692<\/a><br\/>Tel: +86-769-89865511<\/p>",
             "link": ""
           }
         },
@@ -107,8 +107,8 @@
             "icon": "email",
             "custom_icon_svg": "",
             "heading": "Email",
-            "text": "<p><a href=\"mailto:info@alunotec.com\" target=\"_blank\" title=\"mailto:info@alunotec.com\">info@alunotec.com<\/a><\/p>",
-            "link": ""
+            "text": "<p><a href=\"mailto:rex.shaw@alunotec.com\" target=\"_blank\" title=\"alunotec email\">rex.shaw@alunotec.com<\/a><\/p>",
+            "link": "mailto:rex.shaw@alunotec.com"
           }
         },
         "item_r3HUhR": {
@@ -126,6 +126,9 @@
         "item_z6gMnz",
         "item_tjVQVY",
         "item_r3HUhR"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 430px) {.icons-with-text .slider__item {flex: 0 0 100%; }}"
       ],
       "settings": {
         "heading": "",

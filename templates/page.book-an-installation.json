@@ -18,21 +18,13 @@
             "heading_size": "h1",
             "heading_h1": true
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Whether you're enhancing your space with our elegant pergolas, retractable roofs, or any other innovative solution, our team of skilled professionals is here to ensure your vision comes to life exactly as you've imagined.<\/p>",
-            "enlarge_text": false
-          }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/pergo-v_31.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/img_product_installation_banner.jpg",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 450,
@@ -46,29 +38,6 @@
         "transparent_content_color": "#ffffff",
         "tint_color": "#000000",
         "tint_opacity": 55,
-        "prevent_animation": false
-      }
-    },
-    "rich_text_zeJD79": {
-      "type": "rich-text-book-installation",
-      "blocks": {
-        "text_FzyfkB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Experience the AlunoTec difference today—where quality products meet expert installation to transform your outdoor area into a breathtaking retreat. Book your installation now and step into the outdoor oasis you've always dreamed of.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "text_FzyfkB"
-      ],
-      "settings": {
-        "text_position": "justify-center",
-        "text_align": "text-center",
-        "mob_center_text": true,
-        "color_scheme": "none",
-        "full_width": true,
         "prevent_animation": false
       }
     },
@@ -149,6 +118,40 @@
         "button_style": "btn btn--primary"
       }
     },
+    "video_xnWQGK": {
+      "type": "video",
+      "blocks": {
+        "heading_GcPtHV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_xeYBkQ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GcPtHV",
+        "text_xeYBkQ"
+      ],
+      "settings": {
+        "video_external": "https:\/\/youtu.be\/6uj45gUnA1U?si=ecG0980Z3uObXUBk",
+        "video_description": "",
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
     "icons_with_text_V8tTxD": {
       "type": "icons-with-text",
       "blocks": {
@@ -156,6 +159,7 @@
           "type": "item",
           "settings": {
             "icon": "phone",
+            "custom_icon_svg": "",
             "heading": "Phone",
             "text": "<p>WhatsApp: +86 15322860791<br\/>Tel: +86-769-89865511<\/p>",
             "link": ""
@@ -165,6 +169,7 @@
           "type": "item",
           "settings": {
             "icon": "email",
+            "custom_icon_svg": "",
             "heading": "Email",
             "text": "<p><a href=\"mailto:info@alunotec.com\" target=\"_blank\" title=\"mailto:info@alunotec.com\">info@alunotec.com<\/a><\/p>",
             "link": ""
@@ -174,6 +179,7 @@
           "type": "item",
           "settings": {
             "icon": "map_pin",
+            "custom_icon_svg": "",
             "heading": "Address",
             "text": "<p>Nr. 3, Shenghe Road, Nancheng, Dongguan, Guangdong, China<\/p>",
             "link": ""
@@ -184,6 +190,9 @@
         "item_z6gMnz",
         "item_tjVQVY",
         "item_r3HUhR"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 430px) {.icons-with-text .slider__item {flex: 0 0 100%; }}"
       ],
       "settings": {
         "heading": "",
@@ -204,8 +213,8 @@
   "order": [
     "main",
     "image-banner",
-    "rich_text_zeJD79",
     "form",
+    "video_xnWQGK",
     "icons_with_text_V8tTxD"
   ]
 }

@@ -306,14 +306,14 @@ gsap.to('.slide:nth-child(3) .image_overlay_content', {
 
 if (window.matchMedia("(max-width: 749px)").matches) {
 ScrollTrigger.config({ ignoreMobileResize: true });
-gsap.set(".slide:not(:first-child)", { x: 0, y: window.innerHeight, z:0 });
-gsap.set(".slide:not(:first-child) .image_overlay_content", { x: 0, y: - window.innerHeight, z:0 });
+gsap.set(".main_slides .slide:not(:first-child)", { x: 0, y: window.innerHeight, z:0 });
+gsap.set(".main_slides .slide:not(:first-child) .image_overlay_content", { x: 0, y: - window.innerHeight, z:0 });
 
 // timeline
 let tl = gsap.timeline({
     scrollTrigger: {
-        trigger: '.module-slideshow-image-description',
-        pin: ".slides-wrapper", // pin the trigger element while active
+        trigger: '.module-slideshow-image-description.main_slides',
+        pin: ".main_slides .slides-wrapper", // pin the trigger element while active
         start:"top top",
        end:"+="+(window.innerHeight*3),
         scrub: 0, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar: was 1
@@ -323,12 +323,12 @@ let tl = gsap.timeline({
     },
 })
 // to animations
-tl.to('.slide:nth-child(1) .background', {x:"0",y:-238,z:0},0)  
-tl.to('.slide:nth-child(2) .image_overlay_content', {x:"0",y:0,z:0},0)  
-tl.to('.slide:nth-child(2)',{ x:"0", y:0,z:0},0)
-  tl.to('.slide:nth-child(2) .background', {x:"0",y:-238,z:0},0.5)  
-tl.to('.slide:nth-child(3) .image_overlay_content', {x:"0",y:0,z:0},.5)
-tl.to('.slide:nth-child(3)',{x:"0", y:0,z:0},0.5)
+tl.to('.main_slides .slide:nth-child(1) .background', {x:"0",y:-238,z:0},0)  
+tl.to('.main_slides .slide:nth-child(2) .image_overlay_content', {x:"0",y:0,z:0},0)  
+tl.to('.main_slides .slide:nth-child(2)',{ x:"0", y:0,z:0},0)
+  tl.to('.main_slides .slide:nth-child(2) .background', {x:"0",y:-238,z:0},0.5)  
+tl.to('.main_slides .slide:nth-child(3) .image_overlay_content', {x:"0",y:0,z:0},.5)
+tl.to('.main_slides .slide:nth-child(3)',{x:"0", y:0,z:0},0.5)
 
   
 }

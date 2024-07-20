@@ -32,10 +32,10 @@
     margin: 0;
     line-height: 48px;
     color: white;
-     margin-bottom:10px;
+     margin-bottom: 14px;
    }
   .trust_item.first p{
-    margin-top:10px;
+    margin-top:14px;
     font-weight:bold;
   }
   .trust_item.first svg{
@@ -65,11 +65,19 @@
     
   }
   .trust-reviews{
-    flex:1;
-      overflow:scroll;
+    /* flex:1; */
+    /* overflow: hidden; */
     position:relative;
     column-gap: 20px;
+     overflow-x: scroll;
+    overflow-y: hidden;
+     will-change: transform;
+		 user-select: none;
+    transition: all 0.2s;
+           cursor: grabbing;
+    cursor: -webkit-grabbing;
     }
+
   .c_container{
     padding-right:0;
     max-width:100%;
@@ -81,8 +89,8 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .trust-reviews {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
   .next-arrow,.prev-arrow{
     position:absolute;
@@ -222,6 +230,7 @@
      }
 
   /* New Adjustment End */
+  
 </style>
 <div class="container trust-cont">
     <div class="section__header items-center flex flex-col text-center gap-x-theme cc-animate-init cc-animate-in" data-cc-animate="">
@@ -243,7 +252,7 @@
     <p>{{ section.settings.box_text }}</p>
   </div>
   <div class="flex trust-reviews gap-x-theme gap-y-12 md:gap-y-6">
-   
+
   {% for block in section.blocks %}
   <div class="trust_item cc-animate-init cc-animate-in second">
     <div class="flex trust_top">
@@ -322,7 +331,40 @@ document.querySelector(".next-arrow").addEventListener("click",function(){
     }
   })
  
-})          
+})      
+
+
+// let isMouseDown = false;
+// let startHorizontalPosition, initialScrollLeft;
+// const sliderReviews = document.querySelector('.trust-reviews');
+
+// const sliderDragging = (e) => {
+//   isMouseDown = true;
+//   startHorizontalPosition = e.pageX - sliderReviews.offsetLeft;
+//   initialScrollLeft = sliderReviews.scrollLeft;
+// }
+
+// const stoppDragging = () => {
+//   isMouseDown = false;
+// }
+
+// const handleMouseMove = (e) => {
+//   e.preventDefault();
+//   if (!isMouseDown) { return; }
+//   const currentX = e.pageX - sliderReviews.offsetLeft;
+//   const distanceMoved = currentX - startHorizontalPosition;
+//   sliderReviews.scrollLeft = initialScrollLeft - distanceMoved;
+// }
+
+// // Add the event listeners
+// sliderReviews.addEventListener('mousemove', handleMouseMove, false);
+// sliderReviews.addEventListener('mousedown', sliderDragging, false);
+// sliderReviews.addEventListener('mouseup', stoppDragging, false);
+// sliderReviews.addEventListener('mouseleave', stoppDragging, false);
+
+
+
+
 </script>
 {% schema %}
 {

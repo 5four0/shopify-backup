@@ -29,6 +29,21 @@
   max-width: 600px;
   margin: 0 auto;
 }
+ul.slider__grid.mobile_stack {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.slider__grid.mobile_stack li.slider__item {
+    display: flex;
+    justify-content: center;
+}
+  @media only screen and (max-width: 1023px) {
+    .icons-with-text .slider--no-scrollbar .slider__grid {
+          display: flex;
+        justify-content: space-between;
+    }
+  }
     @media (max-width:750px){
       #shopify-section-template--15745892352079__icons_with_text_V8tTxD .icons-with-text .slider__item,#shopify-section-template--15745892384847__icons_with_text_MyAFxk .icons-with-text .slider__item{
   flex:0 0 100%;

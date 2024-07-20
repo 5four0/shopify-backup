@@ -430,31 +430,65 @@
 </footer>
 
 {% javascript %}
-  customElements.whenDefined('details-disclosure').then(() => {
-    class FooterMenu extends DetailsDisclosure {
-      constructor() {
-        super();
-        this.reset(false);
-        window.addEventListener('on:breakpoint-change', this.reset.bind(this));
-      }
 
-      reset() {
-        const isLargeScreen = window.matchMedia(theme.mediaQueries.md).matches;
-        const isConfirmNewsletter = !isLargeScreen &&
-          (window.location.hash === "#footer-signup_form" && this.querySelector('#footer-signup_form') !== null);
+  // customElements.whenDefined('details-disclosure').then(() => {
+  //   class FooterMenu extends DetailsDisclosure {
+  //     constructor() {
+  //       super();
+  //       this.reset(false);
+  //       window.addEventListener('on:breakpoint-change', this.reset.bind(this));
+  //     }
 
-        this.disclosure.open = isLargeScreen || isConfirmNewsletter;
+  //     reset() {
+  //       const isLargeScreen = window.matchMedia(theme.mediaQueries.md).matches;
+  //       const isConfirmNewsletter = !isLargeScreen &&
+  //         (window.location.hash === "#footer-signup_form" && this.querySelector('#footer-signup_form') !== null);
 
-        if (isLargeScreen) {
-          this.toggle.setAttribute('tabindex', '-1');
-        } else {
-          this.toggle.removeAttribute('tabindex');
-        }
-      }
+  //       this.disclosure.open = isLargeScreen || isConfirmNewsletter;
+
+  //       if (isLargeScreen) {
+  //         this.toggle.setAttribute('tabindex', '-1');
+  //       } else {
+  //         this.toggle.removeAttribute('tabindex');
+  //       }
+  //     }
+  //   }
+
+  //   customElements.define('footer-menu', FooterMenu);
+  // });
+ 
+    customElements.whenDefined('details-disclosure').then(() => {
+  class FooterMenu extends DetailsDisclosure {
+    constructor() {
+      super();
+      this.disclosure = this.querySelector('details'); // Ensure this selects the correct element
+      this.toggle = this.querySelector('summary'); // Ensure this selects the correct element
+      this.reset(false);
+      window.addEventListener('on:breakpoint-change', this.reset.bind(this));
     }
 
-    customElements.define('footer-menu', FooterMenu);
-  });
+    reset() {
+      if (!this.disclosure || !this.toggle) {
+        // console.error('Required elements not found.');
+        return;
+      }
+
+      const isLargeScreen = window.matchMedia(theme.mediaQueries.md).matches;
+      const isConfirmNewsletter = !isLargeScreen &&
+        (window.location.hash === "#footer-signup_form" && this.querySelector('#footer-signup_form') !== null);
+
+      this.disclosure.open = isLargeScreen || isConfirmNewsletter;
+
+      if (isLargeScreen) {
+        this.toggle.setAttribute('tabindex', '-1');
+      } else {
+        this.toggle.removeAttribute('tabindex');
+      }
+    }
+  }
+
+  customElements.define('footer-menu', FooterMenu);
+});
 {% endjavascript %}
 
 {% schema %}

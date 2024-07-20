@@ -63,6 +63,7 @@
 -%}
 
 {%- style -%}
+ 
   {%- if section.settings.media_layout == 'stacked' -%}
     @media (max-width:  {{ breakpoint_md | minus: 0.02 }}px) {
       .media-gallery__main .media-xr-button { display: none; }
@@ -76,6 +77,12 @@
   {%- if section.settings.media_size == 'large' -%}
     @media (min-width: {{ breakpoint_lg }}px) {
       :root { --product-info-width: 38% !important; }
+    }
+
+    @media only screen and (max-width: 768px) {
+      div#product-media.thumbs-desktop {
+            padding-bottom: 0;
+      }
     }
   {%- endif -%}
 
@@ -99,7 +106,7 @@
 
 <div class="container">
   <div class="product js-product" data-section="{{ section.id }}">
-    <div id="product-media" class="product-media product-media--{{ section.settings.media_layout }} {% if section.settings.stick_media %}sticky_media{% endif %}">
+    <div id="product-media" class="product-media product-media--{{ section.settings.media_layout }} {% if section.settings.stick_media %}sticky_media{% endif %} {% if section.settings.media_thumbs == 'desktop' %}thumbs-desktop{% endif %}">
       {%- if product.media.size > 0 -%}
         {% render 'media-gallery',
           product: product,

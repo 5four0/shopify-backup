@@ -55,7 +55,9 @@
     flex-wrap: wrap;
     }
      .icons-with-text .slider__item{
-      flex:0 0 48%;
+      flex:0 0 98%;
+      margin:0 auto;
+      justify-content:flex-start;
     }
     .icons-with-text svg{
       height:48px;
@@ -64,7 +66,23 @@
 
 
   }
+  @media only screen and (max-width: 430px) {
+        .icons-with-text .slider__item {
+        flex: 0 0 48%;
+     }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .icons-with-text ul.slider__grid.lg\:auto-cols-4.mobile_stack .slider__item {
+        flex: 0 0 48%;
+        justify-content: center;
+    }
+  .icons-with-text ul.slider__grid.md\:auto-cols-3 .slider__item {
+    flex: 0 0 100%;
+  }
+}
 </style>
+
   {%- unless section.settings.full_width -%}
     <div class="container">
   {%- endunless -%}
@@ -89,7 +107,7 @@
   {% endcomment %}
 
         <div class="{% comment %}slider{% endcomment %} slider--contained relative slider--no-scrollbar" id="slider-{{ section.id }}">
-          <ul class="slider__grid grid grid-flow-col gap-theme {{ grid_classes }}">
+          <ul class="slider__grid grid grid-flow-col gap-theme {{ grid_classes }} {% if section.settings.mobile_stack %} mobile_stack{% endif %}">
             {%- for block in section.blocks -%}
               {%- liquid
                 assign is_link = true

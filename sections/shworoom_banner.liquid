@@ -11,17 +11,7 @@
 /*.cc-header--sticky store-header.header {
     padding-top: 0px;
 }*/
-  .showroom_btn {
-    font-weight: 500;
-    padding: 16px 48px;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-}
+
   .showroom_btn span {
     display: flex;
     line-height: 1;
@@ -29,12 +19,7 @@
   .showroom_btn svg {
     margin-right: 8px;
 }
-  .big_h{
-    font-size:56px;
-    line-height:64px;
-    font-weight:600;
-    margin:0;
-  }
+  
   .small_h{
     font-size:48px;
     line-height:56px;
@@ -50,23 +35,87 @@
   display:flex;
 }
 
-  .d_text{
-      font-size:16px;
-      line-height:24px;
-    }
+
   .d_big_text{
       font-size:20px;
       line-height:24px;
     }
+  
+  /* New Adjustment */
+  .cc-showroom-banner  .showroom_banner_content{
+    padding-top: 48px;
+    padding-bottom: 70px;
+  }
+  .big_h {
+    color: var(--Dark, #202020);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46.8px; /* 46.8px */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin:0;
+  }
+   .d_text{
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 24px */
+    }
+    .showroom_btn {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 2px;
+      border-radius: var(--Button-rounded, 15px);
+      text-transform: uppercase;
+        padding: 16px 48px;
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+    }
+  .showroom_banner .showroom_banner_image .showroom_banner_image_mob {
+      display: none;
+  }
+
+  
+    /* New Adjustment end */
+.showroom_banner .showroom_banner_image .showroom_banner_image_desk img, .showroom_banner .showroom_banner_image .showroom_banner_image_desk {
+      /* object-fit: fill; */
+      height: 521px;
+      width: 100%;
+      max-width: 100%;
+  }
+.pad_desk{
+     /* padding-left:100px;
+    padding-right:100px; */
+    padding-left:155px;
+    padding-right:155px;
+  }
+  @media only screen and (max-width: 1600px) {
+    .showroom_banner .showroom_banner_image .showroom_banner_image_desk img, 
+    .showroom_banner .showroom_banner_image .showroom_banner_image_desk {
+      height: 425px;
+    }
+  }
+   @media only screen and (max-width: 1024px) {
+     .pad_desk{
+         /* padding-left:100px;
+        padding-right:100px; */
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+   }
   @media (min-width:1000px){
     .d_half{
         flex:0 0 50%;
     }  
-      .pad_desk{
-    padding-left:100px;
-    padding-right:100px;
+ 
   }
-  }
+  
 @media (max-width:999px){
   .cc-header--sticky {
     top: 10px;
@@ -82,50 +131,37 @@
     padding-right:24px;
   }
 }
+  
   .showroom_banner_image img{
     height:100%;
     width:100%;
     object-fit:cover;
   }
-  .showroom_banner_content{
-    padding-top:48px;
-    padding-bottom:96px;
-  }
-  .showroom_banner_content .btn{
-    margin-top:32px;
-  }
+
+
   
   @media (max-width:999px){
- .showroom_banner_content{
-    padding-top:24px;
-    padding-bottom:48px;
-  }
-     .small_h,.big_h{
-       font-size:30px;
-       line-height:44px;
-     }
-     .showroom_btn {
+
+     /* .showroom_btn {
       font-weight: 500;
     padding: 10px 32px;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 1px;
-     }
-    .d_text{
-      font-size:14px;
-      line-height:20px;
-    }
-    .d_big_text{
+     } */
+   
+    /* .d_big_text{
       font-size:16px;
       line-height:20px;
-    }
-    .showroom_banner_content .btn {
+    } */
+    
+    /* .showroom_banner_content .btn {
     margin-top: 24px;
       margin-bottom:24px;
-}
+      } */
   }
   .breadcrumbsu{
-    padding:16px 100px;
+    padding: 16px 0;
     display:flex;
     column-gap:16px;
     align-items:center;
@@ -145,9 +181,24 @@
   main#main-content {
     padding-top: 0;
 }
+  @media only screen and (max-width: 768px) {
+     .cc-showroom-banner .showroom_banner_content{
+    padding-top:24px;
+    padding-bottom:48px;
+  }
+    .showroom_banner .showroom_banner_image .showroom_banner_image_desk {
+          display: none;
+      }
+    .showroom_banner .showroom_banner_image .showroom_banner_image_mob {
+        display: block;
+    }
+    .d_text {
+       margin-top: 24px;
+    }
+  }
   @media (max-width:749px){
      .breadcrumbsu{
-    padding:16px;
+    padding:16px 0;
     column-gap:8px;
   }
       .breadcrumbsu span{
@@ -156,23 +207,56 @@
         letter-spacing:0.3px;
       }
   }
-  
-</style>
-<div class="breadcrumbsu">
-  <span><a href="/">Home</a></span>
-  <span>
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M4.83687 2.50417C5.06468 2.27636 5.43402 2.27636 5.66183 2.50417L9.74516 6.5875C9.97297 6.81531 9.97297 7.18465 9.74516 7.41246L5.66183 11.4958C5.43402 11.7236 5.06468 11.7236 4.83687 11.4958C4.60906 11.268 4.60906 10.8986 4.83687 10.6708L8.50772 6.99998L4.83687 3.32913C4.60906 3.10132 4.60906 2.73197 4.83687 2.50417Z" fill="#BCBCBC"/>
-    </svg>
 
-  </span>
-  <span class="current">Showroom</span>
+
+ @media only screen and (max-width: 414px) {
+    .showroom_banner .showroom_banner_content {
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
+   .big_h {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+   .d_text {
+     margin-top: 24px;
+     margin-bottom: 0;
+     font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.05px;
+   }
+   .showroom_btn {
+     padding: 10px 32px;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: 1px;
+     border-radius: var(--Button-mombile-rounded, 12px);
+   }
+ }
+ 
+</style>
+<div class="container">
+  <div class="breadcrumbsu">
+    <span><a href="/">Home</a></span>
+    <span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.83687 2.50417C5.06468 2.27636 5.43402 2.27636 5.66183 2.50417L9.74516 6.5875C9.97297 6.81531 9.97297 7.18465 9.74516 7.41246L5.66183 11.4958C5.43402 11.7236 5.06468 11.7236 4.83687 11.4958C4.60906 11.268 4.60906 10.8986 4.83687 10.6708L8.50772 6.99998L4.83687 3.32913C4.60906 3.10132 4.60906 2.73197 4.83687 2.50417Z" fill="#BCBCBC"/>
+      </svg>
+  
+    </span>
+    <span class="current">Showroom</span>
+  </div>
 </div>
 <div class="showroom_banner">
   <div class="showroom_banner_image">
-    <img src='{{ section.settings.image_desktop | img_url:"master" }}'>
+     <div class="showroom_banner_image_desk">
+          <img src='{{ section.settings.image_desktop | img_url:"master" }}'>
+       </div>
+       <div class="showroom_banner_image_mob">
+          <img src='{{ section.settings.image_mobile | img_url:"master" }}'>
+       </div>
   </div>
-  <div class="showroom_banner_content d_flex mobile_d_wrap pad_desk pad_mobile">
+  <div class="container showroom_banner_content d_flex mobile_d_wrap">
       <div class="d_half mobile_d_full">
             <h1 class="big_h">{{ section.settings.heading }}</h1>
             <a class="btn btn--primary showroom_btn" href="{{ section.settings.link }}">
@@ -190,6 +274,7 @@
 {% schema %}
 {
   "name": "Showroom banner",
+  "class": "cc-showroom-banner",
   "tag": "section",
   "settings": [
       {

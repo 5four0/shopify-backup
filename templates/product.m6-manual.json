@@ -136,7 +136,7 @@
         "enable_video_looping": false,
         "stacked_scroll": "never",
         "underline_active": false,
-        "media_thumbs": "always",
+        "media_thumbs": "desktop",
         "thumb_ratio": "1",
         "thumb_crop": "center",
         "media_arrows": "always",
@@ -675,7 +675,11 @@
         "@media (max-width: 767px) {.container {padding: 0 20px; }}"
       ],
       "settings": {
-        "full_width": false
+        "full_width": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mob": 30,
+        "padding_bottom_mob": 30
       }
     },
     "faq_WTiy3T": {

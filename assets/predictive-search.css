@@ -160,8 +160,8 @@ predictive-search .search__input {
 }
 @media (min-width: 769px) {
   .predictive-search {
-    left: -12px;
-    width: calc(100% + 24px);
+    left: -50px;
+    width: calc(100% + 255px);
     padding-top: 63px;
   }
   .predictive-search .tablist__scroller {

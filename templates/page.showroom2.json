@@ -3,7 +3,8 @@
     "shworoom_banner_UXhAdx": {
       "type": "shworoom_banner",
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/image_showroom_banner2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/img_showroom_banner.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/img_showroom_banner_h5.jpg",
         "heading": "AlunoTec Showroom",
         "text": "\"Real Homes, Real Stories\" provides an authentic journey through homeowners' experiences, allowing you to engage with tangible elements and genuine emotions. Gain valuable insights from real customers, explore tactile sensations, and visualize your outdoor space with inspiration from genuine stories.",
         "link": "shopify:\/\/pages\/contact-us",
@@ -58,6 +59,7 @@
         "image_block_ND3Xcc",
         "image_block_WzhnjP"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -65,6 +67,55 @@
       "type": "showroom_scaling_images",
       "disabled": true,
       "settings": {
+      }
+    },
+    "showroow_slides_hwWrJ4x": {
+      "type": "showroom_slides_new",
+      "blocks": {
+        "text_block_gfjePY": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/image_showroom_image_gallery2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_showroom_image_gallery2.jpg",
+            "subheading": "How to book your visit",
+            "heading": "Send Your Location",
+            "text": "Share your location or zip code with us via email, WhatsApp, or our online chat. We will find the nearest AlunoTec Showroom for you.",
+            "z-index": 1
+          }
+        },
+        "text_block_jgE9eJ": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/image_showroom_image_gallery8.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_showroom_scroll5.jpg",
+            "subheading": "How to book your visit",
+            "heading": "Get Showroom Details",
+            "text": "We will provide the address and contact details of the closest showroom. These are real homes of friendly people. You can schedule a visit at a convenient time!",
+            "z-index": 1
+          }
+        },
+        "text_block_NaHBqh": {
+          "type": "text_block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/image_showroom_scroll3_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_showroom_scroll3_2.jpg",
+            "subheading": "How to book your visit",
+            "heading": "Visit and Experience",
+            "text": "Visit AlunoTec showroom to see AlunoTec Pergola in real-life settings. Relax under its canopy, perfect for both quiet reflection and lively gatherings.",
+            "z-index": 1
+          }
+        }
+      },
+      "block_order": [
+        "text_block_gfjePY",
+        "text_block_jgE9eJ",
+        "text_block_NaHBqh"
+      ],
+      "settings": {
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mob": 48,
+        "padding_bottom_mob": 48
       }
     },
     "showroow_slides_hwWrJ4": {
@@ -106,6 +157,7 @@
         "text_block_jgE9eJ",
         "text_block_NaHBqh"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -150,6 +202,41 @@
       "settings": {
       }
     },
+    "rich_text_KGKbY4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mN7y6f": {
+          "type": "heading",
+          "settings": {
+            "heading": "AlunoTec Showroom Servise",
+            "heading_size": "h2-new",
+            "heading_h1": false
+          }
+        },
+        "text_FnwinT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We love seeing what our customers and their mates have achieved. Let's see take a look at <\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mN7y6f",
+        "text_FnwinT"
+      ],
+      "settings": {
+        "toppadding": 70,
+        "bottompadding": 40,
+        "bgclr": "",
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
     "showroom_image_text_CcXn8W": {
       "type": "showroom_image_text",
       "blocks": {
@@ -169,7 +256,7 @@
           "type": "text_block",
           "settings": {
             "gif_link": "",
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7e16017e379f41ecb89b10f1f9edbb56.mp4",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5a2e6e865ff14da9929c2223336453f8.mp4",
             "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac46a2b67e81460c8dc7dde46823417f.mp4",
             "heading": "Anywhere Visit Online",
             "text": "Get all your questions answered by Online video chat.",
@@ -199,23 +286,24 @@
         "text_block_6BpBHA": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cf7c5e4573dc3a1283334ebb1f6ee2d6.jpg",
-            "small_text": "Ireland Project Showcases",
-            "link": "#",
-            "big_text": "We want to help make your outdoor space the best part of your home, a place that beckons you spend time in it - resting, playing, dining, and entertaining - everyday"
+            "image": "shopify:\/\/shop_images\/img_showroom_project_tt.jpg",
+            "small_text": "AlunoTec Showroom",
+            "link": "https:\/\/www.tiktok.com\/@alunotec_showroom",
+            "big_text": "Here, we showcase real AlunoTec pergola projects from around the world. 🌍 Constantly updated, our content provides backyard design inspiration. Find the perfect reference for your outdoor space here. 🏡✨"
           }
         },
         "text_block_7397Gz": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_blog1.jpg",
-            "small_text": "England Project Showcases",
-            "link": "#",
-            "big_text": "AlunoTec Pergola from residential to commercial uses, for small patios to large outdoor spaces, we’ve got you covered"
+            "image": "shopify:\/\/shop_images\/img_showroom_project_installation2.jpg",
+            "small_text": "AlunoTec Installation Project",
+            "link": "https:\/\/youtube.com\/playlist?list=PLRqN7_JyGJ1LEBN_ggDtRjGEhNODyGwnB&si=erbsKGtGoPPIFYRp",
+            "big_text": "Here, you will find detailed product installation guides that make installation easier and more efficient. ✨ Master the installation process with ease and confidence. 🏡🔧"
           }
         },
         "text_block_dtqRnm": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/f42e7c5490cfbdd664a7000fb1a5c780.jpg",
             "small_text": "China Project Showcases",
@@ -230,21 +318,20 @@
         "text_block_dtqRnm"
       ],
       "custom_css": [
-        ".custom-section .section__heading {font-size: 48px; line-height: 56px;}",
-        ".custom_text_item p {font-size: 18px; color: #202020; line-height: 27px; font-weight: bold;}",
-        ".custom_text_item a {font-weight: 400; line-height: 24px;}",
-        ".custom_text_item {margin-bottom: 32px;}",
-        "@media (max-width: 999px) {.custom-section .section__heading {font-size: 18px; line-height: 26px; } .custom_text_item p {font-size: 16px; line-height: 24px; }}"
+        ".reading-width--inline {max-width: 100%; margin-bottom: 40px;}",
+        ".custom_text_item p {color: var(--Dark, #202020); font-size: 18px; font-style: normal; font-weight: 600; line-height: 21.6px; letter-spacing: 2px;}",
+        ".custom_text_item a {font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px;}",
+        "@media only screen and (max-width: 414px) {.custom_text {padding: 30px 24px; } .custom_text_item p {font-size: 16px; line-height: 19.2px; margin-bottom: 8px; } .custom_text_item a {font-size: 14px; line-height: 21px; }}"
       ],
       "settings": {
         "heading": "AlunoTec Project",
-        "h_font-size_d": 20,
-        "h_font-size_m": 18,
+        "h_font-size_d": 32,
+        "h_font-size_m": 28,
         "subheading": "We love seeing what our customers and their mates have achieved. Let's see take a look at these real-life AlunoTec pergola projects.",
         "s_font-size_d": 16,
         "s_font-size_m": 14,
-        "link": "",
-        "link_text": "",
+        "link": "shopify:\/\/pages\/contact-us",
+        "link_text": "BOOK A VISIT",
         "cta_style": "secondary",
         "small_t_font-size_d": 14,
         "small_t_font-size_m": 12,
@@ -252,8 +339,39 @@
         "big_t_font-size_m": 14
       }
     },
+    "rich_text_KTzMyy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RpK9VB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Inspired by Our Pergola",
+            "heading_size": "h2-new",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RpK9VB"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 414px) {.color-scheme--transparent {padding-bottom: 24px; }}"
+      ],
+      "settings": {
+        "toppadding": 70,
+        "bottompadding": 48,
+        "bgclr": "",
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
     "custom_liquid_j8QHcw": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"background:white;\">\n<h1 class=\"small_h\" style=\"text-align:center;\">Get Inspired by Our Pergola<\/h1>\n<\/div>",
         "section_height": "default",
@@ -268,25 +386,19 @@
         "image_block_pL3B8X": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery12.jpg"
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery14.jpg"
           }
         },
-        "image_block_ANYhRM": {
+        "image_block_W9ade7": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery11.jpg"
-          }
-        },
-        "image_block_N4JmQD": {
-          "type": "image_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery10.jpg"
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery7.jpg"
           }
         },
         "image_block_WRmATJ": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery2.jpg"
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery13.jpg"
           }
         },
         "image_block_TmkHfx": {
@@ -295,27 +407,33 @@
             "image": "shopify:\/\/shop_images\/image_showroom_image_gallery8.jpg"
           }
         },
+        "image_block_N4JmQD": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_scroll2.jpg"
+          }
+        },
+        "image_block_ANYhRM": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery11.jpg"
+          }
+        },
         "image_block_BXrE9a": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery9.jpg"
-          }
-        },
-        "image_block_W9ade7": {
-          "type": "image_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery7.jpg"
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery2.jpg"
           }
         }
       },
       "block_order": [
         "image_block_pL3B8X",
-        "image_block_ANYhRM",
-        "image_block_N4JmQD",
+        "image_block_W9ade7",
         "image_block_WRmATJ",
         "image_block_TmkHfx",
-        "image_block_BXrE9a",
-        "image_block_W9ade7"
+        "image_block_N4JmQD",
+        "image_block_ANYhRM",
+        "image_block_BXrE9a"
       ],
       "settings": {
         "section_number": 1,
@@ -384,6 +502,7 @@
         "image_block_BhMeAD",
         "image_block_LbWpC8"
       ],
+      "disabled": true,
       "settings": {
         "section_number": 2,
         "margin_left": 22
@@ -404,12 +523,6 @@
             "image": "shopify:\/\/shop_images\/image_showroom_image_gallery15.jpg"
           }
         },
-        "image_block_WMabA7": {
-          "type": "image_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery13.jpg"
-          }
-        },
         "image_block_hxR9x8": {
           "type": "image_block",
           "settings": {
@@ -420,6 +533,12 @@
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_showroom_image_gallery1.jpg"
+          }
+        },
+        "image_block_WMabA7": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_showroom_image_gallery13.jpg"
           }
         },
         "image_block_FCVtzf": {
@@ -438,12 +557,13 @@
       "block_order": [
         "image_block_Bt3XFV",
         "image_block_TYqx3m",
-        "image_block_WMabA7",
         "image_block_hxR9x8",
         "image_block_dbt3EQ",
+        "image_block_WMabA7",
         "image_block_FCVtzf",
         "image_block_nHBdjY"
       ],
+      "disabled": true,
       "settings": {
         "section_number": 3,
         "margin_left": 9
@@ -455,14 +575,14 @@
         "heading_DgRVTD": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h4"
+            "heading": "Find Your Pergola Showroom Nearby!",
+            "heading_size": "h2"
           }
         },
         "text_DQQnwK": {
           "type": "text",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
+            "text": "<p>Visit our local showroom today to experience the allure of our exquisite pergolas, enhancing your outdoor space with timeless elegance.<\/p>",
             "enlarge_text": false
           }
         },
@@ -477,18 +597,17 @@
         "text_DQQnwK",
         "form_cKniLf"
       ],
-      "disabled": true,
       "custom_css": [
         ".newsletter .container {position: absolute; height: 100%; width: 100%; align-items: flex-end; padding: 0 100px;}",
+        ".newsletter .form__field input {border-radius: 0;}",
         ".newsletter .text-overlay {height: fit-content; text-align: left;}",
-        ".section__block--heading {font-size: 56px; line-height: 64px;}",
-        "@media (max-width: 749px) {.newsletter .container {padding: 32px 24px; align-items: flex-start; } .newsletter .text-overlay {padding: 0; } .section__block--heading {font-size: 40px; line-height: 44px; }}"
+        "@media (max-width: 749px) {.newsletter .container {padding: 32px 24px; align-items: flex-start; } .newsletter .text-overlay {padding: 0; }}"
       ],
       "settings": {
         "overlay_position": "justify-start",
         "text_align": "text-center",
-        "image": "shopify:\/\/shop_images\/6aa911c6b9c7f1d8dbbc877d3cf0bb83.png",
-        "mobile_image": "shopify:\/\/shop_images\/Pergola-_5_1_2_6c4a12b5-7721-4656-82c5-3d9ae968f0f2.jpg",
+        "image": "shopify:\/\/shop_images\/img_showroom_footer_23178ec6-278b-44b8-8d18-cce7659c4214.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/image_showroom_h5_transition5.jpg",
         "color_scheme": "white",
         "full_width": true,
         "transparent_content_color": "#ffffff",
@@ -506,11 +625,14 @@
     "shworoom_banner_UXhAdx",
     "showroom_moving_images_kDAd4f",
     "showroom_scaling_images_nLzmNa",
+    "showroow_slides_hwWrJ4x",
     "showroow_slides_hwWrJ4",
     "showroom_image_overlay_LhAJBq",
+    "rich_text_KGKbY4",
     "showroom_image_text_CcXn8W",
     "main",
     "custom_image_text_x8HAyy",
+    "rich_text_KTzMyy",
     "custom_liquid_j8QHcw",
     "showroom_scrolling_images_bmKApQ",
     "showroom_scrolling_images_mDW8NA",

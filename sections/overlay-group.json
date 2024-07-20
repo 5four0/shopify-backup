@@ -4,6 +4,9 @@
   "sections": {
     "cart-drawer": {
       "type": "cart-drawer",
+      "custom_css": [
+        "product-recommendations#cart-recommendations {display: none;}"
+      ],
       "settings": {
         "show_cart_page_link": true,
         "show_backorder_text": true,
@@ -18,11 +21,13 @@
         "show_shipping_calculator": false,
         "shipping_calculator_default_country": "United States",
         "promoted_products_visibility": "always",
-        "promoted_products_heading": "Promoted products",
+        "promoted_products_heading": "YOU MIGHT ALSO LIKE",
         "promoted_products_list": [
-
+          "alunotec-heater",
+          "alunotec-side-blinds",
+          "alunotec-sliding-louvered-frame"
         ],
-        "promoted_products_layout": "carousel",
+        "promoted_products_layout": "list",
         "show_media_promotion": false,
         "media_promotion_visibility": "always",
         "link_url": "",
@@ -162,14 +167,14 @@
         "heading_LkWrKQ": {
           "type": "heading",
           "settings": {
-            "heading": "Get 10% Off!",
-            "heading_size": "h4"
+            "heading": "Visit AlunoTec Showroom",
+            "heading_size": "h6"
           }
         },
         "text_GiRQBm": {
           "type": "text",
           "settings": {
-            "text": "<p>Join our family and get exclusive promotions, product launch updates and 10% off your first purchase.<\/p>",
+            "text": "<p><a href=\"\/pages\/showroom\" target=\"_blank\" title=\"Showroom\">Visit our showroom<\/a> in California to see and feel our pergolas. Talk to real customers and get inspired with new pergola ideas.<\/p>",
             "text_size": ""
           }
         },
@@ -181,7 +186,7 @@
         "image_Jez4nT": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M6_7.jpg",
+            "image": "shopify:\/\/shop_images\/image_showroom_scroll3_2.jpg",
             "image_position_desktop": "left",
             "image_position_mobile": "top"
           }
@@ -200,7 +205,7 @@
         "show_on_mobile": true,
         "dismiss_days": 30,
         "position": "justify-center items-center",
-        "text_align": "text-center",
+        "text_align": "text-start",
         "padding": "large",
         "shrink_width": false,
         "heading_color": "#070707",

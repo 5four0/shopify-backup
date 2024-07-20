@@ -43,7 +43,7 @@
         "button_yQaRCt"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/9.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/img_Custom_banner.jpg",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 550,
@@ -67,10 +67,10 @@
           "type": "column",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/7.jpg",
+            "image": "shopify:\/\/shop_images\/img_Custom_Case-Studies04.jpg",
             "media_scale": 100,
             "heading": "Transforming Outdoor Spaces: The AlunoTec Pergola Project",
-            "text": "<p>In the heart of a bustling suburb, AlunoTec undertook the challenge of transforming a neglected backyard into a luxurious outdoor living area.<\/p>",
+            "text": "<p>In a suburban backyard, AlunoTec transformed an ordinary outdoor area into a luxurious outdoor kitchen, creating a perfect retreat for cooking and entertaining.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -79,10 +79,10 @@
           "type": "column",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/9.jpg",
+            "image": "shopify:\/\/shop_images\/img_Custom_Case-Studies07.jpg",
             "media_scale": 100,
-            "heading": "Beyond the Patio: Revolutionizing Restaurant Seating with AlunoTec",
-            "text": "<p>Faced with the need to expand seating capacity while navigating weather uncertainties, a popular café partnered with AlunoTec to rethink its outdoor dining experience.<\/p>",
+            "heading": "Beyond the Patio: Revolutionizing Garden Terrace with AlunoTec",
+            "text": "<p>To enhance the beauty and functionality of a garden terrace, a homeowner partnered with AlunoTec to install versatile pergolas, ensuring a comfortable and stylish outdoor living space.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -91,10 +91,10 @@
           "type": "column",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/M6_9.jpg",
+            "image": "shopify:\/\/shop_images\/img_Custom_Case-Studies08.jpg",
             "media_scale": 100,
-            "heading": "AlunoTec’s Shade Solutions: Enhancing a Community Park",
-            "text": "<p>In an initiative to revitalize a community park, AlunoTec was approached to provide innovative shade solutions that would encourage more visitors and host a variety of outdoor activities.<\/p>",
+            "heading": "AlunoTec’s Shade Solutions: Enhancing Poolside Comfort",
+            "text": "<p>In a private backyard, AlunoTec provided innovative shade solutions, creating a stylish and functional area for relaxation and leisure activities by the pool.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -109,7 +109,7 @@
         "title": "Case Studies",
         "heading_align": "text-start",
         "button_label": "View More",
-        "button_link": "",
+        "button_link": "https:\/\/alunotec.shop\/blogs\/news",
         "layout": "carousel",
         "column_size": "medium",
         "column_align": "left",
@@ -191,7 +191,7 @@
         "button_xGkDUA"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pergo-v_19_da184794-127c-45f3-953a-c8e0647042e4.jpg",
+        "image": "shopify:\/\/shop_images\/image_showroom_image_gallery6.jpg",
         "video_external": "",
         "video_description": "",
         "video_autoplay": false,
@@ -200,7 +200,7 @@
         "media_width": 50,
         "media_scale": 100,
         "text_align": "text-start",
-        "color_scheme": "3",
+        "color_scheme": "none",
         "only_content_color_scheme": false
       }
     },
@@ -244,7 +244,7 @@
         "button_UKgFxR"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pergo-v_9_dadb732e-9dbb-41a4-bce7-1959abf24742.jpg",
+        "image": "shopify:\/\/shop_images\/img_Custom_Case-Studies09.jpg",
         "video_external": "",
         "video_description": "",
         "video_autoplay": false,
@@ -304,7 +304,9 @@
       ],
       "disabled": true,
       "settings": {
+        "new_adjustment": false,
         "title": "How it Works",
+        "heading_size": "h2",
         "heading_align": "text-center",
         "button_label": "",
         "button_link": "",
@@ -314,7 +316,11 @@
         "media_align": "text-center",
         "image_ratio": "natural",
         "color_scheme": "none",
-        "button_style": "btn btn--primary"
+        "button_style": "btn btn--primary",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "padding_top_mob": 48,
+        "padding_bottom_mob": 48
       }
     },
     "contact_form_mDVwbE": {
@@ -346,7 +352,7 @@
           "settings": {
             "title": "Zip Code",
             "type": "text",
-            "required": true,
+            "required": false,
             "half_width": true
           }
         },
@@ -354,7 +360,7 @@
           "type": "dropdown",
           "settings": {
             "title": "Where did you hear about us?",
-            "options": "Google\nYouTube\nInstagram\nFacebook\nOther",
+            "options": "Google\nYouTube\nInstagram\nFacebook\nTikTok\nOther",
             "half_width": true
           }
         },
@@ -370,7 +376,7 @@
         "body_xPhKRk": {
           "type": "body",
           "settings": {
-            "required": true,
+            "required": false,
             "half_width": false
           }
         }
@@ -402,8 +408,8 @@
             "icon": "email",
             "custom_icon_svg": "",
             "heading": "Email",
-            "text": "<p><a href=\"mailto:info@alunotec.com\" target=\"_blank\" title=\"mailto:info@alunotec.com\">info@alunotec.com<\/a><\/p>",
-            "link": ""
+            "text": "<p><a href=\"mailto:rex.shaw@alunotec.com\" target=\"_blank\" title=\"mailto:rex.shaw@alunotec.com\">rex.shaw@alunotec.com<\/a><\/p>",
+            "link": "mailto:rex.shaw@alunotec.com"
           }
         },
         "item_Mm6PVq": {
@@ -412,8 +418,8 @@
             "icon": "chat_bubble",
             "custom_icon_svg": "",
             "heading": "WhatsApp",
-            "text": "<p><a href=\"tel:+86 15322860791\" target=\"_blank\" title=\"tel:+86 15322860791\">+86 15322860791<\/a><\/p>",
-            "link": ""
+            "text": "<p><a href=\"https:\/\/wa.me\/message\/FGIAUUNKORN5L1\" target=\"_blank\" title=\"https:\/\/wa.me\/message\/alunotecshop\">+86 15382810692<\/a><\/p>",
+            "link": "https:\/\/wa.me\/message\/FGIAUUNKORN5L1"
           }
         },
         "item_gVQLqF": {
@@ -431,6 +437,9 @@
         "item_EgnMxe",
         "item_Mm6PVq",
         "item_gVQLqF"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 430px) {.icons-with-text .slider__item {flex: 0 0 100%; }}"
       ],
       "settings": {
         "heading": "Need More Assistance?",

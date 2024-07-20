@@ -351,12 +351,12 @@ predictive-search .overlay{
     font-weight: 600;
 }
     .header__search {
-    bottom: -68px!important;
+    bottom: -65px!important;
       padding:0 24px 16px;
       transition: opacity .3s,bottom .3s, visibility .3s;
 }
     .main-menu__content{
-           top: 166px;
+           top: 157px;
     height: calc(100vh - 166px);
     display: flex;
     flex-direction: column;
@@ -625,6 +625,11 @@ predictive-search .overlay{
      /* .header_left {
         display: none;
      } */
+   }
+   @media only screen and (max-width: 430px) {
+     .main-menu__content {
+       height: calc(100vh - 60px);
+     }
    }
 </style>
 {% comment %}

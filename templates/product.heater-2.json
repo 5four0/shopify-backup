@@ -9,12 +9,6 @@
             "show_weight": false
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_tax_and_shipping": true
-          }
-        },
         "image_PmDJBg": {
           "type": "image",
           "settings": {
@@ -68,12 +62,10 @@
             "size_chart_page": ""
           }
         },
-        "complementary_FdUXjm": {
-          "type": "complementary",
+        "price": {
+          "type": "price",
           "settings": {
-            "heading": "Add-Ons",
-            "products_to_show": 4,
-            "layout": "carousel"
+            "show_tax_and_shipping": true
           }
         },
         "buy-buttons": {
@@ -93,8 +85,17 @@
             "btnurl": "shopify:\/\/pages\/book-an-installation"
           }
         },
+        "complementary_FdUXjm": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Add-Ons",
+            "products_to_show": 4,
+            "layout": "carousel"
+          }
+        },
         "payments_zR4TMV": {
           "type": "payments",
+          "disabled": true,
           "settings": {
           }
         },
@@ -112,14 +113,14 @@
       },
       "block_order": [
         "title",
-        "price",
         "image_PmDJBg",
         "product_specs_PNBekL",
         "productslist_NYnAGM",
         "variant-picker",
-        "complementary_FdUXjm",
+        "price",
         "buy-buttons",
         "custom_btn_a9bwEP",
+        "complementary_FdUXjm",
         "payments_zR4TMV",
         "custom_solution_ULWMTU"
       ],
@@ -137,7 +138,7 @@
         "enable_video_looping": false,
         "stacked_scroll": "never",
         "underline_active": false,
-        "media_thumbs": "always",
+        "media_thumbs": "desktop",
         "thumb_ratio": "1",
         "thumb_crop": "center",
         "media_arrows": "always",
@@ -683,7 +684,11 @@
         "@media (max-width: 767px) {.container {padding: 0 20px; }}"
       ],
       "settings": {
-        "full_width": false
+        "full_width": false,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_mob": 30,
+        "padding_bottom_mob": 30
       }
     },
     "faq_WTiy3T": {
@@ -760,6 +765,7 @@
         "question_nQD4Rh",
         "question_bn4JJM"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],

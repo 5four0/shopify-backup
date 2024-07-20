@@ -21,10 +21,12 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% if rtl %}rtl{% else %}ltr{% endif %}">
   <head>
+
+    
     {% render 'pandectes-rules' %}
     {%- render 'doc-head-core' -%}
     {%- render 'doc-head-social' -%}
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="preload" href="{{ 'main.css' | asset_url }}" as="style">
 
     {%- style %}
@@ -279,11 +281,11 @@
       }
        #shopify-chat{
          position:relative;
-       /*  z-index:99;*/
+        /* z-index:99; */
         /* transform:scale(.8);*/
        }
       #shopify-chat inbox-online-store-chat{
-      /*  left: 12px!important;*/
+          z-index: 214748364 !important;
       }
       @media (max-width:999px){
         .h1{
@@ -369,6 +371,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     >
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "n1ct9qehx1");
+      </script>
+    <!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9Z0FKF5KG"></script>
+
+<script>
+
+ window.dataLayer = window.dataLayer || [];
+
+ function gtag(){dataLayer.push(arguments);}
+
+ gtag('js', new Date());
+
+ gtag('config', 'G-Z9Z0FKF5KG');
+
+</script>
   </head>
 
   <body class="template-{{ template.name }}{% if settings.animations_enabled != "disabled" %} cc-animate-enabled{% endif %}">

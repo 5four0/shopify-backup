@@ -39,7 +39,7 @@
         "text_EiJXnd"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/M6_8.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/img_aboutus_banner.jpg",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 600,
@@ -106,7 +106,7 @@
         "text_MHz8jV"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/M6_13.jpg",
+        "image": "shopify:\/\/shop_images\/img_Custom_Craft_Pergola02.jpg",
         "video_external": "",
         "video_description": "",
         "video_autoplay": false,
@@ -143,7 +143,7 @@
         "text_NFCgRt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/12.jpg",
+        "image": "shopify:\/\/shop_images\/img_Custom_Case_Studies02.jpg",
         "video_external": "",
         "video_description": "",
         "video_autoplay": false,
@@ -210,6 +210,7 @@
         "item_n8Gay3",
         "item_KJgMFb"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Why Choose AlunoTec?",
         "heading_align": "text-center",
@@ -249,7 +250,7 @@
         "text_d7bAiq"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/M6_8.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/showroom-img.png",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 600,
@@ -275,7 +276,7 @@
         "collection": "alunotec-pergola",
         "layout": "carousel",
         "card_size_mobile": "small",
-        "card_size": "large",
+        "card_size": "medium",
         "products_to_show": 3,
         "show_promo_info": false,
         "image_ratio": "fill",

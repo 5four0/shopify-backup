@@ -298,11 +298,16 @@ class DetailsDisclosure extends HTMLElement {
     super();
     this.disclosure = this.querySelector('details');
     this.toggle = this.querySelector('summary');
-    this.panel = this.toggle.nextElementSibling;
+    // this.panel = this.toggle.nextElementSibling;
+    this.panel = this.toggle ? this.toggle.nextElementSibling : null;
     this.init();
   }
 
   init() {
+     if (!this.disclosure || !this.toggle || !this.panel) {
+      // console.error('Required elements are missing in <details-disclosure>.');
+      return;
+    }
     // Check if the content element has a CSS transition.
     if (window.getComputedStyle(this.panel).transitionDuration !== '0s') {
       this.toggle.addEventListener('click', this.handleToggle.bind(this));

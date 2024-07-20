@@ -64,7 +64,11 @@
                   {%- capture sizes -%}
                     {%- render 'sizes-attribute', min: '64px', sm: '128px', md: false, lg: false, xl: false, max: false -%}
                   {%- endcapture -%}
+                  {% comment %}
                   {{ item.image | image_url: width: 180 | image_tag: widths: '64, 128, 180', sizes: sizes, loading: 'lazy' }}
+                 {% endcomment %}
+                  <img src="{{ item.image | img_url: 'medium' }}" loading="lazy" alt="{{ item.image.alt }}">
+                   
                 {%- else -%}
                   <div class="media relative" style="padding-top: 100%;">
                     {{ 'image' | placeholder_svg_tag: 'media__placeholder img-fit' }}
