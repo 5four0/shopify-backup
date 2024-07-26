@@ -944,7 +944,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/image_blog2.jpg",
             "small_text": "AlunoTec Feature",
-            "link": "shopify:\/\/blogs\/news\/is-alunotec-pergola-waterproof",
+            "link": "shopify:\/\/blogs\/alunotec-insights\/is-alunotec-pergola-waterproof",
             "big_text": "Do Louvered Pergola Keep Rain Out"
           }
         },
@@ -953,7 +953,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img_home_blog_03.jpg",
             "small_text": "Installation Tips",
-            "link": "shopify:\/\/blogs\/news\/how-to-install-a-pergola-and-its-precautions",
+            "link": "shopify:\/\/blogs\/alunotec-insights\/how-to-install-a-pergola-and-its-precautions",
             "big_text": "How to Install a Pergola"
           }
         },
@@ -962,7 +962,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/img_home_blog_01.jpg",
             "small_text": "Backyard Idea",
-            "link": "shopify:\/\/blogs\/news\/transform-your-outdoor-space-with-pergola",
+            "link": "shopify:\/\/blogs\/alunotec-insights\/transform-your-outdoor-space-with-pergola",
             "big_text": "Transform Your Outdoor Space with Pergola"
           }
         }
@@ -980,7 +980,7 @@
         "s_font-size_d": 16,
         "s_font-size_m": 14,
         "image": "shopify:\/\/shop_images\/image_blog2.jpg",
-        "link": "shopify:\/\/blogs\/news",
+        "link": "shopify:\/\/blogs\/alunotec-insights",
         "link_text": "VIEW ALL",
         "cta_style": "secondary",
         "small_t_font-size_d": 14,
