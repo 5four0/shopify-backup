@@ -263,7 +263,7 @@
         {% case block.type %}
           {% when 'image' %}
           <div class="imgtxt-img">
-            <img draggable="false" src="{{ block.settings.img | img_url:'' }}">
+            <img draggable="false" src="{{ block.settings.img | img_url:'' }}" alt="alunotec.shop">
             
             <div class="txtimg-imgcntnt">
               {{ block.settings.content }}

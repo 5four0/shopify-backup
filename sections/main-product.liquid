@@ -230,7 +230,7 @@
                 <div class="product_spec-wrap">
                   <div class="icon-image">
                     {% if block.settings[icn] != blank %}
-                      <img src="{{ block.settings[icn] | img_url:'' }}">
+                      <img src="{{ block.settings[icn] | img_url:'' }}" alt="alunotec.shop">
                     {% else %}
                       {% render 'icon', icon: block.settings.[icn_specs], height: 24, width: 24 %}
                     {% endif %}
@@ -730,7 +730,7 @@
               <div class="flex {{ block.settings.image_align }}">
                 <div class="pdp-block_img media relative" {% comment %}style="width: {{ block.settings.image_width }}px;"{% endcomment %}>
                   {%- if block.settings.image != blank -%}
-                  <img src='{{ block.settings.image | img_url:"master" }}'>
+                  <img src='{{ block.settings.image | img_url:"master" }}' alt="alunotec.shop">
                     {%- endif -%}
                     {% comment %}
                     {% render 'image',

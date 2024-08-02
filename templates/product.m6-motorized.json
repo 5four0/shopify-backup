@@ -390,7 +390,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_2.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -447,7 +449,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_4.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "left",
@@ -512,7 +516,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_3.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -568,7 +574,9 @@
         "icon_text_JmejG3"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/image_productpage_m6_motorized_quality.png",
+        "video_url": "",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
@@ -599,7 +607,9 @@
         "description_j8BjCU"
       ],
       "settings": {
+        "media_type": "video",
         "img": "shopify:\/\/shop_images\/gif_product_m6_ledlight.gif",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a65010c63c6247b68577e46b143d341e.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -630,7 +640,9 @@
         "description_WGKB97"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/gif_product_m6_louvers2.gif",
+        "media_type": "video",
+        "img": "shopify:\/\/shop_images\/gif_product_m6_louvers.gif",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fa2e9999533b4d7aa218ac2d61f50908.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
@@ -661,7 +673,9 @@
         "description_CYCxd8"
       ],
       "settings": {
+        "media_type": "video",
         "img": "shopify:\/\/shop_images\/gif_product_m6_waterproof2.gif",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b390b236ab5a4911a145b9dfc7d8607c.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -692,7 +706,9 @@
         "description_JecifY"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/image_productpage_m6_motorized_multifunctional.png",
+        "video_url": "",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
@@ -723,7 +739,9 @@
         "description_zd7ycJ"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/img_productpage_m6_pergola_accessories.jpg",
+        "video_url": "",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",

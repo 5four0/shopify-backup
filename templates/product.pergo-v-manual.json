@@ -417,7 +417,9 @@
         "icon_text_eaJCdV"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/image_productpage_v_quality.png",
+        "media_type": "image",
+        "img": "shopify:\/\/shop_images\/AlunoTecQuality.jpg",
+        "video_url": "",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
@@ -448,7 +450,9 @@
         "description_AFiQKW"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/img_productpage_pergola_v_ledlight.jpg",
+        "video_url": "",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -479,7 +483,9 @@
         "description_d9diUB"
       ],
       "settings": {
+        "media_type": "video",
         "img": "shopify:\/\/shop_images\/gif_product_v_louvers.gif",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ece7ff11479946be8e3ea461421d4e99.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
@@ -510,7 +516,9 @@
         "description_zpYE8X"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/gif_product_m6_Waterproof2_7b6c2b82-b736-4c93-9d0c-7ba158960601.gif",
+        "video_url": "",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -541,7 +549,9 @@
         "description_JecifY"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/image_productpage_v_multifunctional.png",
+        "media_type": "image",
+        "img": "shopify:\/\/shop_images\/MultifunctionalPergola.jpg",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -572,7 +582,9 @@
         "description_zd7ycJ"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/image_productpage_pergola_v_selection.jpg",
+        "video_url": "",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",

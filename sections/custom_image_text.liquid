@@ -321,7 +321,7 @@
      </div>
     <div class="cc-animate-init cc-animate-in custom_image">
       {% for block in section.blocks %}
-      <img data_index="{{ forloop.index }}" {% if forloop.first %}{% else %}class="seconds"{% endif %} src="{{ block.settings.image | img_url:'master' }}">
+      <img data_index="{{ forloop.index }}" {% if forloop.first %}{% else %}class="seconds"{% endif %} src="{{ block.settings.image | img_url:'master' }}" alt="alunotec.shop">
       {% endfor %}
     </div>
 </div>

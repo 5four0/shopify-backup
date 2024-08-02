@@ -47,17 +47,19 @@
     transition:1s;
     background:#F9F9F9;
      border-radius:30px;
+     cursor: auto;
   }
-  .trust_item.second svg{
-      height:18px;
-    width:18px;
+   .trust_item.second img{
+      height:22px;
+    width:22px;
+    margin:0 1px;
   }
-  .trust_item.second svg path{
+  /* .trust_item.second svg path{
     fill:#E9C545;
-  }
+  } */
   .trust_item.second .trust_top p{
     margin:0;
-    margin-left:10px;
+    margin-right:10px;
   }
   .trust_item.second .trust_top{
     align-items:center;
@@ -187,6 +189,16 @@
           padding: 0 0 0 24px!important;
     }
   }
+  .tru-a{
+   display: block;
+		width: 164px;
+		height: 54px;
+		background: url('https://cdn.shopify.com/s/files/1/0561/1585/5439/files/img_trustpilot_2x_726cef43-bebd-461a-89be-9f5488233491.png?v=1721815726') center/100% no-repeat;
+  }
+  .tru-a:hover{
+      transform: scale(1.1);
+  }
+
   @media (max-width: 430px){
      .trust-section .trust_items .trust_item.first {
         display: none;
@@ -219,6 +231,10 @@
   .trust-section .section__header {
         margin-bottom: 24px;
     }
+     .tru-a{
+     		width: 88px;
+		height: 26px;
+   }
     }
      @media only screen and (max-width: 414px) {
        .trust_item.second .trust_top {
@@ -234,6 +250,7 @@
 </style>
 <div class="container trust-cont">
     <div class="section__header items-center flex flex-col text-center gap-x-theme cc-animate-init cc-animate-in" data-cc-animate="">
+      <a href="https://www.trustpilot.com/review/alunotec.com" class="tru-a"></a>
       <h2 class="h2-new section__heading mb-0 flex-auto text-center">{{ section.settings.heading }}</h2>
     </div>
 </div>
@@ -256,15 +273,17 @@
   {% for block in section.blocks %}
   <div class="trust_item cc-animate-init cc-animate-in second">
     <div class="flex trust_top">
+      <p>{{ block.settings.name }}</p>
       <div class="trust_stars flex">
-      {% for i in (1.. block.settings.stars_count ) %}
-        {% render "icon_star" %}
+        {% for i in (1.. block.settings.stars_count ) %}
+          {% render "icon_star1" %}
         {% endfor %}
       </div>
-      <p>{{ block.settings.name }}</p>
+      
     </div>
     <p>{{ block.settings.content }}</p>
-  </div>
+
+</div>
     {% endfor %}
 
   

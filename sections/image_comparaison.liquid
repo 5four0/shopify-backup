@@ -357,7 +357,7 @@
 </style>
 <section class="image-comparison {{ section.settings.container_width }} {% if section.settings.new_adjustment %}new_adjustment{% endif %}" data-component="image-comparison-slider">
   <div class="image-comparison__slider-wrapper">
-    <label for="image-comparison-range" class="image-comparison__label">Move image comparison slider</label>
+    <label for="image-compare-range" class="image-comparison__label">Move image comparison slider</label>
     <input type="range" min="0" max="100" value="50" class="image-comparison__range" id="image-compare-range" data-image-comparison-range="">
 
     <div class="image-comparison__image-wrapper  image-comparison__image-wrapper--overlay" data-image-comparison-overlay="">
@@ -413,7 +413,7 @@
       {% for block in section.blocks %}
       <div class="icons_item">
         <div class="icons_top">
-          <img src="{{ block.settings.icon | img_url:"18x18" }}">
+          <img src="{{ block.settings.icon | img_url:"18x18" }}" alt="alunotec.shop">
           <p>{{ block.settings.icon_h }}</p>
         </div>
         <p>{{ block.settings.content }}</p>

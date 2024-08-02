@@ -388,6 +388,13 @@ span.imgprdct-quickadd .product-info__add-button button.btn.btn--primary{
 product-main .product-info:after {
   background-color: unset !important;
 }
+
+@media only screen and (max-width: 600px) {
+ .cc-main-product.product-main .container .product div#product-media.thumbs-desktop {
+      padding-bottom: 24px;
+  }
+}
+
 /* product-info  Start */
 
 

@@ -68,7 +68,7 @@
             "overlay_text_align": "text-center",
             "mob_center_text": false,
             "subheading": "",
-            "heading": "SPECIAL OFFER: <br>25% OFF AlunoTec Pergolas !",
+            "heading": "SPECIAL OFFER:<br>25% OFF AlunoTec Pergolas",
             "heading_size": "h3",
             "heading_h1": false,
             "text": "",
@@ -296,8 +296,7 @@
         "container_width": "container",
         "title_width": 75,
         "imgpos": "flex-row-reverse",
-        "img": "shopify:\/\/shop_images\/alunotec_pergo-v_2c12dfdc-94bd-45d3-b2c2-9799fb49661d.jpg",
-        "mblimg": "shopify:\/\/shop_images\/image_homepage_alunotec_pergov.jpg",
+        "img": "shopify:\/\/shop_images\/alunotec_pergo-v_ad780a6d-dc2f-46ee-b2c8-bf12fd5f7e5a.jpg",
         "img_link": "shopify:\/\/products\/alunotec-pergo-v",
         "promo_text": "UP TO 25% OFF",
         "color_bg": "#e9c545",
@@ -470,8 +469,8 @@
         "container_width": "container",
         "image1": "shopify:\/\/shop_images\/img_homepage_before_pc_19ee3ee4-b946-4dd5-bd06-2715ad5b678e.jpg",
         "m_image1": "shopify:\/\/shop_images\/image_homepage_before_perogla_h5.jpg",
-        "image2": "shopify:\/\/shop_images\/img_homepage_after_pc_9473a937-b513-4c17-9c94-51da876bed6d.jpg",
-        "m_image2": "shopify:\/\/shop_images\/img_homepage_before_h5.jpg",
+        "image2": "shopify:\/\/shop_images\/img_homepage_after_pc.jpg",
+        "m_image2": "shopify:\/\/shop_images\/img_homepage_before_h5_d3b07b9d-db45-494b-b181-6bb36089540b.jpg",
         "link": "\/",
         "link_text": "build your pergola",
         "padding_top": 24,
@@ -608,7 +607,7 @@
         "toppadding": 20,
         "bottompadding": 70,
         "bgclr": "#f9f9f9",
-        "image": "shopify:\/\/shop_images\/img_homepage_accessories1_c8ff7a31-a229-447e-a3f9-2f6cac531806.jpg",
+        "image": "shopify:\/\/shop_images\/img_homepage_accessories1.jpg",
         "new_adjustment": true,
         "height_mode": "custom-height",
         "fixed_height_desktop": 560,
@@ -738,16 +737,16 @@
           "type": "text_block",
           "settings": {
             "stars_count": 5,
-            "name": "Chloe",
-            "content": "The AlunoTec Electric Pergola is really a dream. Visually very stylish, sturdy and of high quality, this pergola makes our patio a beautiful and functional place to relax and enjoy rain or shine. The customer service was great."
+            "name": "Roberto Janeiro",
+            "content": "AlunoTec's team is very efficient, they took their time to explain and compare their different products with me, they supported me all through the transaction and always gave me updates! The pergola came very well packed, each pieces were packed and protected individually. Their products are very high quality, not to be mistaken with store bought pergolas. Very happy with this purchase!"
           }
         },
         "text_block_XWcKqU": {
           "type": "text_block",
           "settings": {
             "stars_count": 5,
-            "name": "Sarah",
-            "content": "Very great sun shade pergola. Looks very nice in dark gray color. It is waterproof, rainproof, and with zip screen blind, it can prevent sun and rain without affecting see the scenery outside. I like it very much."
+            "name": "Willem Mouissie",
+            "content": "AlunoTec is a very trustworthy company. Over the years I experience a pleasant cooperative attitude. Their products are from an exceptional quality. Transportation from start to end went smooth. My contact agent Connie Wong is a Wonderfull guide through all processes . I certainly recommend this company. Willem Mouissie\/Caribbean"
           }
         },
         "text_block_bhD4jw": {
@@ -763,8 +762,8 @@
           "type": "text_block",
           "settings": {
             "stars_count": 5,
-            "name": "John",
-            "content": "As always, excellent service with Fannie at AlunoTec. Products have always been dispatched on time and delivered safely. Never had any issues with damaged deliveries although I did have one minor quality issue in which their team quickly fixed and haven't had any issues since then. I highly recommend choosing AlunoTec!"
+            "name": "Michael Dunphy",
+            "content": "From the start my experience with Alunotec professional and efficient. I dealt with one person from the beginning and Scott was very knowledgeable & helpful from design to construction of my Pergola to the delivery from China to Ireland, door to door. Alunotec also were very helpful putting my pergola together on site at my Home. I would have no problem recommending Alunotec for any Pergola needs."
           }
         },
         "text_block_m9YW3z": {
@@ -780,8 +779,8 @@
           "type": "text_block",
           "settings": {
             "stars_count": 5,
-            "name": "Jay",
-            "content": "High quality product delivered on time and in perfect working order. Assembly by advance DIYer or ideally professional, minimum 3 people required for assembly. Assembly took four FULL days. Excellent aftercare service."
+            "name": "James T Nash",
+            "content": "AlunoTec is a wonderful company to do business with. I have done several projects with them and the customer service from start to finish and delivery is extremely professional My representative Hazel worked through every detail with design - pricing- selections - fabrication - delivery and install"
           }
         }
       },
@@ -795,7 +794,7 @@
       ],
       "settings": {
         "new_adjustment": true,
-        "heading": "The Trust We Build",
+        "heading": "The Trust We Build --- Trustpilot",
         "box_heading": "5 Star Reviews",
         "box_text": "\"We just built a 14x20 ft pergola in our back backyard for outdoor kitchen and I am very pleased with the installation!!\"",
         "rating_icon": "#202020",
@@ -960,7 +959,7 @@
         "text_block_8d4TAR": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_home_blog_01.jpg",
+            "image": "shopify:\/\/shop_images\/img_home_blog_06.jpg",
             "small_text": "Backyard Idea",
             "link": "shopify:\/\/blogs\/alunotec-insights\/transform-your-outdoor-space-with-pergola",
             "big_text": "Transform Your Outdoor Space with Pergola"

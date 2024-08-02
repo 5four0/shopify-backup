@@ -304,7 +304,7 @@ class DetailsDisclosure extends HTMLElement {
   }
 
   init() {
-     if (!this.disclosure || !this.toggle || !this.panel) {
+    if (!this.disclosure || !this.toggle || !this.panel) {
       // console.error('Required elements are missing in <details-disclosure>.');
       return;
     }

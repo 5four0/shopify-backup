@@ -20,7 +20,7 @@
   .pdp-imgtext-wrap>div {
     width: 50%;
   }
-  .pdpimgtxt-img img{
+  .pdpimgtxt-img img,.pdpimgtxt-video video{
     width:100%;
     display:block;
     border-radius:20px;
@@ -97,7 +97,7 @@
               {% when 'icon-text' %}
               <div class="pdpimgtxt-icntxt">
                 <div class="pdp-icntxt">
-                  <span class="pdpicntxt-icon"><img src="{{ block.settings.icon | img_url:''}}"></span>
+                  <span class="pdpicntxt-icon"><img src="{{ block.settings.icon | img_url:''}}" alt="alunotec.shop"></span>
                   <span>{{ block.settings.title }}</span>
                 </div>
               </div>
@@ -105,9 +105,17 @@
           {% endfor %}
           
         </div>
-        <div class="pdpimgtxt-img {{ section.settings.image_height }}">
-            <img src="{{ section.settings.img | img_url:'' }}">
-        </div>
+        {% if section.settings.media_type == 'image' %}
+          <div class="pdpimgtxt-img {{ section.settings.image_height }}">
+            <img src="{{ section.settings.img | img_url: 'master' }}" alt="alunotec.shop">
+          </div>
+        {% elsif section.settings.media_type == 'video' %}
+          <div class="pdpimgtxt-video">
+            <video width="100%" height="100%" autoplay loop muted playsinline>
+              <source src="{{ section.settings.video_url }}" type="video/mp4">
+            </video>
+          </div>
+        {% endif %}
         {% endif %}
       </div>
     </div>
@@ -117,29 +125,49 @@
 
 {% schema %}
   {
-    "name": "PDP Image Text",
-    "class": "c-pdp-img-text",
-    "presets":[
-      {
-        "name":"PDP Image Text",
-        "blocks": [
-          {"type": "heading"},
-          {"type": "description"},
-          {"type": "icon-text"}
-        ]
-      }
-    ],
-    "settings": [
-      {
-        "type":"image_picker","id":"img","label":"Image"
-      },
-      {
-        "type": "select","id": "image_height","label": "Image Custom Height","default":"default",
-        "options": [
-          {"label": "Default","value": "default"},
-          {"label": "Custom Height (Set below)","value": "custom-height"}
-        ]
-      },
+      "name": "PDP Image Text",
+  "class": "c-pdp-img-text",
+  "presets": [
+    {
+      "name": "PDP Image Text",
+      "blocks": [
+        {"type": "heading"},
+        {"type": "description"},
+        {"type": "icon-text"}
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "select",
+      "id": "media_type",
+      "label": "Media Type",
+      "default": "image",
+      "options": [
+        {"label": "Image", "value": "image"},
+        {"label": "Video", "value": "video"}
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "video_url",
+      "label": "Video URL"
+    },
+    {
+      "type": "select",
+      "id": "image_height",
+      "label": "Image Custom Height",
+      "default": "default",
+      "options": [
+        {"label": "Default", "value": "default"},
+        {"label": "Custom Height (Set below)", "value": "custom-height"}
+      ]
+    },
       {
         "type": "range",
         "id": "fixed_height",

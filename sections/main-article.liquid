@@ -3,18 +3,7 @@
 
 <article class="article js-article">
   <div class="container">
-    {%- if section.settings.show_tags -%}
-      {%- capture tag_markup -%}
-        <div class="article__tags mb-4 lg:blog-mb-6 last:mb-0 reading-width mx-auto uppercase {{ section.settings.heading_align }}">
-          {%- for tag in article.tags -%}
-            <a href="{{ tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first }}" class="text-theme-light text-sm">
-              {{ tag }}{% unless forloop.last %}, {% endunless %}
-            </a>
-          {%- endfor -%}
-        </div>
-      {%- endcapture -%}
-      {% if tag_markup contains '</a>' %}{{ tag_markup }}{% endif %}
-    {%- endif -%}
+    
 
     <div class="article__title rte mb-6 md:mb-8 last:mb-0 reading-width mx-auto {{ section.settings.heading_align }}">
       <h1 class="mb-0">{{ article.title | escape }}</h1>
@@ -52,6 +41,18 @@
     <div class="article__content reading-width rte article-content mt-12 mx-auto">
       {{ article.content }}
     </div>
+    {%- if section.settings.show_tags -%}
+      {%- capture tag_markup -%}
+        <div class="article__tags mb-4 lg:blog-mb-6 last:mb-0 reading-width mx-auto uppercase {{ section.settings.heading_align }}">
+          {%- for tag in article.tags -%}
+            <a href="{{ tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first }}" class="text-theme-light text-sm">
+              {{ tag }}{% unless forloop.last %}, {% endunless %}
+            </a>
+          {%- endfor -%}
+        </div>
+      {%- endcapture -%}
+      {% if tag_markup contains '</a>' %}{{ tag_markup }}{% endif %}
+    {%- endif -%}
 
     {%- if section.settings.show_share_buttons -%}
       <div class="social-share reading-width article-width mx-auto flex items-center mt-12 lg:blog-mt-16">
