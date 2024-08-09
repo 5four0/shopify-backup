@@ -68,7 +68,7 @@
             "overlay_text_align": "text-center",
             "mob_center_text": false,
             "subheading": "",
-            "heading": "SPECIAL OFFER:<br>25% OFF AlunoTec Pergolas",
+            "heading": "SPECIAL OFFER:25% OFF AlunoTec Pergolas",
             "heading_size": "h3",
             "heading_h1": false,
             "text": "",
@@ -794,7 +794,7 @@
       ],
       "settings": {
         "new_adjustment": true,
-        "heading": "The Trust We Build --- Trustpilot",
+        "heading": "The Trust We Build",
         "box_heading": "5 Star Reviews",
         "box_text": "\"We just built a 14x20 ft pergola in our back backyard for outdoor kitchen and I am very pleased with the installation!!\"",
         "rating_icon": "#202020",
