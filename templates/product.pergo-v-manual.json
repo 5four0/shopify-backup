@@ -450,9 +450,9 @@
         "description_AFiQKW"
       ],
       "settings": {
-        "media_type": "image",
+        "media_type": "video",
         "img": "shopify:\/\/shop_images\/img_productpage_pergola_v_ledlight.jpg",
-        "video_url": "",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/579b1d9047bb43c294481af8621e64d6.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -485,7 +485,7 @@
       "settings": {
         "media_type": "video",
         "img": "shopify:\/\/shop_images\/gif_product_v_louvers.gif",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ece7ff11479946be8e3ea461421d4e99.mp4",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c77e16d35b5a4ddb80de617ff0f06095.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
