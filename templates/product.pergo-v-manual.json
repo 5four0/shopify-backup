@@ -441,7 +441,7 @@
         "description_AFiQKW": {
           "type": "description",
           "settings": {
-            "content": "Led strips around gutter\nCustomizable perimeter lighting\nLight up the night "
+            "content": "<p>Led strips around gutter\nCustomizable perimeter lighting\nLight up the night <\/p>"
           }
         }
       },
@@ -474,7 +474,7 @@
         "description_d9diUB": {
           "type": "description",
           "settings": {
-            "content": "Easily open the louvers\nEnjoy the sunlight effortlessly and comfortably"
+            "content": "<p>Easily open the louvers\nEnjoy the sunlight effortlessly and comfortably<\/p>"
           }
         }
       },
@@ -507,7 +507,7 @@
         "description_zpYE8X": {
           "type": "description",
           "settings": {
-            "content": "Each louver roof is desighed with drainage channels, ensuring no leakage even during heavy rain"
+            "content": "<p>Each louver roof is desighed with drainage channels, ensuring no leakage even during heavy rain<\/p>"
           }
         }
       },
@@ -540,7 +540,7 @@
         "description_JecifY": {
           "type": "description",
           "settings": {
-            "content": "Create your backyard oasis outdoor kitchen, fitness area, children's playroom，swimming pool"
+            "content": "<p>Create your backyard oasis outdoor kitchen, fitness area, children's playroom，swimming pool<\/p>"
           }
         }
       },
@@ -573,7 +573,7 @@
         "description_zd7ycJ": {
           "type": "description",
           "settings": {
-            "content": "Built-in LED lighting provides standard illumination. Sliding doors add privacy and style, heaters keep you warm during cooler months, roller blinds offer excellent sun protection and privacy, and louvered sliding doors provide extra ventilation and aesthetics."
+            "content": "<p>Built-in LED Lighting: Standard illumination included.<br\/>Sliding Doors: Add privacy and style.<br\/>Heaters: Keep warm during cooler months.<br\/>Roller Blinds: Excellent sun protection and privacy.<br\/>Louvered Sliding Doors: Extra ventilation and aesthetics.<\/p>"
           }
         }
       },

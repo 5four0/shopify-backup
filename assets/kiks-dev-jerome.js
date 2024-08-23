@@ -74,12 +74,32 @@ if (document.body.classList.contains('template-product')) {
     // console.log('Body does not have the class "template-product".');
 }
 
+// const mediaWithTextSection = document.querySelector(".cc-media-with-text");
+
+// if (mediaWithTextSection) {
+//   const stringWithSpaces = document.querySelectorAll(".cc-media-with-text .section__block.reading-width.rte p");
+
+//   stringWithSpaces.forEach(element => {
+//     const textWithoutNonBreakingSpaces = element.innerHTML.replace(/&nbsp;/g, ' ');
+//     element.innerHTML = textWithoutNonBreakingSpaces;
+//   });
+// }
 const mediaWithTextSection = document.querySelector(".cc-media-with-text");
+const faqSection = document.querySelector(".cc-faq");
 
 if (mediaWithTextSection) {
   const stringWithSpaces = document.querySelectorAll(".cc-media-with-text .section__block.reading-width.rte p");
 
   stringWithSpaces.forEach(element => {
+    const textWithoutNonBreakingSpaces = element.innerHTML.replace(/&nbsp;/g, ' ');
+    element.innerHTML = textWithoutNonBreakingSpaces;
+  });
+}
+
+if (faqSection) {
+  const faqStringsWithSpaces = document.querySelectorAll(".cc-faq details.disclosure .disclosure__panel .disclosure__content.rte p");
+
+  faqStringsWithSpaces.forEach(element => {
     const textWithoutNonBreakingSpaces = element.innerHTML.replace(/&nbsp;/g, ' ');
     element.innerHTML = textWithoutNonBreakingSpaces;
   });

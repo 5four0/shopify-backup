@@ -22,7 +22,7 @@
         "banner-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Helping you answer general questions.<\/p>",
+            "text": "<p>Find the answers to what you need.<\/p>",
             "enlarge_text": true
           }
         }
@@ -63,7 +63,7 @@
           "settings": {
             "icon": "truck",
             "heading": "About AlunoTec",
-            "text": "<p>Hello there,<\/p><p>AlunoTec,established in 2013 from China,is a professional one-stop solution provider and trader of aluminium pergola engaged in providing Worry Free Service and High Quality Heavy Duty Pergola.<\/p><p><strong>As of 2024,AlunoTec have already achieved Backyard Dreams Life for customers from 150+ countries.<\/strong><\/p>"
+            "text": "<p>Hello there,<\/p><p><a href=\"https:\/\/youtu.be\/DadorvArSdE\" title=\"https:\/\/youtu.be\/DadorvArSdE\"><em><strong>AlunoTec<\/strong><\/em><\/a>,established in 2013 from China,is a professional one-stop solution provider and trader of aluminium pergola engaged in providing Worry Free Service and High Quality Heavy Duty Pergola.<\/p><p><strong>As of 2024,AlunoTec have already achieved Backyard Dreams Life for customers from 150+ countries.<\/strong><\/p>"
           }
         },
         "faq-question-2": {
@@ -71,7 +71,7 @@
           "settings": {
             "icon": "map_pin",
             "heading": "What is Aluminium Pergola?",
-            "text": "<p>An Aluminium Pergola is a garden or outdoor structure made primarily of aluminum, designed to provide a shaded walkway, passageway, or  outdoor leisure area. <\/p><p>These structures often consist of vertical posts that support cross-beams and a durable Louver Blades.<\/p><p>AlunoTec Aluminum Pergolas are favored for their strength, durability, and resistance to weather conditions, making them low maintenance. They are commonly used in residential and commercial outdoor spaces(Such as Patio\/Garden\/Swimming Pool\/Restaurant\/Hotel etc.) to enhance livability and aesthetic appeal, providing protection from the sun while allowing for air circulation<\/p>"
+            "text": "<p>An Aluminium Pergola is a garden or outdoor structure made primarily of aluminum, designed to provide a shaded walkway, passageway, or  outdoor leisure area. <\/p><p>These structures often consist of vertical posts that support cross-beams and a durable operable Louver Blades.<\/p><p>AlunoTec Aluminum Pergolas are favored for their strength, durability, and resistance to weather conditions, making them low maintenance. They are commonly used in residential and commercial outdoor spaces(Such as Patio\/Garden\/Swimming Pool\/Restaurant\/Hotel etc.) to enhance livability and aesthetic appeal, providing protection from the sun while allowing for air circulation<\/p>"
           }
         },
         "faq-question-3": {
@@ -87,7 +87,7 @@
           "settings": {
             "icon": "leather",
             "heading": "Are this pergola easy to assemble?",
-            "text": "<p>YES! We have the assembly manual instruction specifically made according to your project site. Also there are video clips to show you how to install it step by step. If you need any assistance, just contact us freely.Of course,if you don’t want to assemble by yourself,we also provide assembly service.<\/p>"
+            "text": "<p>YES! We have the assembly manual instruction specifically made according to your project site. Also there are video clips to show you how to install it step by step. If you need any assistance, just contact us freely.Of course,if you don’t want to assemble by yourself,we also provide assembly service. <a href=\"https:\/\/www.youtube.com\/watch?v=znuqLLiCWw4&t=2s\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=znuqLLiCWw4&t=2s\"><em><strong>AlunoTec Installation Video<\/strong><\/em><\/a><\/p>"
           }
         },
         "question_AxY7WJ": {
@@ -133,7 +133,7 @@
           "settings": {
             "icon": "leather",
             "heading": "What can I get if I become a member?",
-            "text": "<p>We will issue a coupon to your account during the specified campaign period and it will be automatically used when you place an order while the coupon is valid.<\/p>"
+            "text": "<p>We will issue a coupon to your account during the promotional event and it will be automatically used when you place an order while the coupon is valid.<\/p>"
           }
         }
       },

@@ -879,7 +879,8 @@
 {%- render 'product-popups' -%}
 
 {%- if section.settings.sticky_atc_panel and product.available -%}
-  <link rel="stylesheet" href="{{ 'sticky-atc-panel.css' | asset_url }}" media="print" onload="this.media='all'">
+  {% comment %} <link rel="stylesheet" href="{{ 'sticky-atc-panel.css' | asset_url }}" media="print" onload="this.media='all'"> {% endcomment %}
+  {{ 'sticky-atc-panel.css' | asset_url | stylesheet_tag: preload: true }}
   <script src="{{ 'sticky-atc-panel.js' | asset_url }}" defer="defer"></script>
 
   <sticky-atc-panel class="sticky-atc-panel sticky-atc-panel--out fixed bottom-0 {{ section.settings.sticky_atc_position }} invisible{% if section.settings.sticky_atc_mobile == false %} hidden md:block{% endif %}">

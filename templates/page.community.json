@@ -242,7 +242,7 @@
           "type": "button",
           "settings": {
             "button_1_label": "Discover Case Studies",
-            "button_1_link": "shopify:\/\/pages\/about-us",
+            "button_1_link": "shopify:\/\/pages\/about-alunotec",
             "button_1_style": "btn btn--primary",
             "button_2_label": "",
             "button_2_link": "",
