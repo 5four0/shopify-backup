@@ -381,7 +381,7 @@
         "description_34FYxA": {
           "type": "description",
           "settings": {
-            "content": "Integrated LED strips × RGB Ambient Lighting\nCustomizable perimeter lighting \nLight up the night"
+            "content": "<p>Integrated LED strips × RGB Ambient Lighting\nCustomizable perimeter lighting \nLight up the night<\/p>"
           }
         }
       },
@@ -391,7 +391,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_2.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -448,7 +450,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_4.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "left",
@@ -470,7 +474,7 @@
         "description_AFiQKW": {
           "type": "description",
           "settings": {
-            "content": "Customize Your Sunlight\nEffortlessly, Comfortably, Freely, Naturally"
+            "content": "<p>Customize Your Sunlight\nEffortlessly, Comfortably, Freely, Naturally<\/p>"
           }
         }
       },
@@ -480,7 +484,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_3.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -502,7 +508,7 @@
         "description_zpYE8X": {
           "type": "description",
           "settings": {
-            "content": "Each louver roof is desighed with drainage channels, ensuring no leakage even during heavy rain."
+            "content": "<p>Each louver roof is desighed with drainage channels, ensuring no leakage even during heavy rain.<\/p>"
           }
         }
       },
@@ -512,7 +518,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_4.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "left",
@@ -534,7 +542,7 @@
         "description_JecifY": {
           "type": "description",
           "settings": {
-            "content": "Create your backyard oasis outdoor kitchen, fitness area, children's playroom，swimming pool"
+            "content": "<p>Create your backyard oasis outdoor kitchen, fitness area, children's playroom，swimming pool<\/p>"
           }
         }
       },
@@ -544,7 +552,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_3.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -566,7 +576,7 @@
         "description_zd7ycJ": {
           "type": "description",
           "settings": {
-            "content": "Led Light & RGB Light\nRoller Blinds\nLouver Sliding Door \nLouver Folding Door\nGlass Door\nFrameless Sliding Door"
+            "content": "<p>Led Light & RGB Light\nRoller Blinds\nLouver Sliding Door \nLouver Folding Door\nGlass Door\nFrameless Sliding Door<\/p>"
           }
         }
       },
@@ -576,7 +586,9 @@
       ],
       "disabled": true,
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/Group_3036_4.png",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "left",
@@ -598,7 +610,7 @@
         "description_6hGfAw": {
           "type": "description",
           "settings": {
-            "content": "Structure warranty: 15 years\nMotor warranty: 3 years\nPowder coating warranty: 5~7 years"
+            "content": "<p>Structure warranty: 15 years\nMotor warranty: 3 years\nPowder coating warranty: 5~7 years<\/p>"
           }
         }
       },
@@ -607,7 +619,9 @@
         "description_6hGfAw"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/warranties.jpg",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -629,7 +643,7 @@
         "description_VULyTw": {
           "type": "description",
           "settings": {
-            "content": "Zip design ensures smooth and even operation. \u2028Provides a sleek and professional look."
+            "content": "<p>Zip design ensures smooth and even operation. \u2028Provides a sleek and professional look.<\/p>"
           }
         }
       },
@@ -638,7 +652,9 @@
         "description_VULyTw"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/smoothzipdesign.jpg",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "left",
@@ -660,7 +676,7 @@
         "description_6m4aMU": {
           "type": "description",
           "settings": {
-            "content": "Ideal for sun and privacy protection, our height-adjustable side blinds offer a perfect fit. \nEasy to assemble and install, ensuring a seamless addition to your outdoor space."
+            "content": "<p>Ideal for sun and privacy protection, our height-adjustable side blinds offer a perfect fit. \nEasy to assemble and install, ensuring a seamless addition to your outdoor space.<\/p>"
           }
         }
       },
@@ -669,7 +685,9 @@
         "description_6m4aMU"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/easytoassemble.jpg",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -691,7 +709,7 @@
         "description_YUEJWe": {
           "type": "description",
           "settings": {
-            "content": "Choose manual for simple, electricity-free control. Choose motorized for effortless, push-button convenience. Tailor your pergola experience."
+            "content": "<p>Choose manual for simple, electricity-free control. Choose motorized for effortless, push-button convenience. Tailor your pergola experience.<\/p>"
           }
         }
       },
@@ -700,7 +718,9 @@
         "description_YUEJWe"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/operation.jpg",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "left",
@@ -722,7 +742,7 @@
         "description_WAiTXG": {
           "type": "description",
           "settings": {
-            "content": "Insect-Free Living Spaces\nBlocks UV rays during the day. \nDoubles as a projection screen for movies at night."
+            "content": "<p>Insect-Free Living Spaces\nBlocks UV rays during the day. \nDoubles as a projection screen for movies at night.<\/p>"
           }
         }
       },
@@ -731,7 +751,9 @@
         "description_WAiTXG"
       ],
       "settings": {
+        "media_type": "image",
         "img": "shopify:\/\/shop_images\/functional.jpg",
+        "video_url": "",
         "image_height": "default",
         "fixed_height": 400,
         "imgposition": "right",
@@ -748,56 +770,56 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_Column.png",
-            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+            "mblimage": "shopify:\/\/shop_images\/Image__Gallery7.jpg"
           }
         },
         "image_txfE69": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_Column_1.png",
-            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+            "mblimage": "shopify:\/\/shop_images\/Image__Gallery5.jpg"
           }
         },
         "image_xYjF9n": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_Column_2.png",
-            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+            "mblimage": "shopify:\/\/shop_images\/Image__Gallery6.jpg"
           }
         },
         "image_qP7nz7": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_Column_3.png",
-            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+            "mblimage": "shopify:\/\/shop_images\/Image__Gallery8.jpg"
           }
         },
         "image_jFEgdk": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_Column_7.png",
-            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+            "mblimage": "shopify:\/\/shop_images\/Image__Gallery3.jpg"
           }
         },
         "image_AqAJcw": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_Column_6.png",
-            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+            "mblimage": "shopify:\/\/shop_images\/Image__Gallery4.jpg"
           }
         },
         "image_GfFBrJ": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_Column_5.png",
-            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+            "mblimage": "shopify:\/\/shop_images\/Image__Gallery2.jpg"
           }
         },
         "image_fBMCXt": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_-_Column_4.png",
-            "mblimage": "shopify:\/\/shop_images\/Image_-_Column_3_1b17bd76-60de-408b-8df2-011eceb04ff7.png"
+            "mblimage": "shopify:\/\/shop_images\/Image__Gallery1.jpg"
           }
         }
       },

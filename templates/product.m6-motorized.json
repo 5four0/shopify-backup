@@ -326,6 +326,44 @@
         "margin_bottom_mob": 30
       }
     },
+    "background_video_inKF6b": {
+      "type": "background-video",
+      "blocks": {
+        "heading_Pt4Qpf": {
+          "type": "heading",
+          "settings": {
+            "heading": "AlunoTec Lifestyle Pergo-M6",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pt4Qpf"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/video_product_pergo_M6_pc.mp4",
+        "video_external": "",
+        "video_description": "",
+        "poster_image": "shopify:\/\/shop_images\/image_product_pergo_M6_pc.jpg",
+        "video_height": "sm",
+        "mblvideo_shopify": "shopify:\/\/files\/videos\/image_product_pergo_M6_h5_zip.mp4",
+        "mblvideo_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_top_mob": 0,
+        "margin_bottom_mob": 0
+      }
+    },
     "background_video_fFQjwA": {
       "type": "background-video",
       "blocks": {
@@ -380,7 +418,7 @@
         "description_34FYxA": {
           "type": "description",
           "settings": {
-            "content": "Integrated LED strips × RGB Ambient Lighting\nCustomizable perimeter lighting \nLight up the night"
+            "content": "<p>Integrated LED strips × RGB Ambient Lighting\nCustomizable perimeter lighting \nLight up the night<\/p>"
           }
         }
       },
@@ -461,39 +499,6 @@
         "margin_bottom_mob": 0
       }
     },
-    "video_TVVP6V": {
-      "type": "video",
-      "blocks": {
-        "heading_WYpitf": {
-          "type": "heading",
-          "settings": {
-            "heading": "AlunoTec Pergo-M6 Installation Guide",
-            "heading_size": "h3",
-            "heading_h1": true
-          }
-        },
-        "text_kUqhBF": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_WYpitf",
-        "text_kUqhBF"
-      ],
-      "settings": {
-        "video_external": "https:\/\/youtu.be\/uhHtx3N2lZU",
-        "video_description": "",
-        "video_size": "md",
-        "video_autoplay": true,
-        "text_align": "text-center",
-        "color_scheme": "1"
-      }
-    },
     "pdp_img_text_DKWA6h": {
       "type": "pdp-img-text",
       "blocks": {
@@ -506,7 +511,7 @@
         "description_AFiQKW": {
           "type": "description",
           "settings": {
-            "content": "Customize Your Sunlight\nEffortlessly, Comfortably, Freely, Naturally"
+            "content": "<p>Customize Your Sunlight\nEffortlessly, Comfortably, Freely, Naturally<\/p>"
           }
         }
       },
@@ -598,7 +603,7 @@
         "description_j8BjCU": {
           "type": "description",
           "settings": {
-            "content": "Integrated LED strips\nCustomizable perimeter lighting\nLight up the night "
+            "content": "<p>Integrated LED strips\nCustomizable perimeter lighting\nLight up the night <\/p>"
           }
         }
       },
@@ -608,8 +613,8 @@
       ],
       "settings": {
         "media_type": "video",
-        "img": "shopify:\/\/shop_images\/gif_product_m6_ledlight.gif",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a65010c63c6247b68577e46b143d341e.mp4",
+        "img": "shopify:\/\/shop_images\/img_product_m6_ledlight.jpg",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7616ab8a5e4b48249f9a6ef064f632a7.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -631,7 +636,7 @@
         "description_WGKB97": {
           "type": "description",
           "settings": {
-            "content": "Customize your sunlight\nEffortlessly, comfortably, freely, naturally"
+            "content": "<p>Customize your sunlight\nEffortlessly, comfortably, freely, naturally<\/p>"
           }
         }
       },
@@ -641,8 +646,8 @@
       ],
       "settings": {
         "media_type": "video",
-        "img": "shopify:\/\/shop_images\/gif_product_m6_louvers.gif",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fa2e9999533b4d7aa218ac2d61f50908.mp4",
+        "img": "shopify:\/\/shop_images\/img_product_m6_louvers.jpg",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1926d8d366584eea99ec4bd30915dde3.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
@@ -664,7 +669,7 @@
         "description_CYCxd8": {
           "type": "description",
           "settings": {
-            "content": "Each louver roof is desighed with drainage channels, ensuring no leakage even during heavy rain."
+            "content": "<p>Each louver roof is desighed with drainage channels, ensuring no leakage even during heavy rain.<\/p>"
           }
         }
       },
@@ -674,8 +679,8 @@
       ],
       "settings": {
         "media_type": "video",
-        "img": "shopify:\/\/shop_images\/gif_product_m6_waterproof2.gif",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b390b236ab5a4911a145b9dfc7d8607c.mp4",
+        "img": "shopify:\/\/shop_images\/img_product_m6_waterpoof.jpg",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/33a42108d917436094288e6ce7febeb6.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -697,7 +702,7 @@
         "description_JecifY": {
           "type": "description",
           "settings": {
-            "content": "Create your backyard oasis outdoor kitchen, fitness area, children's playroom，swimming pool"
+            "content": "<p>Create your backyard oasis outdoor kitchen, fitness area, children's playroom，swimming pool<\/p>"
           }
         }
       },
@@ -730,7 +735,7 @@
         "description_zd7ycJ": {
           "type": "description",
           "settings": {
-            "content": "Built-in LED Lighting: Standard illumination included.\nSliding Doors: Add privacy and style.\nHeaters: Keep warm during cooler months.\nRoller Blinds: Excellent sun protection and privacy.\nLouvered Sliding Doors: Extra ventilation and aesthetics."
+            "content": "<p>Built-in LED Lighting: Standard illumination included.\nSliding Doors: Add privacy and style.\nHeaters: Keep warm during cooler months.\nRoller Blinds: Excellent sun protection and privacy.\nLouvered Sliding Doors: Extra ventilation and aesthetics.<\/p>"
           }
         }
       },
@@ -751,42 +756,37 @@
         "margin_bottom_mob": 30
       }
     },
-    "background_video_inKF6b": {
-      "type": "background-video",
+    "video_TVVP6V": {
+      "type": "video",
       "blocks": {
-        "heading_Pt4Qpf": {
+        "heading_WYpitf": {
           "type": "heading",
           "settings": {
-            "heading": "AlunoTec Lifestyle<br>Pergo-M6",
-            "heading_size": "h2",
+            "heading": "AlunoTec Pergo-M6 Installation Guide",
+            "heading_size": "h3",
             "heading_h1": true
+          }
+        },
+        "text_kUqhBF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add text to a video to showcase a detail of your brand or product line.<\/p>",
+            "enlarge_text": true
           }
         }
       },
       "block_order": [
-        "heading_Pt4Qpf"
+        "heading_WYpitf",
+        "text_kUqhBF"
       ],
       "settings": {
-        "video_shopify": "shopify:\/\/files\/videos\/video_product_pergo_M6_pc.mp4",
-        "video_external": "",
+        "video_external": "https:\/\/youtu.be\/uhHtx3N2lZU",
         "video_description": "",
-        "poster_image": "shopify:\/\/shop_images\/image_product_pergo_M6_pc.jpg",
-        "video_height": "sm",
-        "mblvideo_shopify": "shopify:\/\/files\/videos\/video_product_pergo_m6_h5_aa8adb2b-a60f-4d62-82ca-97c3ba1c0bb7.mp4",
-        "mblvideo_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "overlay_text_align": "text-center",
-        "overlay_position": "justify-center items-center",
-        "mob_center_text": true,
-        "color_scheme": "white",
-        "transparent_content_color": "#ffffff",
-        "tint_color": "#000000",
-        "tint_opacity": 40,
-        "lazyload": true,
-        "prevent_animation": false,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_top_mob": 0,
-        "margin_bottom_mob": 0
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
       }
     },
     "image_gallery_7mWB3Y": {
@@ -1075,10 +1075,10 @@
     "main",
     "details",
     "pdp_faq_pUW3RX",
+    "background_video_inKF6b",
     "background_video_fFQjwA",
     "pdp_img_text_DWxPre",
     "pdp_img_text_mPtgGg",
-    "video_TVVP6V",
     "pdp_img_text_DKWA6h",
     "pdp_img_text_WG8FM3",
     "pdp_img_text_98Xcf9",
@@ -1086,7 +1086,7 @@
     "pdp_img_text_GtMY4N",
     "pdp_img_text_zdiAEF",
     "pdp_img_text_fxhqJL",
-    "background_video_inKF6b",
+    "video_TVVP6V",
     "image_gallery_7mWB3Y",
     "171507347500ed42c9",
     "faq_WTiy3T",

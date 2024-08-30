@@ -66,6 +66,24 @@
             "half_width": true
           }
         },
+        "custom_g9WgUe": {
+          "type": "custom",
+          "settings": {
+            "title": "Size ( L x W x H )",
+            "type": "text",
+            "required": true,
+            "half_width": true
+          }
+        },
+        "custom_3wVVmi": {
+          "type": "custom",
+          "settings": {
+            "title": "WhatsApp",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
         "contact-body-5": {
           "type": "body",
           "settings": {
@@ -77,6 +95,8 @@
       "block_order": [
         "contact-name-2",
         "contact-email-3",
+        "custom_g9WgUe",
+        "custom_3wVVmi",
         "contact-body-5"
       ],
       "settings": {
