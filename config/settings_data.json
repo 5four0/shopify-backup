@@ -442,7 +442,7 @@
     "recommendations_to_show": 3,
     "cart_shaking": true,
     "show_free_shipping_notice": true,
-    "free_shipping_minimum": "USD:100",
+    "free_shipping_minimum": "USD:1000",
     "free_shipping_color_scheme": "1",
     "animations_enabled": "mobile_desktop",
     "favicon": "shopify:\/\/shop_images\/icon_aluntec_white3.jpg",

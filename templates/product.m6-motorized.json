@@ -133,7 +133,7 @@
         "media_size": "large",
         "media_ratio": "natural",
         "media_crop": "none",
-        "hover_zoom": "large",
+        "hover_zoom": "off",
         "enable_video_looping": false,
         "stacked_scroll": "never",
         "underline_active": false,
@@ -385,7 +385,6 @@
         ".text-overlay {max-width: 100%;}"
       ],
       "settings": {
-        "video_shopify": "shopify:\/\/files\/videos\/video_productpage_v_pc.mp4",
         "video_external": "",
         "video_description": "",
         "poster_image": "shopify:\/\/shop_images\/Image.png",
@@ -782,7 +781,8 @@
       ],
       "settings": {
         "video_external": "https:\/\/youtu.be\/uhHtx3N2lZU",
-        "video_description": "",
+        "video_description": "We'll cover everything from preparing your space to the final setup, ensuring that your AlunoTec PERGO-M6 pergola is securely and beautifully installed. Perfect for enhancing your backyard or patio, this pergola adds both style and comfort to your outdoor living area.",
+        "poster_image": "shopify:\/\/shop_images\/pergo_m6_pergola_installation_setup.jpg",
         "video_size": "md",
         "video_autoplay": true,
         "text_align": "text-center",

@@ -16,7 +16,9 @@
   top: 0;
   left: 0;
 }
-
+#template--15994993672271__background_video_fFQjwA .video-section__media ,#template--15994993639503__background_video_inKF6b .video-section__media {
+  padding-top:0 !important;
+}
 .video-section__media {
   padding-top: 56.3%;
 }

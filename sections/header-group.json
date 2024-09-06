@@ -77,7 +77,7 @@
           "type": "columns",
           "settings": {
             "title": "Pergola",
-            "product_1": "alunotec-pergo-v",
+            "product_1": "pergo-v",
             "product_2": "pergo-m6",
             "product_3": "",
             "collection_images": "none",
@@ -168,7 +168,7 @@
         "top_text": "",
         "header_link1": "shopify:\/\/pages\/showroom",
         "header_text1": "Visit Our SHOWROOM",
-        "header_text2": "Contact Us: <a href=\"mailto:rex.shaw@alunotec.com\"> rex.shaw@alunotec.com<\/a>",
+        "header_text2": "Contact Us: <a href=\"mailto:shop@alunotec.com\"> shop@alunotec.com<\/a>",
         "enable_sticky": true,
         "mobile_menu_position": "burger-right",
         "logo_text": "",

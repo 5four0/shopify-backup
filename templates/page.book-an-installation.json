@@ -61,15 +61,15 @@
         "phone_YCUb7H": {
           "type": "phone",
           "settings": {
-            "required": true,
+            "required": false,
             "half_width": true
           }
         },
         "dropdown_cfNLGe": {
           "type": "dropdown",
           "settings": {
-            "title": "Where did you order the product?",
-            "options": "Website\nOther",
+            "title": "How did you hear about AlunoTec?",
+            "options": "TikTok\nFacebook\nInstagram\nYouTube\nOther",
             "half_width": true
           }
         },
@@ -77,7 +77,7 @@
           "type": "dropdown",
           "settings": {
             "title": "Product Mode",
-            "options": "Pergo-V\nPergo-M6\nPergola",
+            "options": "Pergo-V\nPergo-M6\nCustom Pergola",
             "half_width": true
           }
         },
@@ -86,7 +86,7 @@
           "settings": {
             "title": "Preferred Service Arrival Date & Time",
             "type": "text",
-            "required": true,
+            "required": false,
             "half_width": true
           }
         },

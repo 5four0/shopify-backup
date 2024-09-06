@@ -354,7 +354,13 @@ animation: fade-in1 2s ease-out forwards;
          {{ section.settings.promo_text }}
         </div>
           {% endif %}
-            <img src="{{ product.featured_image | image_url: width: 180, height: 180 }}" alt="alunotec.shop" width="180" height="180">
+                        {% assign fixed_image = '' %}
+            {% if product.handle == 'pergo-v' %}
+              {% assign fixed_image = 'V_3x3_white_08_d704b8b1-07e7-43e7-a2e7-23f33a02a48a.jpg' %}
+            {% elsif product.handle == 'pergo-m6' %}
+              {% assign fixed_image = 'M6_4x6_grey_02.jpg' %}
+            {% endif %}
+            <img src="{{ fixed_image | file_url }}" alt="alunotec.shop" width="180" height="180">
          {% if section.settings.pr_img_link != blank %}
             </a>
          {% endif %}

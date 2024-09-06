@@ -136,7 +136,7 @@
         "media_size": "large",
         "media_ratio": "natural",
         "media_crop": "none",
-        "hover_zoom": "large",
+        "hover_zoom": "off",
         "enable_video_looping": false,
         "stacked_scroll": "never",
         "underline_active": false,
@@ -335,7 +335,7 @@
         "heading_Ac4nXh": {
           "type": "heading",
           "settings": {
-            "heading": "Extending Your Ideal Lifestyle",
+            "heading": "AlunoTec Pergo-V",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -349,12 +349,12 @@
         ".text-overlay {max-width: 100%;}"
       ],
       "settings": {
-        "video_shopify": "shopify:\/\/files\/videos\/video_product_pergo_v_pc.mp4",
+        "video_shopify": "shopify:\/\/files\/videos\/video_product_pergo_v_pc 4.mp4",
         "video_external": "",
         "video_description": "",
-        "poster_image": "shopify:\/\/shop_images\/img_product_pergo_v_pc_08d516dc-5da2-4e16-99e0-bb94545b2253.jpg",
+        "poster_image": "shopify:\/\/shop_images\/video_product_pergo_v_pc_3.jpg",
         "video_height": "sm",
-        "mblvideo_shopify": "shopify:\/\/files\/videos\/video_product_pergo_v_h5.mp4",
+        "mblvideo_shopify": "shopify:\/\/files\/videos\/video_product_pergo_v_app_zip.mp4",
         "mblvideo_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "overlay_text_align": "text-center",
         "overlay_position": "justify-center items-center",
@@ -362,7 +362,7 @@
         "color_scheme": "white",
         "transparent_content_color": "#ffffff",
         "tint_color": "#000000",
-        "tint_opacity": 40,
+        "tint_opacity": 15,
         "lazyload": true,
         "prevent_animation": false,
         "margin_top": 0,
@@ -451,8 +451,8 @@
       ],
       "settings": {
         "media_type": "video",
-        "img": "shopify:\/\/shop_images\/img_productpage_pergola_v_ledlight.jpg",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/579b1d9047bb43c294481af8621e64d6.mp4",
+        "img": "shopify:\/\/shop_images\/video_product_pergo_v_ledlight.jpg",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7972e792ce404a76b1203ed3c3d7b0d9.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "left",
@@ -484,8 +484,8 @@
       ],
       "settings": {
         "media_type": "video",
-        "img": "shopify:\/\/shop_images\/gif_product_v_louvers.gif",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c77e16d35b5a4ddb80de617ff0f06095.mp4",
+        "img": "shopify:\/\/shop_images\/video_product_pergo_v_louvers.jpg",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4553555583d94bb8b47d4059d5537b47.mp4",
         "image_height": "custom-height",
         "fixed_height": 400,
         "imgposition": "right",
@@ -517,10 +517,10 @@
       ],
       "settings": {
         "media_type": "image",
-        "img": "shopify:\/\/shop_images\/gif_product_m6_Waterproof2_7b6c2b82-b736-4c93-9d0c-7ba158960601.gif",
+        "img": "shopify:\/\/shop_images\/gif_product_m6_Waterproof2_ae48ca81-e35b-4781-8680-ef599c3ff088.gif",
         "video_url": "",
         "image_height": "custom-height",
-        "fixed_height": 400,
+        "fixed_height": 420,
         "imgposition": "left",
         "margin_top": 48,
         "margin_bottom": 0,
@@ -592,6 +592,39 @@
         "margin_bottom": 70,
         "margin_top_mob": 32,
         "margin_bottom_mob": 30
+      }
+    },
+    "video_qbNKry": {
+      "type": "video",
+      "blocks": {
+        "heading_eQtCQi": {
+          "type": "heading",
+          "settings": {
+            "heading": "AlunoTec Pergo-V Installation Guide",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "text_epeH3a": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_eQtCQi",
+        "text_epeH3a"
+      ],
+      "settings": {
+        "video_external": "https:\/\/youtu.be\/znuqLLiCWw4",
+        "video_description": "Looking for a simple outdoor makeover? In this video, we’ll show you how easy it is to install a pergola step-by-step. Whether you want to create a relaxing shaded area for lounging, dining, or entertaining guests, our pergola installation guide has got you covered. No special tools or advanced skills needed – just follow along and watch as your outdoor space transforms in minutes!🛠️",
+        "poster_image": "shopify:\/\/shop_images\/pergo_v_pergola_installation.jpg",
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
       }
     },
     "image_gallery_7mWB3Y": {
@@ -915,6 +948,7 @@
     "pdp_img_text_WG8FM3",
     "pdp_img_text_zdiAEF",
     "pdp_img_text_fxhqJL",
+    "video_qbNKry",
     "image_gallery_7mWB3Y",
     "171507347500ed42c9",
     "faq_WTiy3T",

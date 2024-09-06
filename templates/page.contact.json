@@ -127,7 +127,7 @@
             "icon": "email",
             "custom_icon_svg": "",
             "heading": "Email",
-            "text": "<p><a href=\"mailto:rex.shaw@alunotec.com\" target=\"_blank\" title=\"alunotec email\">rex.shaw@alunotec.com<\/a><\/p>",
+            "text": "<p><a href=\"mailto:shop@alunotec.com\" target=\"_blank\" title=\"mailto:shop@alunotec.com\">shop@alunotec.com<\/a><\/p>",
             "link": "mailto:rex.shaw@alunotec.com"
           }
         },
